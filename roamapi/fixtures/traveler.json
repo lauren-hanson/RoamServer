@@ -1,0 +1,11 @@
+[
+    {
+        "model": "roamapi.traveler",
+        "pk": 1,
+        "fields": {
+            "user": 1, 
+            "bio": "Hi! My name is Lauren!",
+            "profile_image_url": "https://ca.slack-edge.com/T03F2SDTJ-U03USHAEMM1-a378d930fa59-512"
+        }
+    }
+]

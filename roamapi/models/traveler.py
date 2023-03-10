@@ -6,7 +6,7 @@ class Traveler(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     bio = models.CharField(max_length=500)
     profile_image_url = models.CharField(max_length=250)
-    followers = models.ManyToManyField("Traveler", through="follower", related_name="follower")
+    followers = models.ManyToManyField("Traveler", through="Follower", related_name="follower")
 
 
     @property
