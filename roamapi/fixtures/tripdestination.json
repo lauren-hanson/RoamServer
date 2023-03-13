@@ -3,539 +3,480 @@
         "model": "roamapi.tripdestination",
         "pk": 1,
         "fields": {
-            "trip": 1, 
-            "destination": 1 
+            "trip": 1,
+            "destination": 1
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 3,
         "fields": {
-            "trip": 1, 
-            "destination": 2 
+            "trip": 1,
+            "destination": 2
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 4,
         "fields": {
-            "trip": 1, 
+            "trip": 1,
             "destination": 4
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 5,
         "fields": {
-            "trip": 1, 
+            "trip": 1,
             "destination": 5
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 6,
         "fields": {
-            "trip": 1, 
+            "trip": 1,
             "destination": 7
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 7,
         "fields": {
-            "trip": 1, 
+            "trip": 1,
             "destination": 45
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 8,
         "fields": {
-            "trip": 2, 
+            "trip": 2,
             "destination": 1
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 9,
         "fields": {
-            "trip": 2, 
+            "trip": 2,
             "destination": 8
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 10,
         "fields": {
-            "trip": 2, 
+            "trip": 2,
             "destination": 41
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 11,
         "fields": {
-            "trip": 2, 
+            "trip": 2,
             "destination": 9
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 12,
         "fields": {
-            "trip": 2, 
+            "trip": 2,
             "destination": 45
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 13,
         "fields": {
-            "trip": 3, 
+            "trip": 3,
             "destination": 1
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 14,
         "fields": {
-            "trip": 3, 
+            "trip": 3,
             "destination": 23
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 15,
         "fields": {
-            "trip": 3, 
+            "trip": 3,
             "destination": 45
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 16,
         "fields": {
-            "trip": 4, 
+            "trip": 4,
             "destination": 1
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 17,
         "fields": {
-            "trip": 4, 
+            "trip": 4,
             "destination": 17
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 18,
         "fields": {
-            "trip": 4, 
+            "trip": 4,
             "destination": 18
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 19,
         "fields": {
-            "trip": 4, 
+            "trip": 4,
             "destination": 19
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 20,
         "fields": {
-            "trip": 4, 
+            "trip": 4,
             "destination": 42
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 21,
         "fields": {
-            "trip": 4, 
+            "trip": 4,
             "destination": 20
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 22,
         "fields": {
-            "trip": 4, 
+            "trip": 4,
             "destination": 21
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 23,
         "fields": {
-            "trip": 4, 
+            "trip": 4,
             "destination": 6
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 24,
         "fields": {
-            "trip": 4, 
+            "trip": 4,
             "destination": 45
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 25,
         "fields": {
-            "trip": 5, 
+            "trip": 5,
             "destination": 1
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 26,
         "fields": {
-            "trip": 5, 
+            "trip": 5,
             "destination": 25
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 27,
         "fields": {
-            "trip": 5, 
+            "trip": 5,
             "destination": 45
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 28,
         "fields": {
-            "trip": 6, 
+            "trip": 6,
             "destination": 1
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 29,
         "fields": {
-            "trip": 6, 
+            "trip": 6,
             "destination": 43
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 30,
         "fields": {
-            "trip": 6, 
+            "trip": 6,
             "destination": 13
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 31,
         "fields": {
-            "trip": 6, 
+            "trip": 6,
             "destination": 14
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 32,
         "fields": {
-            "trip": 6, 
+            "trip": 6,
             "destination": 15
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 33,
         "fields": {
-            "trip": 6, 
+            "trip": 6,
             "destination": 16
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 34,
         "fields": {
-            "trip": 6, 
+            "trip": 6,
             "destination": 45
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 35,
         "fields": {
-            "trip": 7, 
+            "trip": 7,
             "destination": 23
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 36,
         "fields": {
-            "trip": 7, 
+            "trip": 7,
             "destination": 45
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 37,
         "fields": {
-            "trip": 8, 
+            "trip": 8,
             "destination": 1
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 38,
         "fields": {
-            "trip": 8, 
+            "trip": 8,
             "destination": 11
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 39,
         "fields": {
-            "trip": 8, 
+            "trip": 8,
             "destination": 45
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 40,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 1
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 41,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 7
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 42,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 27
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 43,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 28
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 44,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 44
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 45,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 29
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 46,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 30
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 47,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 31
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 48,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 32
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 49,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 33
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 50,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 34
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 51,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 35
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 52,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 36
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 53,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 37
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 54,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 38
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 56,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 39
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 57,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 40
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 58,
         "fields": {
-            "trip": 9, 
+            "trip": 9,
             "destination": 45
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 59,
         "fields": {
-            "trip": 2, 
+            "trip": 2,
             "destination": 46
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 60,
         "fields": {
-            "trip": 10, 
+            "trip": 10,
             "destination": 1
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 61,
         "fields": {
-            "trip": 10, 
+            "trip": 10,
             "destination": 10
-           
         }
     },
     {
         "model": "roamapi.tripdestination",
         "pk": 62,
         "fields": {
-            "trip": 10, 
+            "trip": 10,
             "destination": 10
-           
         }
     }
-    
 ]
