@@ -1,0 +1,112 @@
+[
+    {
+        "model": "roamapi.trip",
+        "pk": 1,
+        "fields": {
+            "traveler": 1, 
+            "start_date": "2021-02-08", 
+            "end_date": "2021-02-20", 
+            "notes": "", 
+            "public": true
+        }
+    },
+    {
+        "model": "roamapi.trip",
+        "pk": 2,
+        "fields": {
+            "traveler": 1, 
+            "start_date": "2021-06-07", 
+            "end_date": "2021-06-20", 
+            "notes": "", 
+            "public": true
+        }
+    },
+    {
+        "model": "roamapi.trip",
+        "pk": 3,
+        "fields": {
+            "traveler": 1, 
+            "start_date": "2021-08-19", 
+            "end_date": "2021-08-25", 
+            "notes": "", 
+            "public": true
+        }
+    },
+    {
+        "model": "roamapi.trip",
+        "pk": 4,
+        "fields": {
+            "traveler": 1, 
+            "start_date": "2021-10-11", 
+            "end_date": "2021-10-24", 
+            "notes": "", 
+            "public": true
+        }
+    },
+    {
+        "model": "roamapi.trip",
+        "pk": 5,
+        "fields": {
+            "traveler": 1, 
+            "start_date": "2021-09-02", 
+            "end_date": "2021-09-06", 
+            "notes": "", 
+            "public": true
+        }
+    },
+    {
+        "model": "roamapi.trip",
+        "pk": 6,
+        "fields": {
+            "traveler": 1, 
+            "start_date": "2022-09-10", 
+            "end_date": "2022-09-25", 
+            "notes": "", 
+            "public": true
+        }
+    },
+    {
+        "model": "roamapi.trip",
+        "pk": 7,
+        "fields": {
+            "traveler": 1, 
+            "start_date": "2022-11-09", 
+            "end_date": "2022-11-13", 
+            "notes": "", 
+            "public": true
+        }
+    },
+    {
+        "model": "roamapi.trip",
+        "pk": 8,
+        "fields": {
+            "traveler": 1, 
+            "start_date": "2022-06-12", 
+            "end_date": "2022-06-16", 
+            "notes": "", 
+            "public": false
+        }
+    },
+    {
+        "model": "roamapi.trip",
+        "pk": 9,
+        "fields": {
+            "traveler": 1, 
+            "start_date": "2023-04-29", 
+            "end_date": "2023-06-17", 
+            "notes": "", 
+            "public": false
+        }
+    },
+    {
+        "model": "roamapi.trip",
+        "pk": 10,
+        "fields": {
+            "traveler": 2, 
+            "start_date": "2022-10-01", 
+            "end_date": "2023-10-03", 
+            "notes": "", 
+            "public": false
+        }
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "model": "roamapi.traveler",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "bio": "Hi! My name is Lauren! I enjoy spending several weeks each year traveling in my van to different parts of the country. The freedom and flexibility of being able to go wherever the road takes me, whether that's camping in national parks or exploring small towns off the beaten path. I enjoy meeting new people along the way and learning about different cultures and ways of life.",
+            "profile_image_url": "https://ca.slack-edge.com/T03F2SDTJ-U03USHAEMM1-a378d930fa59-512"
+        }
+    },
+    {
+        "model": "roamapi.traveler",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "bio": "Hi! My name is Baxter! A few years ago, I decided to buy a van and convert it into a cozy living space. I spent months outfitting the van with a bed, kitchenette, and other amenities that would allow me to live comfortably on the road. I spend several weeks each year traveling to different parts of the country, seeking out beautiful landscapes and unique cultural experiences to capture on film. I love the freedom and flexibility of being able to go wherever my camera takes me, whether that's filming wildlife in national parks or documenting local traditions in small towns.",
+            "profile_image_url": "file:///Users/lohanson/Desktop/NSS/FatBackStudio/FatBack%20-%20photos/baxter.JPG"
+        }
+    },
+    {
+        "model": "roamapi.traveler",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "bio": "Hi! My name is George! I love hitting the road with my best friends, Lauren and Baxter. I'm a lucky dog who gets to travel the country I was adopted when I was just a puppy, and I've been on the road with them ever since.",
+            "profile_image_url": "file:///Users/lohanson/Desktop/NSS/FatBackStudio/FatBack%20-%20photos/George.jpg"
+        }
+    },
+    {
+        "model": "roamapi.traveler",
+        "pk": 4,
+        "fields": {
+            "user": 4,
+            "bio": "Hi! My name is Nigel! Traveling in the van is my favorite. It's got a comfy bed, a little kitchen, and plenty of toys for me to play with. We drive all over the place, from the mountains to the beaches, and everywhere in between. We hike, swim, and explore new places every day.",
+            "profile_image_url": "file:///Users/lohanson/Desktop/ROAM%20-%20photos/nigel.jpg"
+        }
+    }
+]
