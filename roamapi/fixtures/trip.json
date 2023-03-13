@@ -1,0 +1,15 @@
+[
+    {
+        "model": "roamapi.trip",
+        "pk": 1,
+        "fields": {
+            "traveler": 1, 
+            "start_date": "", 
+            "end_date": "", 
+            "notes": "", 
+            "public": false, 
+            "destinations": [], 
+            "tags": []
+        }
+    }
+]
