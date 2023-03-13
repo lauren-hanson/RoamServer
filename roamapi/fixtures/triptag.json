@@ -1,0 +1,242 @@
+[
+    {
+        "model": "roamapi.triptag",
+        "pk": 1,
+        "fields": {
+            "trip": 1,
+            "tag": 1
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 2,
+        "fields": {
+            "trip": 1,
+            "tag": 2
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 3,
+        "fields": {
+            "trip": 1,
+            "tag": 8
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 4,
+        "fields": {
+            "trip": 1,
+            "tag": 3
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 5,
+        "fields": {
+            "trip": 2,
+            "tag": 1
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 5,
+        "fields": {
+            "trip": 2,
+            "tag": 8
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 6,
+        "fields": {
+            "trip": 3,
+            "tag": 1
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 7,
+        "fields": {
+            "trip": 3,
+            "tag": 5
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 8,
+        "fields": {
+            "trip": 3,
+            "tag": 8
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 9,
+        "fields": {
+            "trip": 4,
+            "tag": 1
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 10,
+        "fields": {
+            "trip": 4,
+            "tag": 2
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 11,
+        "fields": {
+            "trip": 4,
+            "tag": 3
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 12,
+        "fields": {
+            "trip": 4,
+            "tag": 8
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 13,
+        "fields": {
+            "trip": 4,
+            "tag": 6
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 14,
+        "fields": {
+            "trip": 5,
+            "tag": 1
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 15,
+        "fields": {
+            "trip": 5,
+            "tag": 5
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 16,
+        "fields": {
+            "trip": 6,
+            "tag": 1
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 17,
+        "fields": {
+            "trip": 6,
+            "tag": 2
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 18,
+        "fields": {
+            "trip": 6,
+            "tag": 8
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 19,
+        "fields": {
+            "trip": 7,
+            "tag": 8
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 20,
+        "fields": {
+            "trip": 7,
+            "tag": 4
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 21,
+        "fields": {
+            "trip": 8,
+            "tag": 1
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 22,
+        "fields": {
+            "trip": 8,
+            "tag": 2
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 23,
+        "fields": {
+            "trip": 8,
+            "tag": 6
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 24,
+        "fields": {
+            "trip": 9,
+            "tag": 1
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 25,
+        "fields": {
+            "trip": 9,
+            "tag": 2
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 26,
+        "fields": {
+            "trip": 9,
+            "tag": 3
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 27,
+        "fields": {
+            "trip": 9,
+            "tag": 7
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 28,
+        "fields": {
+            "trip": 9,
+            "tag": 6
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 29,
+        "fields": {
+            "trip": 9,
+            "tag": 8
+        }
+    }
+]

@@ -7,9 +7,9 @@ class Trip(models.Model):
     end_date = models.DateField(null=True, blank=True, auto_now=False, auto_now_add=False)
     notes = models.CharField(max_length=500)
     public = models.BooleanField(default=False)
-    destinations = models.ManyToManyField("Destination", through="TripDestination", related_name='destinations_of_trip')
+    destination = models.ManyToManyField("Destination", through="TripDestination", related_name='destinations_of_trip')
     weather = models.CharField(max_length=300),
-    tags = models.ManyToManyField("Tag", through="TripTag", related_name='tags_of_post')
+    tag = models.ManyToManyField("Tag", through="TripTag", related_name='tags_of_post')
 
     @property
     def writer(self):
