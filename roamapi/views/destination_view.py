@@ -20,11 +20,18 @@ class DestinationView(ViewSet):
         serialized = DestinationSerializer(destinations, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
 
-# class DestinationStatusSerializer(serializers.ModelSerializer): 
+    def create(self, request):
 
-#     class Meta: 
-#         model = Status
-#         fields = ('status')
+        destination = Destination.objects.create(
+            location=request.data['location'],
+            state=request.data['state'],
+            latitude=request.data['latitude'],
+            longitude=request.data['longitude']
+        )
+
+        serializer = DestinationSerializer(destination)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
 
 class DestinationSerializer(serializers.ModelSerializer):
 
@@ -33,4 +40,4 @@ class DestinationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Destination
         fields = ('id', 'location', 'state',
-                  'latitude', 'longitude',  )
+                  'latitude', 'longitude',)
