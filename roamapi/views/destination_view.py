@@ -22,4 +22,4 @@ class DestinationView(ViewSet):
 class DestinationSerializer(serializers.ModelSerializer): 
         class Meta: 
             model = Destination
-            fields = ('id', 'location', 'state', 'latitude', 'longitude', 'start', 'end', 'quickStop',)
+            fields = ('id', 'location', 'state', 'latitude', 'longitude', )

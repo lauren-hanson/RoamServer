@@ -4,7 +4,23 @@
         "pk": 1,
         "fields": {
             "trip": 1,
-            "destination": 1
+            "destination": 1, 
+            "start": true, 
+            "end": false,
+            "quickStop": false, 
+            "finalDestination": false
+        }
+    },
+    {
+        "model": "roamapi.tripdestination",
+        "pk": 2,
+        "fields": {
+            "trip": 1,
+            "destination": 2, 
+            "start": false, 
+            "end": false, 
+            "quickStop": true, 
+            "finalDestination": false
         }
     },
     {
@@ -12,7 +28,11 @@
         "pk": 3,
         "fields": {
             "trip": 1,
-            "destination": 2
+            "destination": 3, 
+            "start": false, 
+            "end": false, 
+            "quickStop": true, 
+            "finalDestination": false
         }
     },
     {
@@ -20,7 +40,11 @@
         "pk": 4,
         "fields": {
             "trip": 1,
-            "destination": 4
+            "destination": 4,
+            "start": false,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": true
         }
     },
     {
@@ -28,7 +52,11 @@
         "pk": 5,
         "fields": {
             "trip": 1,
-            "destination": 5
+            "destination": 5,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -36,7 +64,11 @@
         "pk": 6,
         "fields": {
             "trip": 1,
-            "destination": 7
+            "destination": 7,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -44,7 +76,11 @@
         "pk": 7,
         "fields": {
             "trip": 1,
-            "destination": 45
+            "destination": 1,
+            "start": false,
+            "end": true,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -52,7 +88,11 @@
         "pk": 8,
         "fields": {
             "trip": 2,
-            "destination": 1
+            "destination": 1,
+            "start": true,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -60,7 +100,11 @@
         "pk": 9,
         "fields": {
             "trip": 2,
-            "destination": 8
+            "destination": 8,
+            "start": false,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": true
         }
     },
     {
@@ -68,7 +112,11 @@
         "pk": 10,
         "fields": {
             "trip": 2,
-            "destination": 41
+            "destination": 41,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -76,7 +124,11 @@
         "pk": 11,
         "fields": {
             "trip": 2,
-            "destination": 9
+            "destination": 9,
+            "start": false,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": true
         }
     },
     {
@@ -84,7 +136,11 @@
         "pk": 12,
         "fields": {
             "trip": 2,
-            "destination": 45
+            "destination": 1,
+            "start": false,
+            "end": true,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -92,7 +148,11 @@
         "pk": 13,
         "fields": {
             "trip": 3,
-            "destination": 1
+            "destination": 1,
+            "start": true,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -100,7 +160,11 @@
         "pk": 14,
         "fields": {
             "trip": 3,
-            "destination": 23
+            "destination": 23,
+            "start": false,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": true
         }
     },
     {
@@ -108,7 +172,11 @@
         "pk": 15,
         "fields": {
             "trip": 3,
-            "destination": 45
+            "destination": 1,
+            "start": false,
+            "end": true,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -116,7 +184,11 @@
         "pk": 16,
         "fields": {
             "trip": 4,
-            "destination": 1
+            "destination": 1,
+            "start": true,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -124,7 +196,11 @@
         "pk": 17,
         "fields": {
             "trip": 4,
-            "destination": 17
+            "destination": 17,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -132,7 +208,11 @@
         "pk": 18,
         "fields": {
             "trip": 4,
-            "destination": 18
+            "destination": 18,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -140,7 +220,11 @@
         "pk": 19,
         "fields": {
             "trip": 4,
-            "destination": 19
+            "destination": 19,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -148,7 +232,11 @@
         "pk": 20,
         "fields": {
             "trip": 4,
-            "destination": 42
+            "destination": 42,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -156,7 +244,11 @@
         "pk": 21,
         "fields": {
             "trip": 4,
-            "destination": 20
+            "destination": 20,
+            "start": false,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": true
         }
     },
     {
@@ -164,7 +256,11 @@
         "pk": 22,
         "fields": {
             "trip": 4,
-            "destination": 21
+            "destination": 21,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -172,7 +268,11 @@
         "pk": 23,
         "fields": {
             "trip": 4,
-            "destination": 6
+            "destination": 6,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -180,7 +280,11 @@
         "pk": 24,
         "fields": {
             "trip": 4,
-            "destination": 45
+            "destination": 1,
+            "start": false,
+            "end": true,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -188,7 +292,11 @@
         "pk": 25,
         "fields": {
             "trip": 5,
-            "destination": 1
+            "destination": 1,
+            "start": true,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -196,7 +304,11 @@
         "pk": 26,
         "fields": {
             "trip": 5,
-            "destination": 25
+            "destination": 25,
+            "start": false,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": true
         }
     },
     {
@@ -204,7 +316,11 @@
         "pk": 27,
         "fields": {
             "trip": 5,
-            "destination": 45
+            "destination": 1,
+            "start": false,
+            "end": true,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -212,7 +328,11 @@
         "pk": 28,
         "fields": {
             "trip": 6,
-            "destination": 1
+            "destination": 1,
+            "start": true,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -220,7 +340,11 @@
         "pk": 29,
         "fields": {
             "trip": 6,
-            "destination": 43
+            "destination": 43,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -228,7 +352,11 @@
         "pk": 30,
         "fields": {
             "trip": 6,
-            "destination": 13
+            "destination": 13,
+            "start": false,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": true
         }
     },
     {
@@ -236,7 +364,11 @@
         "pk": 31,
         "fields": {
             "trip": 6,
-            "destination": 14
+            "destination": 14,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -244,7 +376,11 @@
         "pk": 32,
         "fields": {
             "trip": 6,
-            "destination": 15
+            "destination": 15,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -252,7 +388,11 @@
         "pk": 33,
         "fields": {
             "trip": 6,
-            "destination": 16
+            "destination": 16,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -260,7 +400,11 @@
         "pk": 34,
         "fields": {
             "trip": 6,
-            "destination": 45
+            "destination": 1,
+            "start": false,
+            "end": true,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -268,7 +412,11 @@
         "pk": 35,
         "fields": {
             "trip": 7,
-            "destination": 23
+            "destination": 24,
+            "start": false,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": true
         }
     },
     {
@@ -276,7 +424,11 @@
         "pk": 36,
         "fields": {
             "trip": 7,
-            "destination": 45
+            "destination": 1,
+            "start": false,
+            "end": true,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -284,7 +436,11 @@
         "pk": 37,
         "fields": {
             "trip": 8,
-            "destination": 1
+            "destination": 1,
+            "start": true,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -292,7 +448,11 @@
         "pk": 38,
         "fields": {
             "trip": 8,
-            "destination": 11
+            "destination": 11,
+            "start": false,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": true
         }
     },
     {
@@ -300,7 +460,11 @@
         "pk": 39,
         "fields": {
             "trip": 8,
-            "destination": 45
+            "destination": 1,
+            "start": false,
+            "end": true,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -308,7 +472,11 @@
         "pk": 40,
         "fields": {
             "trip": 9,
-            "destination": 1
+            "destination": 1,
+            "start": true,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -316,7 +484,11 @@
         "pk": 41,
         "fields": {
             "trip": 9,
-            "destination": 7
+            "destination": 7,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -324,7 +496,11 @@
         "pk": 42,
         "fields": {
             "trip": 9,
-            "destination": 27
+            "destination": 27,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -332,7 +508,11 @@
         "pk": 43,
         "fields": {
             "trip": 9,
-            "destination": 28
+            "destination": 28,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -340,7 +520,11 @@
         "pk": 44,
         "fields": {
             "trip": 9,
-            "destination": 44
+            "destination": 44,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -348,7 +532,11 @@
         "pk": 45,
         "fields": {
             "trip": 9,
-            "destination": 29
+            "destination": 29,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -356,7 +544,11 @@
         "pk": 46,
         "fields": {
             "trip": 9,
-            "destination": 30
+            "destination": 30,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -364,7 +556,11 @@
         "pk": 47,
         "fields": {
             "trip": 9,
-            "destination": 31
+            "destination": 31,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -372,7 +568,11 @@
         "pk": 48,
         "fields": {
             "trip": 9,
-            "destination": 32
+            "destination": 32,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -380,7 +580,11 @@
         "pk": 49,
         "fields": {
             "trip": 9,
-            "destination": 33
+            "destination": 33,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -388,7 +592,11 @@
         "pk": 50,
         "fields": {
             "trip": 9,
-            "destination": 34
+            "destination": 34,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -396,7 +604,11 @@
         "pk": 51,
         "fields": {
             "trip": 9,
-            "destination": 35
+            "destination": 35,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -404,7 +616,11 @@
         "pk": 52,
         "fields": {
             "trip": 9,
-            "destination": 36
+            "destination": 36,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -412,7 +628,11 @@
         "pk": 53,
         "fields": {
             "trip": 9,
-            "destination": 37
+            "destination": 37,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -420,7 +640,11 @@
         "pk": 54,
         "fields": {
             "trip": 9,
-            "destination": 38
+            "destination": 38,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -428,7 +652,11 @@
         "pk": 56,
         "fields": {
             "trip": 9,
-            "destination": 39
+            "destination": 39,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -436,7 +664,11 @@
         "pk": 57,
         "fields": {
             "trip": 9,
-            "destination": 40
+            "destination": 40,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     },
     {
@@ -444,7 +676,11 @@
         "pk": 58,
         "fields": {
             "trip": 9,
-            "destination": 45
+            "destination": 1,
+            "start": false,
+            "end": true,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -452,7 +688,11 @@
         "pk": 59,
         "fields": {
             "trip": 2,
-            "destination": 46
+            "destination": 46,
+            "start": false,
+            "end": true,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -460,7 +700,11 @@
         "pk": 60,
         "fields": {
             "trip": 10,
-            "destination": 1
+            "destination": 1,
+            "start": true,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": false
         }
     },
     {
@@ -468,7 +712,11 @@
         "pk": 61,
         "fields": {
             "trip": 10,
-            "destination": 10
+            "destination": 10,
+            "start": false,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": true
         }
     },
     {
@@ -476,7 +724,83 @@
         "pk": 62,
         "fields": {
             "trip": 10,
-            "destination": 10
+            "destination": 1,
+            "start": false,
+            "end": true,
+            "quickStop": false,
+            "finalDestination": false
+        }
+    },
+    {
+        "model": "roamapi.tripdestination",
+        "pk": 63,
+        "fields": {
+            "trip": 7,
+            "destination": 1,
+            "start": true,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": false
+        }
+    },
+    {
+        "model": "roamapi.tripdestination",
+        "pk": 64,
+        "fields": {
+            "trip": 11,
+            "destination": 1,
+            "start": true,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": false
+        }
+    },
+    {
+        "model": "roamapi.tripdestination",
+        "pk": 65,
+        "fields": {
+            "trip": 11,
+            "destination": 12,
+            "start": false,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": true
+        }
+    },
+    {
+        "model": "roamapi.tripdestination",
+        "pk": 66,
+        "fields": {
+            "trip": 11,
+            "destination": 1,
+            "start": false,
+            "end": true,
+            "quickStop": false,
+            "finalDestination": false
+        }
+    },
+    {
+        "model": "roamapi.tripdestination",
+        "pk": 67,
+        "fields": {
+            "trip": 9,
+            "destination": 26,
+            "start": false,
+            "end": false,
+            "quickStop": false,
+            "finalDestination": true
+        }
+    },
+    {
+        "model": "roamapi.tripdestination",
+        "pk": 68,
+        "fields": {
+            "trip": 2,
+            "destination": 22,
+            "start": false,
+            "end": false,
+            "quickStop": true,
+            "finalDestination": false
         }
     }
 ]

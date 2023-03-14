@@ -44,7 +44,7 @@ class TripDestinationSerializer(serializers.ModelSerializer):
 
     class Meta: 
         model = Destination
-        fields = ('id', 'location', 'start', 'end', 'quickStop',)
+        fields = ('id', 'location', 'state', 'latitude', 'longitude', )
 
 class TripTagSerializer(serializers.ModelSerializer): 
 

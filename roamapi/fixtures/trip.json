@@ -118,5 +118,17 @@
             "notes": "Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Condimentum lacinia quis vel eros. Quis ipsum suspendisse ultrices gravida dictum fusce ut. Iaculis nunc sed augue lacus viverra. Tellus pellentesque eu tincidunt tortor aliquam. ", 
             "public": false
         }
+    },
+    {
+        "model": "roamapi.trip",
+        "pk": 11,
+        "fields": {
+            "traveler": 2, 
+            "start_date": "2021-02-02", 
+            "end_date": "2021-02-04",
+            "weather": "Quis risus sed vulputate odio ut. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis.", 
+            "notes": "Commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit. Feugiat vivamus at augue eget. Purus ut faucibus pulvinar elementum integer enim neque volutpat. Sit amet est placerat in egestas erat imperdiet. Nibh tellus molestie nunc non blandit.", 
+            "public": false
+        }
     }
 ]
