@@ -7,4 +7,4 @@ class TripDestination(models.Model):
     destination = models.ForeignKey(
         "Destination", on_delete=models.CASCADE, related_name='destination_trip')
     status = models.ForeignKey(
-        "Status", on_delete=models.CASCADE, related_name='destination_status')
+        "Status", on_delete=models.CASCADE, related_name='destination_status', null=True)

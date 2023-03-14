@@ -3,40 +3,21 @@
         "model": "roamapi.status",
         "pk": 1,
         "fields": {
-            "start": true,
-            "end": false,
-            "quickStop": false,
-            "finalDestination": false
+            "isHome": true
         }
     },
     {
         "model": "roamapi.status",
         "pk": 2,
         "fields": {
-            "start": false,
-            "end": true,
-            "quickStop": false,
-            "finalDestination": false
+            "isFinalDestination": true
         }
     },
     {
         "model": "roamapi.status",
         "pk": 3,
         "fields": {
-            "start": false,
-            "end": false,
-            "quickStop": true,
-            "finalDestination": false
-        }
-    },
-    {
-        "model": "roamapi.status",
-        "pk": 4,
-        "fields": {
-            "start": false,
-            "end": false,
-            "quickStop": false,
-            "finalDestination": true
+            "isStop": true
         }
     }
 ]

@@ -38,17 +38,11 @@ class TripView(ViewSet):
         serializer = TripSerializer(trips, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
-class DestinationStatusSerializer(serializers.ModelSerializer):
-
-    class Meta:
-        model = TripDestination
-        fields = ('start', 'end', 'quickStop', 'finalDestination', )
-
 class TripDestinationSerializer(serializers.ModelSerializer): 
 
     class Meta: 
         model = Destination
-        fields = ('id', 'location', 'state', 'latitude', 'longitude', )
+        fields = ('id', 'location', 'state', )
 
 class TripTagSerializer(serializers.ModelSerializer): 
 
@@ -64,4 +58,3 @@ class TripSerializer(serializers.ModelSerializer):
     class Meta:
         model = Trip
         fields = ('id', 'start_date', 'end_date', 'notes', 'weather', 'destination', 'tag', )
-        depth = 1
