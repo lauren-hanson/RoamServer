@@ -2,7 +2,7 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from roamapi.models import Trip, Traveler, Destination, Tag, TripDestination, TripTag, TripDestination
+from roamapi.models import Trip, Traveler, Destination, Tag
 
 
 class TripView(ViewSet):
@@ -92,6 +92,11 @@ class TripView(ViewSet):
         #         pk=destination)
         #     trip_destination.save()
 
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+
+    def destroy(self, request, pk):
+        trip = Trip.objects.get(pk=pk)
+        trip.delete()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
 
