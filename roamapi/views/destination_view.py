@@ -32,6 +32,25 @@ class DestinationView(ViewSet):
         serializer = DestinationSerializer(destination)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
+    def update(self, request, pk):
+
+        destination_to_update = Destination.objects.get(pk=pk)
+
+        destination_to_update.location = request.data['location']
+        destination_to_update.state = request.data['state']
+        destination_to_update.latitude = request.data['latitude']
+        destination_to_update.longitude = request.data['longitude']
+
+        destination_to_update.save()
+
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+
+    def delete(self, request, pk):
+
+        destination = Destination.objects.get(pk=pk)
+        destination.delete()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+
 
 class DestinationSerializer(serializers.ModelSerializer):
 
