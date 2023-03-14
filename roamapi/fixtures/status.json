@@ -3,20 +3,27 @@
         "model": "roamapi.status",
         "pk": 1,
         "fields": {
-            "isHome": true
+            "isHome": true,
+            "isFinalDestination": false,
+            "isStop": false
+
         }
     },
     {
         "model": "roamapi.status",
         "pk": 2,
         "fields": {
-            "isFinalDestination": true
+            "isHome": false,
+            "isFinalDestination": true,
+            "isStop": false
         }
     },
     {
         "model": "roamapi.status",
         "pk": 3,
         "fields": {
+            "isHome": false,
+            "isFinalDestination": false,
             "isStop": true
         }
     }

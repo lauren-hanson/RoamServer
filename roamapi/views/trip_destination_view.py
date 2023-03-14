@@ -2,7 +2,7 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from roamapi.models import TripDestination
+from roamapi.models import TripDestination, Status
 
 
 class TripDestinationView(ViewSet):
@@ -19,8 +19,15 @@ class TripDestinationView(ViewSet):
         serialized = TripDestinationSerializer(tripdestinations, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
 
+class StatusSerializer(serializers.ModelSerializer): 
+    class Meta: 
+        model = Status
+        fields = ('isHome', 'isFinalDestination', 'isStop', )
 
 class TripDestinationSerializer(serializers.ModelSerializer):
+
+    status = StatusSerializer()
+    
     class Meta:
         model = TripDestination
         fields = ('trip', 'destination', 'status', )
