@@ -238,5 +238,21 @@
             "trip": 9,
             "tag": 8
         }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 30,
+        "fields": {
+            "trip": 11,
+            "tag": 2
+        }
+    },
+    {
+        "model": "roamapi.triptag",
+        "pk": 31,
+        "fields": {
+            "trip": 11,
+            "tag": 6
+        }
     }
 ]

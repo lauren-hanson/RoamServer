@@ -6,7 +6,8 @@
             "traveler": 1, 
             "start_date": "2021-02-08", 
             "end_date": "2021-02-20", 
-            "notes": "", 
+            "weather": "Scelerisque eu ultrices vitae auctor eu augue ut lectus. ",
+            "notes": "Aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat. Lobortis elementum nibh tellus molestie nunc non blandit massa enim. Ut tortor pretium viverra suspendisse potenti nullam ac. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non.", 
             "public": true
         }
     },
@@ -16,8 +17,9 @@
         "fields": {
             "traveler": 1, 
             "start_date": "2021-06-07", 
-            "end_date": "2021-06-20", 
-            "notes": "", 
+            "end_date": "2021-06-20",
+            "weather": "Pellentesque dignissim enim sit amet.", 
+            "notes": "Condimentum lacinia quis vel eros donec ac. Ligula ullamcorper malesuada proin libero nunc consequat interdum. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet.", 
             "public": true
         }
     },
@@ -28,7 +30,8 @@
             "traveler": 1, 
             "start_date": "2021-08-19", 
             "end_date": "2021-08-25", 
-            "notes": "", 
+            "weather": "Amet mattis vulputate enim nulla aliquet porttitor lacus luctus.",
+            "notes": "Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus.", 
             "public": true
         }
     },
@@ -39,7 +42,8 @@
             "traveler": 1, 
             "start_date": "2021-10-11", 
             "end_date": "2021-10-24", 
-            "notes": "", 
+            "weather": "Faucibus turpis in eu mi bibendum neque. Convallis posuere morbi leo urna molestie at elementum eu.",
+            "notes": "Quis risus sed vulputate odio ut. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis.", 
             "public": true
         }
     },
@@ -49,8 +53,9 @@
         "fields": {
             "traveler": 1, 
             "start_date": "2021-09-02", 
-            "end_date": "2021-09-06", 
-            "notes": "", 
+            "end_date": "2021-09-06",
+            "weather": "Facilisis gravida neque convallis a cras semper auctor neque.", 
+            "notes": "Lorem sed risus ultricies tristique nulla aliquet enim tortor. Velit ut tortor pretium viverra suspendisse potenti. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Tempus urna et pharetra pharetra massa massa. ", 
             "public": true
         }
     },
@@ -60,8 +65,9 @@
         "fields": {
             "traveler": 1, 
             "start_date": "2022-09-10", 
-            "end_date": "2022-09-25", 
-            "notes": "", 
+            "end_date": "2022-09-25",
+            "weather": "Turpis in eu mi bibendum neque egestas congue.", 
+            "notes": "Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Quam vulputate dignissim suspendisse in est. Sed lectus vestibulum mattis ullamcorper velit.", 
             "public": true
         }
     },
@@ -71,8 +77,9 @@
         "fields": {
             "traveler": 1, 
             "start_date": "2022-11-09", 
-            "end_date": "2022-11-13", 
-            "notes": "", 
+            "end_date": "2022-11-13",
+            "weather": "Egestas congue quisque egestas diam in.", 
+            "notes": "Amet consectetur adipiscing elit pellentesque habitant. Ornare suspendisse sed nisi lacus sed viverra tellus in hac. Pellentesque id nibh tortor id. Molestie ac feugiat sed lectus vestibulum.", 
             "public": true
         }
     },
@@ -83,7 +90,8 @@
             "traveler": 1, 
             "start_date": "2022-06-12", 
             "end_date": "2022-06-16", 
-            "notes": "", 
+            "weather": "Lacus vestibulum sed arcu non odio euismod.",
+            "notes": "Commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit. Feugiat vivamus at augue eget. Purus ut faucibus pulvinar elementum integer enim neque volutpat. Sit amet est placerat in egestas erat imperdiet. Nibh tellus molestie nunc non blandit.", 
             "public": false
         }
     },
@@ -94,7 +102,8 @@
             "traveler": 1, 
             "start_date": "2023-04-29", 
             "end_date": "2023-06-17", 
-            "notes": "", 
+            "weather": "Ac turpis egestas maecenas pharetra convallis posuere morbi.",
+            "notes": "Aenean et tortor at risus viverra adipiscing. Lorem ipsum dolor sit amet consectetur. Arcu bibendum at varius vel. Enim facilisis gravida neque convallis a cras semper. Blandit massa enim nec dui nunc mattis enim. Sagittis eu volutpat odio facilisis mauris sit amet massa.", 
             "public": false
         }
     },
@@ -104,8 +113,21 @@
         "fields": {
             "traveler": 2, 
             "start_date": "2022-10-01", 
-            "end_date": "2023-10-03", 
-            "notes": "", 
+            "end_date": "2023-10-03",
+            "weather": "Nulla facilisi etiam dignissim diam quis enim. In egestas erat imperdiet sed euismod.", 
+            "notes": "Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Condimentum lacinia quis vel eros. Quis ipsum suspendisse ultrices gravida dictum fusce ut. Iaculis nunc sed augue lacus viverra. Tellus pellentesque eu tincidunt tortor aliquam. ", 
+            "public": false
+        }
+    },
+    {
+        "model": "roamapi.trip",
+        "pk": 11,
+        "fields": {
+            "traveler": 2, 
+            "start_date": "2021-02-02", 
+            "end_date": "2021-02-04",
+            "weather": "Quis risus sed vulputate odio ut. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis.", 
+            "notes": "Commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit. Feugiat vivamus at augue eget. Purus ut faucibus pulvinar elementum integer enim neque volutpat. Sit amet est placerat in egestas erat imperdiet. Nibh tellus molestie nunc non blandit.", 
             "public": false
         }
     }

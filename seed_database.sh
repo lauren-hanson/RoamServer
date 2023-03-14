@@ -10,6 +10,7 @@ python3 manage.py loaddata token
 python3 manage.py loaddata traveler
 python3 manage.py loaddata trip
 python3 manage.py loaddata tag
+python3 manage.py loaddata status
 python3 manage.py loaddata destination
 python3 manage.py loaddata triptag
 python3 manage.py loaddata tripdestination
