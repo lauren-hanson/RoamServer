@@ -5,7 +5,6 @@ from rest_framework import serializers, status
 from roamapi.models import Traveler
 
 class TravelerView(ViewSet):
-    """Level up game types view"""
 
     def retrieve(self, request, pk):
 

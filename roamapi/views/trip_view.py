@@ -2,25 +2,61 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from roamapi.models import Trip
+from roamapi.models import Trip, Traveler, Destination, Tag
+
 
 class TripView(ViewSet):
-    """Level up game types view"""
 
     def retrieve(self, request, pk):
 
-        trip = Trip.objects.get(pk=pk)
-        serialized = TripSerializer(trip, context={'request': request})
-        return Response(serialized.data, status=status.HTTP_200_OK)
+        traveler = Traveler.objects.get(user=request.auth.user)
 
+        try:
+            trip = Trip.objects.get(pk=pk)
+
+            if trip.traveler == traveler:
+                trip.writer = True
+
+        except Trip.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
+
+        serializer = TripSerializer(trip)
+        return Response(serializer.data, status=status.HTTP_200_OK)
 
     def list(self, request):
 
-        trips = Trip.objects.all()
-        serialized = TripSerializer(trips, many=True)
-        return Response(serialized.data, status=status.HTTP_200_OK)
-    
-class TripSerializer(serializers.ModelSerializer): 
-        class Meta: 
-            model = Trip
-            fields = ('id', 'start_date', 'end_date', 'notes', )
+        trips = []
+        traveler = Traveler.objects.get(user=request.auth.user)
+
+
+        if "user" in request.query_params:
+            trips = Trip.objects.filter(traveler_id=traveler)
+
+        else:
+            trips = Trip.objects.all()
+            # .order_by("publication_date")
+
+        serializer = TripSerializer(trips, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+
+
+class TripDestinationSerializer(serializers.ModelSerializer): 
+
+    class Meta: 
+        model = Destination
+        fields = ('id', 'location', 'start', 'end', 'quickStop',)
+
+class TripTagSerializer(serializers.ModelSerializer): 
+
+    class Meta: 
+        model = Tag
+        fields = ('id', 'type')
+
+class TripSerializer(serializers.ModelSerializer):
+
+    destination = TripDestinationSerializer(many=True)
+    tag = TripTagSerializer(many=True)
+
+    class Meta:
+        model = Trip
+        fields = ('id', 'start_date', 'end_date', 'notes', 'weather', 'destination', 'tag', )
