@@ -10,7 +10,7 @@ class Trip(models.Model):
     notes = models.CharField(max_length=500)
     public = models.BooleanField(default=False)
     destination = models.ManyToManyField("Destination", through="TripDestination", related_name='destinations_of_trip')
-    tag = models.ManyToManyField("Tag", through="TripTag", related_name='tags_of_post')
+    tag = models.ManyToManyField("Tag", through="TripTag", related_name='tags_of_trip')
 
     @property
     def writer(self):
