@@ -7,14 +7,9 @@ from roamapi.models import TripTag, Trip, Tag, Traveler
 
 
 class TripTagView(ViewSet):
-    """Rare post view"""
-
+    
     def create(self, request):
-        """Handle POST operations
 
-        Returns
-            Response -- JSON serialized game instance
-        """
         try:
             traveler = Traveler.objects.get(user=request.auth.user)
         except Traveler.DoesNotExist:

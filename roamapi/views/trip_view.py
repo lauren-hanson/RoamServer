@@ -52,7 +52,7 @@ class TripView(ViewSet):
         #     trip_destination.trip = trip
         #     trip_destination.destination = Destination.objects.get(
         #         pk=destination)
-        #     trip_destination.save()
+        #     trip_destination.save()   
 
         tags_selected = request.data['tag']
 
