@@ -2,7 +2,7 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from roamapi.models import Trip, Traveler, Destination, Tag
+from roamapi.models import Trip, Traveler, Destination, Tag, TripTag, TripDestination
 
 
 class TripView(ViewSet):
@@ -27,7 +27,8 @@ class TripView(ViewSet):
             trips = Trip.objects.filter(traveler_id=traveler)
 
         else:
-            trips = Trip.objects.all().order_by("start_date")
+            trips = Trip.objects.all()
+            # .order_by("start_date")
 
         serializer = TripSerializer(trips, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
@@ -38,11 +39,28 @@ class TripView(ViewSet):
 
         trip = Trip.objects.create(
             traveler=traveler,
-            weather=request.data['weather'],
-            start_date=request.data['start_date'],
-            end_date=request.data['end_date'],
-            notes=request.data['notes']
+            # weather=request.data['weather'],
+            start_date=request.data['startDate'],
+            end_date=request.data['endDate'],
+            public=request.data['public']
         )
+
+        # destination_selected = request.data['destination']
+
+        # for destination in destination_selected:
+        #     trip_destination = TripDestination()
+        #     trip_destination.trip = trip
+        #     trip_destination.destination = Destination.objects.get(
+        #         pk=destination)
+        #     trip_destination.save()
+
+        tags_selected = request.data['tag']
+
+        for tag in tags_selected:
+            trip_tag = TripTag()
+            trip_tag.trip = trip
+            trip_tag.tag = Tag.objects.get(pk=tag)
+            trip_tag.save()
 
         serializer = TripSerializer(trip)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
@@ -54,8 +72,8 @@ class TripView(ViewSet):
         trip_to_update = Trip.objects.get(pk=pk)
         trip_to_update.traveler = traveler
         trip_to_update.weather = request.data['weather']
-        trip_to_update.start_date = request.data['start_date']
-        trip_to_update.end_date = request.data['end_date']
+        trip_to_update.start_date = request.data['startDate']
+        trip_to_update.end_date = request.data['endDate']
         trip_to_update.notes = request.data['notes']
         trip_to_update.save()
 
