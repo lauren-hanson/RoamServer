@@ -21,13 +21,9 @@ class TripDestinationView(ViewSet):
         # return Response(serialized.data, status=status.HTTP_200_OK)
 
         tripdestinations = []
-        # traveler = Traveler.objects.get(user=request.auth.user)
 
         if "status__type" in request.query_params:
-            # final_destination = request.query_params('FinalDestination')
-            tripdestinations = TripDestination.objects.filter(status__type='Home')
             tripdestinations = TripDestination.objects.filter(status__type='FinalDestination')
-            tripdestinations = TripDestination.objects.filter(status__type='Stop')
 
         else:
             tripdestinations = TripDestination.objects.all()
