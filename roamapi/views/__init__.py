@@ -10,4 +10,3 @@ from .trip_tag_view import TripTagView
 
 
 
-
