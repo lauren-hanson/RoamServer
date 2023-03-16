@@ -1,0 +1,352 @@
+[
+    {
+        "model": "roamapi.state",
+        "pk": 1,
+        "fields": {
+            "label": "Alabama"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 2,
+        "fields": {
+            "label": "Alaska"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 3,
+        "fields": {
+            "label": "Arizona"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 4,
+        "fields": {
+            "label": "Arkansas"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 5,
+        "fields": {
+            "label": "California"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 6,
+        "fields": {
+            "label": "Colorado"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 7,
+        "fields": {
+            "label": "Connecticut"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 8,
+        "fields": {
+            "label": "Delaware"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 9,
+        "fields": {
+            "label": "Florida"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 10,
+        "fields": {
+            "label": "Georgia"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 11,
+        "fields": {
+            "label": "Hawaii"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 12,
+        "fields": {
+            "label": "Idaho"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 13,
+        "fields": {
+            "label": "Illinois"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 14,
+        "fields": {
+            "label": "Indiana"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 15,
+        "fields": {
+            "label": "Iowa"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 16,
+        "fields": {
+            "label": "Kansas"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 17,
+        "fields": {
+            "label": "Kentucky"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 18,
+        "fields": {
+            "label": "Louisiana"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 19,
+        "fields": {
+            "label": "Maine"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 20,
+        "fields": {
+            "label": "Maryland"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 21,
+        "fields": {
+            "label": "Massachusetts"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 22,
+        "fields": {
+            "label": "Michigan"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 23,
+        "fields": {
+            "label": "Minnesota"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 24,
+        "fields": {
+            "label": "Mississippi"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 25,
+        "fields": {
+            "label": "Missouri"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 26,
+        "fields": {
+            "label": "Montana"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 27,
+        "fields": {
+            "label": "Nebraska"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 28,
+        "fields": {
+            "label": "Nevada"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 29,
+        "fields": {
+            "label": "New Hampshire"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 30,
+        "fields": {
+            "label": "New Jersey"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 31,
+        "fields": {
+            "label": "New Mexico"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 32,
+        "fields": {
+            "label": "New York"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 33,
+        "fields": {
+            "label": "North Carolina"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 34,
+        "fields": {
+            "label": "North Dakota"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 35,
+        "fields": {
+            "label": "Ohio"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 36,
+        "fields": {
+            "label": "Oklahoma"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 37,
+        "fields": {
+            "label": "Oregon"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 38,
+        "fields": {
+            "label": "Pennsylvania"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 39,
+        "fields": {
+            "label": "Rhode Island"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 40,
+        "fields": {
+            "label": "South Carolina"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 41,
+        "fields": {
+            "label": "Tennessee"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 42,
+        "fields": {
+            "label": "Texas"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 43,
+        "fields": {
+            "label": "Utah"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 44,
+        "fields": {
+            "label": "Vermont"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 45,
+        "fields": {
+            "label": "Virginia"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 46,
+        "fields": {
+            "label": "Washington"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 47,
+        "fields": {
+            "label": "West Virginia"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 48,
+        "fields": {
+            "label": "Wisconsin"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 49,
+        "fields": {
+            "label": "Georgia"
+        }
+    },
+    {
+        "model": "roamapi.state",
+        "pk": 50,
+        "fields": {
+            "label": "Wyoming"
+        }
+    }
+]

@@ -5,6 +5,7 @@ from .traveler import Traveler
 from .trip_destination import TripDestination 
 from .trip_tag import TripTag
 from .trip import Trip
+from .state import State
 from .status import Status
 
 
