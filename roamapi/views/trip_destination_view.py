@@ -23,13 +23,41 @@ class TripDestinationView(ViewSet):
         tripdestinations = []
 
         if "status__type" in request.query_params:
-            tripdestinations = TripDestination.objects.filter(status__type='FinalDestination')
+            tripdestinations = TripDestination.objects.filter(
+                status__type='FinalDestination')
 
         else:
             tripdestinations = TripDestination.objects.all()
 
         serialized = TripDestinationSerializer(tripdestinations, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
+
+    def create(self, request):
+
+        try:
+            traveler = Traveler.objects.get(user=request.auth.user)
+        except Traveler.DoesNotExist:
+            return Response({'message': 'You sent an invalid token'}, status=status.HTTP_404_NOT_FOUND)
+
+        try:
+            trip = Trip.objects.get(pk=request.data['trip'])
+        except Trip.DoesNotExist:
+            return Response({'message': 'You sent an invalid trip Id'}, status=status.HTTP_404_NOT_FOUND)
+
+        try:
+            destination = Destination.objects.get(
+                pk=request.data['destination'])
+        except Trip.DoesNotExist:
+            return Response({'message': 'You sent an invalid destination Id'}, status=status.HTTP_404_NOT_FOUND)
+
+        tripdestination = TripDestination.objects.create(
+            trip=trip,
+            traveler=traveler,
+            destination=destination
+        )
+
+        serializer = TripDestinationSerializer(tripdestination)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 
 class TripSerializer(serializers.ModelSerializer):
@@ -43,7 +71,7 @@ class TripSerializer(serializers.ModelSerializer):
 class DestinationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Destination
-        fields = ('location', 'state')
+        fields = ('location', 'state', 'latitude', 'longitude', )
 
 
 class StatusSerializer(serializers.ModelSerializer):

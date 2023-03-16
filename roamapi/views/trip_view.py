@@ -45,14 +45,14 @@ class TripView(ViewSet):
             public=request.data['public']
         )
 
-        destination_selected = request.data['destination']
+        # destination_selected = request.data['destination']
 
-        for destination in destination_selected:
-            trip_destination = TripDestination()
-            trip_destination.trip = trip
-            trip_destination.destination = Destination.objects.get(
-                pk=destination)
-            trip_destination.save()   
+        # for destination in destination_selected:
+        #     trip_destination = TripDestination()
+        #     trip_destination.trip = trip
+        #     trip_destination.destination = Destination.objects.get(
+        #         pk=destination)
+        #     trip_destination.save()
 
         tags_selected = request.data['tag']
 
@@ -89,7 +89,7 @@ class TripDestinationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Destination
-        fields = ('id', 'location', 'state', )
+        fields = ('id', 'location', 'state', 'latitude', 'longitude', )
 
 
 class TripTagSerializer(serializers.ModelSerializer):
