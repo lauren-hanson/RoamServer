@@ -42,7 +42,8 @@ class TripView(ViewSet):
             # weather=request.data['weather'],
             start_date=request.data['startDate'],
             end_date=request.data['endDate'],
-            public=request.data['public']
+            public=request.data['public'],
+            notes=request.data['notes']
         )
 
         # destination_selected = request.data['destination']
@@ -83,6 +84,7 @@ class TripView(ViewSet):
         trip = Trip.objects.get(pk=pk)
         trip.delete()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
+    
 
 
 class TripDestinationSerializer(serializers.ModelSerializer):

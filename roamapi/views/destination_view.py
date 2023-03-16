@@ -15,7 +15,7 @@ class DestinationView(ViewSet):
         return Response(serialized.data, status=status.HTTP_200_OK)
 
     def list(self, request):
-        
+
         destinations = Destination.objects.all()
         serialized = DestinationSerializer(destinations, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
@@ -52,6 +52,7 @@ class DestinationView(ViewSet):
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
 
+    
 class DestinationSerializer(serializers.ModelSerializer):
 
     # status = DestinationStatusSerializer()
