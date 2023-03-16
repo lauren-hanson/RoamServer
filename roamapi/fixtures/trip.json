@@ -4,6 +4,7 @@
         "pk": 1,
         "fields": {
             "traveler": 1, 
+            "title": "Arizona",
             "start_date": "2021-02-08", 
             "end_date": "2021-02-20", 
             "weather": "Scelerisque eu ultrices vitae auctor eu augue ut lectus. ",
@@ -16,6 +17,7 @@
         "pk": 2,
         "fields": {
             "traveler": 1, 
+            "title": "South Carolina",
             "start_date": "2021-06-07", 
             "end_date": "2021-06-20",
             "weather": "Pellentesque dignissim enim sit amet.", 
@@ -28,6 +30,7 @@
         "pk": 3,
         "fields": {
             "traveler": 1, 
+            "title": "Florida",
             "start_date": "2021-08-19", 
             "end_date": "2021-08-25", 
             "weather": "Amet mattis vulputate enim nulla aliquet porttitor lacus luctus.",
@@ -39,7 +42,8 @@
         "model": "roamapi.trip",
         "pk": 4,
         "fields": {
-            "traveler": 1, 
+            "traveler": 1,
+            "title": "Colorado", 
             "start_date": "2021-10-11", 
             "end_date": "2021-10-24", 
             "weather": "Faucibus turpis in eu mi bibendum neque. Convallis posuere morbi leo urna molestie at elementum eu.",
@@ -52,6 +56,7 @@
         "pk": 5,
         "fields": {
             "traveler": 1, 
+            "title": "Michigan",
             "start_date": "2021-09-02", 
             "end_date": "2021-09-06",
             "weather": "Facilisis gravida neque convallis a cras semper auctor neque.", 
@@ -64,6 +69,7 @@
         "pk": 6,
         "fields": {
             "traveler": 1, 
+            "title": "Maine",
             "start_date": "2022-09-10", 
             "end_date": "2022-09-25",
             "weather": "Turpis in eu mi bibendum neque egestas congue.", 
@@ -76,6 +82,7 @@
         "pk": 7,
         "fields": {
             "traveler": 1, 
+            "title": "Minnesota",
             "start_date": "2022-11-09", 
             "end_date": "2022-11-13",
             "weather": "Egestas congue quisque egestas diam in.", 
@@ -88,6 +95,7 @@
         "pk": 8,
         "fields": {
             "traveler": 1, 
+            "title": "Foster Falls",
             "start_date": "2022-06-12", 
             "end_date": "2022-06-16", 
             "weather": "Lacus vestibulum sed arcu non odio euismod.",
@@ -100,6 +108,7 @@
         "pk": 9,
         "fields": {
             "traveler": 1, 
+            "title": "Washington",
             "start_date": "2023-04-29", 
             "end_date": "2023-06-17", 
             "weather": "Ac turpis egestas maecenas pharetra convallis posuere morbi.",
@@ -112,6 +121,7 @@
         "pk": 10,
         "fields": {
             "traveler": 2, 
+            "title": "Chattanooga",
             "start_date": "2022-10-01", 
             "end_date": "2023-10-03",
             "weather": "Nulla facilisi etiam dignissim diam quis enim. In egestas erat imperdiet sed euismod.", 
@@ -124,6 +134,7 @@
         "pk": 11,
         "fields": {
             "traveler": 2, 
+            "title": "North Carolina",
             "start_date": "2021-02-02", 
             "end_date": "2021-02-04",
             "weather": "Quis risus sed vulputate odio ut. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis.", 
