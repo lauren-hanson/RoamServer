@@ -43,7 +43,8 @@ class TripView(ViewSet):
             start_date=request.data['startDate'],
             end_date=request.data['endDate'],
             public=request.data['public'],
-            notes=request.data['notes']
+            notes=request.data['notes'], 
+            title=request.data['title']
         )
 
         # destination_selected = request.data['destination']
@@ -72,11 +73,23 @@ class TripView(ViewSet):
 
         trip_to_update = Trip.objects.get(pk=pk)
         trip_to_update.traveler = traveler
+        trip_to_update.title = request.data['title']
         trip_to_update.weather = request.data['weather']
-        trip_to_update.start_date = request.data['startDate']
-        trip_to_update.end_date = request.data['endDate']
+        trip_to_update.start_date = request.data['start_date']
+        trip_to_update.end_date = request.data['end_date']
         trip_to_update.notes = request.data['notes']
         trip_to_update.save()
+
+        tags_selected = request.data['tag']
+
+        current_tag_relationships = TripTag.objects.filter(trip__id=pk)
+        current_tag_relationships.delete()
+
+        for tag in tags_selected:
+            trip_tag = TripTag()
+            trip_tag.trip = trip_to_update
+            trip_tag.tag = Tag.objects.get(pk=tag)
+            trip_tag.save()
 
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
@@ -84,7 +97,6 @@ class TripView(ViewSet):
         trip = Trip.objects.get(pk=pk)
         trip.delete()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
-    
 
 
 class TripDestinationSerializer(serializers.ModelSerializer):
@@ -109,4 +121,4 @@ class TripSerializer(serializers.ModelSerializer):
     class Meta:
         model = Trip
         fields = ('id', 'start_date', 'end_date', 'notes',
-                  'weather', 'destination', 'tag', 'title',  )
+                  'weather', 'destination', 'tag', 'title', 'public', 'image_url',   )

@@ -26,6 +26,11 @@ class TripDestinationView(ViewSet):
             tripdestinations = TripDestination.objects.filter(
                 status__type='FinalDestination')
 
+        elif "trip" in request.query_params:
+            destination_trip = request.query_params['trip']
+            tripdestinations = TripDestination.objects.filter(
+                trip_id=destination_trip)
+
         else:
             tripdestinations = TripDestination.objects.all()
 
