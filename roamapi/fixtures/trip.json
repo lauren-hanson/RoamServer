@@ -5,7 +5,7 @@
         "fields": {
             "traveler": 1, 
             "title": "Arizona",
-            "image_url": "", 
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018940/Roam/tonto-4_oe6qeh.jpg", 
             "start_date": "2021-02-08", 
             "end_date": "2021-02-20", 
             "weather": "Scelerisque eu ultrices vitae auctor eu augue ut lectus. ",
@@ -19,7 +19,7 @@
         "fields": {
             "traveler": 1, 
             "title": "South Carolina",
-            "image_url": "", 
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018941/Roam/southcarolina-3_ugtgml.jpg", 
             "start_date": "2021-06-07", 
             "end_date": "2021-06-20",
             "weather": "Pellentesque dignissim enim sit amet.", 
@@ -33,7 +33,7 @@
         "fields": {
             "traveler": 1, 
             "title": "Florida",
-            "image_url": "", 
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018925/Roam/florida_ceddxu.jpg", 
             "start_date": "2021-08-19", 
             "end_date": "2021-08-25", 
             "weather": "Amet mattis vulputate enim nulla aliquet porttitor lacus luctus.",
@@ -47,7 +47,7 @@
         "fields": {
             "traveler": 1,
             "title": "Colorado", 
-            "image_url": "", 
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018922/Roam/colorado_bxzpoa.jpg", 
             "start_date": "2021-10-11", 
             "end_date": "2021-10-24", 
             "weather": "Faucibus turpis in eu mi bibendum neque. Convallis posuere morbi leo urna molestie at elementum eu.",
@@ -61,7 +61,7 @@
         "fields": {
             "traveler": 1, 
             "title": "Michigan",
-            "image_url": "", 
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018929/Roam/michigan_kzj1or.jpg", 
             "start_date": "2021-09-02", 
             "end_date": "2021-09-06",
             "weather": "Facilisis gravida neque convallis a cras semper auctor neque.", 
@@ -145,7 +145,7 @@
         "fields": {
             "traveler": 2, 
             "title": "North Carolina",
-            "image_url": "", 
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018941/Roam/northcarolina-3_gpzghb.jpg", 
             "start_date": "2021-02-02", 
             "end_date": "2021-02-04",
             "weather": "Quis risus sed vulputate odio ut. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis.", 
