@@ -42,7 +42,8 @@ class TripView(ViewSet):
             # weather=request.data['weather'],
             start_date=request.data['startDate'],
             end_date=request.data['endDate'],
-            public=request.data['public'],
+            # end_date=request.data['imageUrl'],
+            # public=request.data['public'],
             notes=request.data['notes'], 
             title=request.data['title']
         )
@@ -75,9 +76,11 @@ class TripView(ViewSet):
         trip_to_update.traveler = traveler
         trip_to_update.title = request.data['title']
         trip_to_update.weather = request.data['weather']
+        trip_to_update.image_url = request.data['image_url']
         trip_to_update.start_date = request.data['start_date']
         trip_to_update.end_date = request.data['end_date']
         trip_to_update.notes = request.data['notes']
+        trip_to_update.public = request.data['public']
         trip_to_update.save()
 
         tags_selected = request.data['tag']
