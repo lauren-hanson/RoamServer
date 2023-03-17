@@ -39,31 +39,31 @@ class TripView(ViewSet):
 
         trip = Trip.objects.create(
             traveler=traveler,
-            # weather=request.data['weather'],
             start_date=request.data['startDate'],
             end_date=request.data['endDate'],
-            # end_date=request.data['imageUrl'],
-            # public=request.data['public'],
             notes=request.data['notes'], 
             title=request.data['title']
         )
 
-        # destination_selected = request.data['destination']
-
-        # for destination in destination_selected:
-        #     trip_destination = TripDestination()
-        #     trip_destination.trip = trip
-        #     trip_destination.destination = Destination.objects.get(
-        #         pk=destination)
-        #     trip_destination.save()
-
         tags_selected = request.data['tag']
 
         for tag in tags_selected:
-            trip_tag = TripTag()
-            trip_tag.trip = trip
-            trip_tag.tag = Tag.objects.get(pk=tag)
-            trip_tag.save()
+            # trip_tag = TripTag()
+            # trip_tag.trip = trip
+            # trip_tag.tag = Tag.objects.get(pk=tag)
+            # trip_tag.save()
+            new_tag = Tag.objects.get(pk=tag)
+            trip.tag.add(new_tag)
+
+        destinations_added = list(request.data['destination'])
+        for destination in destinations_added:
+            # trip_destination = TripDestination()
+            # trip_destination.trip = trip
+            # trip_destination.destination = Destination.objects.get(pk=destination)
+            # trip_destination.save()
+
+            new_destination = Destination.objects.get(pk=destination)
+            trip.destination.add(new_destination)
 
         serializer = TripSerializer(trip)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
@@ -125,3 +125,4 @@ class TripSerializer(serializers.ModelSerializer):
         model = Trip
         fields = ('id', 'start_date', 'end_date', 'notes',
                   'weather', 'destination', 'tag', 'title', 'public', 'image_url',   )
+        depth = 1

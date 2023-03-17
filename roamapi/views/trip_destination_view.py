@@ -24,8 +24,8 @@ class TripDestinationView(ViewSet):
 
         if "status__type" in request.query_params:
             tripdestinations = TripDestination.objects.filter(
-                status__type='FinalDestination')
-
+                status__type='Home')
+            
         elif "trip" in request.query_params:
             destination_trip = request.query_params['trip']
             tripdestinations = TripDestination.objects.filter(
@@ -40,24 +40,18 @@ class TripDestinationView(ViewSet):
     def create(self, request):
 
         try:
-            traveler = Traveler.objects.get(user=request.auth.user)
-        except Traveler.DoesNotExist:
-            return Response({'message': 'You sent an invalid token'}, status=status.HTTP_404_NOT_FOUND)
-
-        try:
-            trip = Trip.objects.get(pk=request.data['trip'])
+            trip = Trip.objects.get(pk=request.data['tripId'])
         except Trip.DoesNotExist:
             return Response({'message': 'You sent an invalid trip Id'}, status=status.HTTP_404_NOT_FOUND)
 
         try:
             destination = Destination.objects.get(
-                pk=request.data['destination'])
+                pk=request.data['destinationId'])
         except Trip.DoesNotExist:
             return Response({'message': 'You sent an invalid destination Id'}, status=status.HTTP_404_NOT_FOUND)
 
         tripdestination = TripDestination.objects.create(
             trip=trip,
-            traveler=traveler,
             destination=destination
         )
 
@@ -78,19 +72,11 @@ class DestinationSerializer(serializers.ModelSerializer):
         model = Destination
         fields = ('location', 'state', 'latitude', 'longitude', )
 
-
-class StatusSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Status
-        fields = ('type', )
-
-
 class TripDestinationSerializer(serializers.ModelSerializer):
 
-    status = StatusSerializer()
     destination = DestinationSerializer()
     trip = TripSerializer()
 
     class Meta:
         model = TripDestination
-        fields = ('trip', 'destination', 'status', )
+        fields = ('trip', 'destination',  )
