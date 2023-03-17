@@ -55,7 +55,7 @@ class TripView(ViewSet):
             new_tag = Tag.objects.get(pk=tag)
             trip.tag.add(new_tag)
 
-        destinations_added = list(request.data['destination'])
+        destinations_added = list(request.data['destinationId'])
         for destination in destinations_added:
             # trip_destination = TripDestination()
             # trip_destination.trip = trip
