@@ -25,7 +25,7 @@ class TripDestinationView(ViewSet):
         if "status__type" in request.query_params:
             tripdestinations = TripDestination.objects.filter(
                 status__type='Home')
-            
+
         elif "trip" in request.query_params:
             destination_trip = request.query_params['trip']
             tripdestinations = TripDestination.objects.filter(
@@ -39,6 +39,17 @@ class TripDestinationView(ViewSet):
 
     def create(self, request):
 
+        # try:
+        #     trip = Trip.objects.get(pk=request.data[0]['trip_id'])
+        # except Trip.DoesNotExist:
+        #     return Response({'message': 'You sent an invalid trip Id'}, status=status.HTTP_404_NOT_FOUND)
+        
+        # try:
+        #     destination = Destination.objects.get(
+        #         pk=request.data[0]['destination'])
+        # except Trip.DoesNotExist:
+        #     return Response({'message': 'You sent an invalid destination Id'}, status=status.HTTP_404_NOT_FOUND)
+        
         try:
             trip = Trip.objects.get(pk=request.data['tripId'])
         except Trip.DoesNotExist:
@@ -57,6 +68,7 @@ class TripDestinationView(ViewSet):
 
         serializer = TripDestinationSerializer(tripdestination)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
+
 
 
 class TripSerializer(serializers.ModelSerializer):

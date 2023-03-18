@@ -43,7 +43,8 @@ class TripView(ViewSet):
             start_date=request.data['startDate'],
             end_date=request.data['endDate'],
             notes=request.data['notes'],
-            title=request.data['title']
+            title=request.data['title'], 
+            public=request.data['public']
         )
 
         tags_selected = request.data['tag']
@@ -55,16 +56,6 @@ class TripView(ViewSet):
             # trip_tag.save()
             new_tag = Tag.objects.get(pk=tag)
             trip.tag.add(new_tag)
-
-        # destinations_added = request.data['destination']
-        # for destination in destinations_added:
-        #     trip_destination = TripDestination()
-        #     trip_destination.trip = trip
-        #     trip_destination.destination = Destination.objects.get(pk=destination)
-        #     trip_destination.save()
-
-        #     new_destination = Destination.objects.get(pk=destination)
-        #     trip.destination.add(new_destination)
 
         serializer = TripSerializer(trip)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
@@ -109,6 +100,12 @@ class TripDestinationSerializer(serializers.ModelSerializer):
         model = Destination
         fields = ('id', 'location', 'state', )
 
+class TravelerSerializer(serializers.ModelSerializer):
+    """JSON serializer for reactions
+    """
+    class Meta:
+        model = Traveler
+        fields = ('id', 'full_name')
 
 class TripTagSerializer(serializers.ModelSerializer):
 
@@ -121,9 +118,10 @@ class TripSerializer(serializers.ModelSerializer):
 
     destination = TripDestinationSerializer(many=True)
     tag = TripTagSerializer(many=True)
+    traveler = TravelerSerializer()
 
     class Meta:
         model = Trip
         fields = ('id', 'start_date', 'end_date', 'notes',
-                  'weather', 'destination', 'tag', 'title', 'public', 'image_url',)
+                  'weather', 'destination', 'tag', 'title', 'public', 'image_url','traveler',)
         depth = 1
