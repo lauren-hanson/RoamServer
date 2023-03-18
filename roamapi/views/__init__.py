@@ -6,4 +6,3 @@ from .tag_view import TagView
 from .state_view import StateView
 from .trip_destination_view import TripDestinationView
 from .trip_tag_view import TripTagView
-

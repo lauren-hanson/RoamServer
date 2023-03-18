@@ -2,7 +2,8 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from datetime import datetime
+from datetime import date
+from django.db.models import Q
 from roamapi.models import Trip, Traveler, Destination, Tag, TripTag, TripDestination
 
 
@@ -28,8 +29,15 @@ class TripView(ViewSet):
             trips = Trip.objects.filter(traveler_id=traveler)
 
         else:
-            trips = Trip.objects.all()
-            # .order_by("start_date")
+            today = date.today()
+            # filter trips that have already ended
+            trips = Trip.objects.filter(
+                Q(end_date__lt=today) & Q(traveler_id=traveler) & Q(complete=False))
+            # get trips that have not yet ended
+            upcoming_trips = Trip.objects.filter(
+                Q(end_date__gte=today) & Q(traveler_id=traveler))
+            # merge the two lists
+            trips = list(trips) + list(upcoming_trips)
 
         serializer = TripSerializer(trips, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
@@ -43,7 +51,7 @@ class TripView(ViewSet):
             start_date=request.data['startDate'],
             end_date=request.data['endDate'],
             notes=request.data['notes'],
-            title=request.data['title'], 
+            title=request.data['title'],
             public=request.data['public']
         )
 
@@ -73,6 +81,7 @@ class TripView(ViewSet):
         trip_to_update.end_date = request.data['end_date']
         trip_to_update.notes = request.data['notes']
         trip_to_update.public = request.data['public']
+        trip_to_update.complete = request.data['complete']
         trip_to_update.save()
 
         tags_selected = request.data['tag']
@@ -100,12 +109,14 @@ class TripDestinationSerializer(serializers.ModelSerializer):
         model = Destination
         fields = ('id', 'location', 'state', )
 
+
 class TravelerSerializer(serializers.ModelSerializer):
     """JSON serializer for reactions
     """
     class Meta:
         model = Traveler
         fields = ('id', 'full_name')
+
 
 class TripTagSerializer(serializers.ModelSerializer):
 
@@ -123,5 +134,5 @@ class TripSerializer(serializers.ModelSerializer):
     class Meta:
         model = Trip
         fields = ('id', 'start_date', 'end_date', 'notes',
-                  'weather', 'destination', 'tag', 'title', 'public', 'image_url','traveler',)
+                  'weather', 'destination', 'tag', 'title', 'public', 'complete', 'image_url', 'traveler',)
         depth = 1

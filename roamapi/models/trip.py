@@ -13,6 +13,7 @@ class Trip(models.Model):
     weather = models.CharField(max_length=300, blank=True)
     notes = models.CharField(max_length=500)
     public = models.BooleanField(default=False)
+    complete = models.BooleanField(default=False)
     destination = models.ManyToManyField(
         "Destination", through="TripDestination")
     tag = models.ManyToManyField(
