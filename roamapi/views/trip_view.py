@@ -2,6 +2,7 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
+from datetime import datetime
 from roamapi.models import Trip, Traveler, Destination, Tag, TripTag, TripDestination
 
 
@@ -39,30 +40,31 @@ class TripView(ViewSet):
 
         trip = Trip.objects.create(
             traveler=traveler,
-            # weather=request.data['weather'],
             start_date=request.data['startDate'],
             end_date=request.data['endDate'],
-            public=request.data['public'],
-            notes=request.data['notes'], 
+            notes=request.data['notes'],
             title=request.data['title']
         )
-
-        # destination_selected = request.data['destination']
-
-        # for destination in destination_selected:
-        #     trip_destination = TripDestination()
-        #     trip_destination.trip = trip
-        #     trip_destination.destination = Destination.objects.get(
-        #         pk=destination)
-        #     trip_destination.save()
 
         tags_selected = request.data['tag']
 
         for tag in tags_selected:
-            trip_tag = TripTag()
-            trip_tag.trip = trip
-            trip_tag.tag = Tag.objects.get(pk=tag)
-            trip_tag.save()
+            # trip_tag = TripTag()
+            # trip_tag.trip = trip
+            # trip_tag.tag = Tag.objects.get(pk=tag)
+            # trip_tag.save()
+            new_tag = Tag.objects.get(pk=tag)
+            trip.tag.add(new_tag)
+
+        # destinations_added = request.data['destination']
+        # for destination in destinations_added:
+        #     trip_destination = TripDestination()
+        #     trip_destination.trip = trip
+        #     trip_destination.destination = Destination.objects.get(pk=destination)
+        #     trip_destination.save()
+
+        #     new_destination = Destination.objects.get(pk=destination)
+        #     trip.destination.add(new_destination)
 
         serializer = TripSerializer(trip)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
@@ -75,9 +77,11 @@ class TripView(ViewSet):
         trip_to_update.traveler = traveler
         trip_to_update.title = request.data['title']
         trip_to_update.weather = request.data['weather']
+        trip_to_update.image_url = request.data['image_url']
         trip_to_update.start_date = request.data['start_date']
         trip_to_update.end_date = request.data['end_date']
         trip_to_update.notes = request.data['notes']
+        trip_to_update.public = request.data['public']
         trip_to_update.save()
 
         tags_selected = request.data['tag']
@@ -103,7 +107,7 @@ class TripDestinationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Destination
-        fields = ('id', 'location', 'state', 'latitude', 'longitude', )
+        fields = ('id', 'location', 'state', )
 
 
 class TripTagSerializer(serializers.ModelSerializer):
@@ -121,4 +125,5 @@ class TripSerializer(serializers.ModelSerializer):
     class Meta:
         model = Trip
         fields = ('id', 'start_date', 'end_date', 'notes',
-                  'weather', 'destination', 'tag', 'title', 'public', 'image_url',   )
+                  'weather', 'destination', 'tag', 'title', 'public', 'image_url',)
+        depth = 1
