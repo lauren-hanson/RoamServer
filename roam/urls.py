@@ -2,8 +2,7 @@ from django.contrib import admin
 from django.conf.urls import include
 from django.urls import path
 from rest_framework import routers
-from roamapi.views import register_user, login_user, TripView, TravelerView, DestinationView, TagView, StateView, TripDestinationView
-# TripTagView
+from roamapi.views import register_user, login_user, TripView, TravelerView, DestinationView, TagView, StateView, TripDestinationView, TripTagView
 
 
 router = routers.DefaultRouter(trailing_slash=False)
@@ -13,7 +12,7 @@ router.register(r'destinations', DestinationView, 'destination')
 router.register(r'tags', TagView, 'tag')
 router.register(r'states', StateView, 'state')
 router.register(r'tripdestinations', TripDestinationView, 'tripdestination')
-# router.register(r'triptags', TripTagView, 'triptag')
+router.register(r'triptags', TripTagView, 'triptag')
 
 urlpatterns = [
     path('register', register_user),

@@ -2,6 +2,7 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
+from django.contrib.auth.models import User
 from roamapi.models import Traveler
 
 
@@ -20,7 +21,20 @@ class TravelerView(ViewSet):
         return Response(serialized.data, status=status.HTTP_200_OK)
 
 
-class TravelerSerializer(serializers.ModelSerializer):
+class UserSerializer(serializers.ModelSerializer):
+    """JSON serializer for user
+    """
+
+    class Meta:
+        model = User
+        fields = ('id', 'username', 'email', 'first_name',
+                  'last_name', 'date_joined')
+
+
+class TravelerSerializer(serializers.ModelSerializer):\
+
+    user = UserSerializer(many=False)
+
     class Meta:
         model = Traveler
         fields = ('id', 'user', 'bio', 'profile_image_url', )
