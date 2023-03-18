@@ -1,0 +1,79 @@
+[
+    {
+        "model": "roamapi.category",
+        "pk": 1,
+        "fields": {
+            "label": "Clothing"
+        }
+    },
+    {
+        "model": "roamapi.category",
+        "pk": 2,
+        "fields": {
+            "label": "Kitchen"
+        }
+    },
+    {
+        "model": "roamapi.category",
+        "pk": 3,
+        "fields": {
+            "label": "Toiletries"
+        }
+    },
+    {
+        "model": "roamapi.category",
+        "pk": 4,
+        "fields": {
+            "label": "Climbing"
+        }
+    },
+    {
+        "model": "roamapi.category",
+        "pk": 5,
+        "fields": {
+            "label": "Food"
+        }
+    },
+    {
+        "model": "roamapi.category",
+        "pk": 6,
+        "fields": {
+            "label": "Cleaning"
+        }
+    },
+    {
+        "model": "roamapi.category",
+        "pk": 7,
+        "fields": {
+            "label": "Van"
+        }
+    },
+    {
+        "model": "roamapi.category",
+        "pk": 8,
+        "fields": {
+            "label": "Dog"
+        }
+    },
+    {
+        "model": "roamapi.category",
+        "pk": 9,
+        "fields": {
+            "label": "Bed, Bath & Beyond"
+        }
+    },
+    {
+        "model": "roamapi.category",
+        "pk": 10,
+        "fields": {
+            "label": "Entertainment"
+        }
+    },
+    {
+        "model": "roamapi.category",
+        "pk": 11,
+        "fields": {
+            "label": "Electronics"
+        }
+    }
+]
