@@ -2,7 +2,7 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from roamapi.models import Destination, Status
+from roamapi.models import Destination
 
 
 class DestinationView(ViewSet):
