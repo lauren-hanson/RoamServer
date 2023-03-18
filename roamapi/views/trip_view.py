@@ -109,6 +109,12 @@ class TripDestinationSerializer(serializers.ModelSerializer):
         model = Destination
         fields = ('id', 'location', 'state', )
 
+class TravelerSerializer(serializers.ModelSerializer):
+    """JSON serializer for reactions
+    """
+    class Meta:
+        model = Traveler
+        fields = ('id', 'full_name')
 
 class TripTagSerializer(serializers.ModelSerializer):
 
@@ -121,9 +127,10 @@ class TripSerializer(serializers.ModelSerializer):
 
     destination = TripDestinationSerializer(many=True)
     tag = TripTagSerializer(many=True)
+    traveler = TravelerSerializer()
 
     class Meta:
         model = Trip
         fields = ('id', 'start_date', 'end_date', 'notes',
-                  'weather', 'destination', 'tag', 'title', 'public', 'image_url',)
+                  'weather', 'destination', 'tag', 'title', 'public', 'image_url','traveler',)
         depth = 1
