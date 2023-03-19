@@ -8,5 +8,3 @@ from .trip_destination_view import TripDestinationView
 from .trip_tag_view import TripTagView
 from .category_view import CategoryView
 from .item_view import ItemView
-
-
