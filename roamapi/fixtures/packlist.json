@@ -1,0 +1,10 @@
+[
+    {
+        "model": "roamapi.packlist",
+        "pk": 1,
+        "fields": {
+            "name": "",
+            "item": 0
+        }
+    }
+]
