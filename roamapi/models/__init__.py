@@ -7,6 +7,8 @@ from .trip_tag import TripTag
 from .trip import Trip
 from .state import State
 from .status import Status
+from .category import Category
+from .item import Item
 
 
 

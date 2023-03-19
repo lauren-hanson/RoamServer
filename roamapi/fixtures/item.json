@@ -3,8 +3,616 @@
         "model": "roamapi.item",
         "pk": 1,
         "fields": {
-            "name": "", 
-            "category": 0 
+            "name": "Hiking Boots", 
+            "category": 1
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 2,
+        "fields": {
+            "name": "Sandals", 
+            "category": 1
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 3,
+        "fields": {
+            "name": "Walking Shoes", 
+            "category": 1
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 4,
+        "fields": {
+            "name": "Wind Breaker", 
+            "category": 1
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 5,
+        "fields": {
+            "name": "Down Jacket", 
+            "category": 1
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 6,
+        "fields": {
+            "name": "Medium Cast Iron", 
+            "category": 2
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 7,
+        "fields": {
+            "name": "Large Cast Iron", 
+            "category": 2
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 8,
+        "fields": {
+            "name": "Sponges", 
+            "category": 2
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 9,
+        "fields": {
+            "name": "Coffee Grinder", 
+            "category": 2
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 10,
+        "fields": {
+            "name": "French Press", 
+            "category": 2
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 11,
+        "fields": {
+            "name": "Coffee Cups", 
+            "category": 2
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 12,
+        "fields": {
+            "name": "Wet Wipes", 
+            "category": 3
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 13,
+        "fields": {
+            "name": "Plastic Bags", 
+            "category": 3
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 14,
+        "fields": {
+            "name": "Sponges", 
+            "category": 3
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 15,
+        "fields": {
+            "name": "Go-Girl", 
+            "category": 3
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 16,
+        "fields": {
+            "name": "Toothbrush", 
+            "category": 3
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 17,
+        "fields": {
+            "name": "Toothpaste", 
+            "category": 3
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 18,
+        "fields": {
+            "name": "Floss", 
+            "category": 3
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 19,
+        "fields": {
+            "name": "Deodorant", 
+            "category": 3
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 20,
+        "fields": {
+            "name": "Soap", 
+            "category": 3
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 21,
+        "fields": {
+            "name": "Tweezers", 
+            "category": 3
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 22,
+        "fields": {
+            "name": "Sun Screen", 
+            "category": 3
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 23,
+        "fields": {
+            "name": "Shampoo", 
+            "category": 3
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 24,
+        "fields": {
+            "name": "Stick Clip", 
+            "category": 4
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 25,
+        "fields": {
+            "name": "Rope", 
+            "category": 4
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 26,
+        "fields": {
+            "name": "Harnesses", 
+            "category": 4
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 27,
+        "fields": {
+            "name": "Climbing Shoes", 
+            "category": 4
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 28,
+        "fields": {
+            "name": "Grigri", 
+            "category": 4
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 29,
+        "fields": {
+            "name": "Quick Draws", 
+            "category": 4
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 30,
+        "fields": {
+            "name": "Water", 
+            "category": 5
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 31,
+        "fields": {
+            "name": "Cooler", 
+            "category": 5
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 32,
+        "fields": {
+            "name": "Snack Box", 
+            "category": 5
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 33,
+        "fields": {
+            "name": "Spices", 
+            "category": 5
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 34,
+        "fields": {
+            "name": "Windex", 
+            "category": 6
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 35,
+        "fields": {
+            "name": "Broom", 
+            "category": 6
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 36,
+        "fields": {
+            "name": "Hand Brush", 
+            "category": 6
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 37,
+        "fields": {
+            "name": "Lint Roller", 
+            "category": 6
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 38,
+        "fields": {
+            "name": "Deli Containers", 
+            "category": 7
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 39,
+        "fields": {
+            "name": "Sewing Kit", 
+            "category": 7
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 40,
+        "fields": {
+            "name": "First-Aid Kit", 
+            "category": 7
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 41,
+        "fields": {
+            "name": "Lanterns", 
+            "category": 7
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 42,
+        "fields": {
+            "name": "Camping Chairs", 
+            "category": 7
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 43,
+        "fields": {
+            "name": "Fan", 
+            "category": 7
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 44,
+        "fields": {
+            "name": "Battery", 
+            "category": 7
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 45,
+        "fields": {
+            "name": "Food", 
+            "category": 8
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 46,
+        "fields": {
+            "name": "Harness", 
+            "category": 8
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 47,
+        "fields": {
+            "name": "Jacket", 
+            "category": 8
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 48,
+        "fields": {
+            "name": "Treats", 
+            "category": 8
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 49,
+        "fields": {
+            "name": "Chew Toys", 
+            "category": 8
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 50,
+        "fields": {
+            "name": "Fetch It", 
+            "category": 8
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 51,
+        "fields": {
+            "name": "Tennis Balls", 
+            "category": 8
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 52,
+        "fields": {
+            "name": "Dog Bowls", 
+            "category": 8
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 53,
+        "fields": {
+            "name": "Towels", 
+            "category": 9
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 54,
+        "fields": {
+            "name": "Face Towels", 
+            "category": 9
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 55,
+        "fields": {
+            "name": "Sheets", 
+            "category": 9
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 56,
+        "fields": {
+            "name": "Pillow Cases", 
+            "category": 9
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 57,
+        "fields": {
+            "name": "Laundry Bag", 
+            "category": 9
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 58,
+        "fields": {
+            "name": "Detergent", 
+            "category": 9
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 59,
+        "fields": {
+            "name": "Guitar", 
+            "category": 10
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 60,
+        "fields": {
+            "name": "Books", 
+            "category": 10
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 61,
+        "fields": {
+            "name": "Books", 
+            "category": 10
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 62,
+        "fields": {
+            "name": "Crossword", 
+            "category": 10
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 63,
+        "fields": {
+            "name": "Cards", 
+            "category": 10
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 64,
+        "fields": {
+            "name": "Scrabble", 
+            "category": 10
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 65,
+        "fields": {
+            "name": "Wordle", 
+            "category": 10
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 66,
+        "fields": {
+            "name": "Polaroid", 
+            "category": 11
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 67,
+        "fields": {
+            "name": "Kobo E-Reader", 
+            "category": 11
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 68,
+        "fields": {
+            "name": "Computer", 
+            "category": 11
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 69,
+        "fields": {
+            "name": "Extra Screens", 
+            "category": 11
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 70,
+        "fields": {
+            "name": "Headphones", 
+            "category": 11
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 71,
+        "fields": {
+            "name": "Speaker", 
+            "category": 11
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 72,
+        "fields": {
+            "name": "Speaker", 
+            "category": 11
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 73,
+        "fields": {
+            "name": "Projector", 
+            "category": 11
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 74,
+        "fields": {
+            "name": "Cameras w/ Chargers", 
+            "category": 11
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 75,
+        "fields": {
+            "name": "Drone", 
+            "category": 11
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk":76,
+        "fields": {
+            "name": "Hard Drives", 
+            "category": 11
+        }
+    },
+    {
+        "model": "roamapi.item",
+        "pk": 77,
+        "fields": {
+            "name": "CLA", 
+            "category": 11
         }
     }
 ]
