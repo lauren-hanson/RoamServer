@@ -3,13 +3,13 @@
         "model": "roamapi.trip",
         "pk": 1,
         "fields": {
-            "traveler": 1, 
+            "traveler": 1,
             "title": "Arizona",
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018940/Roam/tonto-4_oe6qeh.jpg", 
-            "start_date": "2021-02-08", 
-            "end_date": "2021-02-20", 
-            "weather": "Scelerisque eu ultrices vitae auctor eu augue ut lectus. ",
-            "notes": "Aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat. Lobortis elementum nibh tellus molestie nunc non blandit massa enim. Ut tortor pretium viverra suspendisse potenti nullam ac. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non.", 
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018940/Roam/tonto-4_oe6qeh.jpg",
+            "start_date": "2021-02-08",
+            "end_date": "2021-02-20",
+            "weather": "Although it was a bit chilly, the weather in Arizona was beautiful and perfect for enjoying the stunning scenery.",
+                "notes": "During our trip to Arizona, we stayed at two beautiful locations: Tonto and Sedona. Tonto is a stunning wilderness area located near Payson, Arizona, with rugged mountains, deep canyons, and sparkling lakes. We spent a few days exploring the area, hiking to scenic vistas, and enjoying the beautiful scenery. After our time in Tonto, we headed to Sedona, a picturesque town surrounded by red rock formations and stunning natural beauty. We spent several days exploring the area, hiking to beautiful trails, and visiting some of the local landmarks like Cathedral Rock and Bell Rock. We also enjoyed some delicious food at the local restaurants and shopped at some of the unique stores in town. Overall, our trip to Arizona was a wonderful experience, filled with natural beauty, outdoor adventures, and relaxation. Tonto and Sedona were two amazing locations that we will never forget!", 
             "public": true,
             "complete": true
         }
@@ -18,13 +18,13 @@
         "model": "roamapi.trip",
         "pk": 2,
         "fields": {
-            "traveler": 1, 
+            "traveler": 1,
             "title": "South Carolina",
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018941/Roam/southcarolina-3_ugtgml.jpg", 
-            "start_date": "2021-06-07", 
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018941/Roam/southcarolina-3_ugtgml.jpg",
+            "start_date": "2021-06-07",
             "end_date": "2021-06-20",
-            "weather": "Pellentesque dignissim enim sit amet.", 
-            "notes": "Condimentum lacinia quis vel eros donec ac. Ligula ullamcorper malesuada proin libero nunc consequat interdum. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet.", 
+            "weather": "Despite the scorching hot weather, we had a blast staying on the beach enjoying the laid-back beach life.",
+            "notes": "For our birthday trip, we traveled to South Carolina, a state known for its southern charm, rich history, and beautiful coastal scenery. We stayed just outside of Charleston on a small island, where we enjoyed the warm weather and the beautiful beach.During your stay, you explored the charming city of Charleston, known for its historic architecture, cobblestone streets, and world-class cuisine. We visited the famous Battery Park, which offers breathtaking views of Fort Sumter, the harbor, and the iconic Ravenel Bridge. In addition to exploring Charleston, we spent time on the beach of the small island where you stayed. We soaked up the sun, swam in the ocean, and enjoyed the beautiful scenery. We also indulged in some of the delicious seafood and southern cuisine that the region is known for, including fresh shrimp and grits, fried green tomatoes, and sweet tea. Overall, our birthday trip to South Carolina was a wonderful experience, filled with beautiful scenery, southern charm, and delicious food. It was a perfect way to celebrate our special day!",
             "public": true,
             "complete": true
         }
@@ -33,13 +33,13 @@
         "model": "roamapi.trip",
         "pk": 3,
         "fields": {
-            "traveler": 1, 
+            "traveler": 1,
             "title": "Florida",
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018925/Roam/florida_ceddxu.jpg", 
-            "start_date": "2021-08-19", 
-            "end_date": "2021-08-25", 
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018925/Roam/florida_ceddxu.jpg",
+            "start_date": "2021-08-19",
+            "end_date": "2021-08-25",
             "weather": "Amet mattis vulputate enim nulla aliquet porttitor lacus luctus.",
-            "notes": "Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus.", 
+            "notes": "Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus.",
             "public": true,
             "complete": true
         }
@@ -49,12 +49,12 @@
         "pk": 4,
         "fields": {
             "traveler": 1,
-            "title": "Colorado", 
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018922/Roam/colorado_bxzpoa.jpg", 
-            "start_date": "2021-10-11", 
-            "end_date": "2021-10-24", 
+            "title": "Colorado",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018922/Roam/colorado_bxzpoa.jpg",
+            "start_date": "2021-10-11",
+            "end_date": "2021-10-24",
             "weather": "Faucibus turpis in eu mi bibendum neque. Convallis posuere morbi leo urna molestie at elementum eu.",
-            "notes": "Quis risus sed vulputate odio ut. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis.", 
+            "notes": "Quis risus sed vulputate odio ut. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis.",
             "public": true,
             "complete": true
         }
@@ -63,13 +63,13 @@
         "model": "roamapi.trip",
         "pk": 5,
         "fields": {
-            "traveler": 1, 
+            "traveler": 1,
             "title": "Michigan",
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018929/Roam/michigan_kzj1or.jpg", 
-            "start_date": "2021-09-02", 
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018929/Roam/michigan_kzj1or.jpg",
+            "start_date": "2021-09-02",
             "end_date": "2021-09-06",
-            "weather": "Facilisis gravida neque convallis a cras semper auctor neque.", 
-            "notes": "Lorem sed risus ultricies tristique nulla aliquet enim tortor. Velit ut tortor pretium viverra suspendisse potenti. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Tempus urna et pharetra pharetra massa massa. ", 
+            "weather": "Facilisis gravida neque convallis a cras semper auctor neque.",
+            "notes": "Lorem sed risus ultricies tristique nulla aliquet enim tortor. Velit ut tortor pretium viverra suspendisse potenti. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Tempus urna et pharetra pharetra massa massa. ",
             "public": true,
             "complete": true
         }
@@ -78,13 +78,13 @@
         "model": "roamapi.trip",
         "pk": 6,
         "fields": {
-            "traveler": 1, 
+            "traveler": 1,
             "title": "Maine",
-            "image_url": "", 
-            "start_date": "2022-09-10", 
+            "image_url": "",
+            "start_date": "2022-09-10",
             "end_date": "2022-09-25",
-            "weather": "Turpis in eu mi bibendum neque egestas congue.", 
-            "notes": "Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Quam vulputate dignissim suspendisse in est. Sed lectus vestibulum mattis ullamcorper velit.", 
+            "weather": "Turpis in eu mi bibendum neque egestas congue.",
+            "notes": "Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Quam vulputate dignissim suspendisse in est. Sed lectus vestibulum mattis ullamcorper velit.",
             "public": true,
             "complete": true
         }
@@ -93,13 +93,13 @@
         "model": "roamapi.trip",
         "pk": 7,
         "fields": {
-            "traveler": 1, 
+            "traveler": 1,
             "title": "Minnesota",
-            "image_url": "", 
-            "start_date": "2022-11-09", 
+            "image_url": "",
+            "start_date": "2022-11-09",
             "end_date": "2022-11-13",
-            "weather": "Egestas congue quisque egestas diam in.", 
-            "notes": "Amet consectetur adipiscing elit pellentesque habitant. Ornare suspendisse sed nisi lacus sed viverra tellus in hac. Pellentesque id nibh tortor id. Molestie ac feugiat sed lectus vestibulum.", 
+            "weather": "Egestas congue quisque egestas diam in.",
+            "notes": "Amet consectetur adipiscing elit pellentesque habitant. Ornare suspendisse sed nisi lacus sed viverra tellus in hac. Pellentesque id nibh tortor id. Molestie ac feugiat sed lectus vestibulum.",
             "public": true,
             "complete": true
         }
@@ -108,13 +108,13 @@
         "model": "roamapi.trip",
         "pk": 8,
         "fields": {
-            "traveler": 1, 
+            "traveler": 1,
             "title": "Foster Falls",
-            "image_url": "", 
-            "start_date": "2022-06-12", 
-            "end_date": "2022-06-16", 
+            "image_url": "",
+            "start_date": "2022-06-12",
+            "end_date": "2022-06-16",
             "weather": "Lacus vestibulum sed arcu non odio euismod.",
-            "notes": "Commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit. Feugiat vivamus at augue eget. Purus ut faucibus pulvinar elementum integer enim neque volutpat. Sit amet est placerat in egestas erat imperdiet. Nibh tellus molestie nunc non blandit.", 
+            "notes": "Commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit. Feugiat vivamus at augue eget. Purus ut faucibus pulvinar elementum integer enim neque volutpat. Sit amet est placerat in egestas erat imperdiet. Nibh tellus molestie nunc non blandit.",
             "public": false,
             "complete": true
         }
@@ -123,13 +123,13 @@
         "model": "roamapi.trip",
         "pk": 9,
         "fields": {
-            "traveler": 1, 
+            "traveler": 1,
             "title": "Washington",
-            "image_url": "", 
-            "start_date": "2023-04-29", 
-            "end_date": "2023-06-17", 
+            "image_url": "",
+            "start_date": "2023-04-29",
+            "end_date": "2023-06-17",
             "weather": "Ac turpis egestas maecenas pharetra convallis posuere morbi.",
-            "notes": "Aenean et tortor at risus viverra adipiscing. Lorem ipsum dolor sit amet consectetur. Arcu bibendum at varius vel. Enim facilisis gravida neque convallis a cras semper. Blandit massa enim nec dui nunc mattis enim. Sagittis eu volutpat odio facilisis mauris sit amet massa.", 
+            "notes": "Aenean et tortor at risus viverra adipiscing. Lorem ipsum dolor sit amet consectetur. Arcu bibendum at varius vel. Enim facilisis gravida neque convallis a cras semper. Blandit massa enim nec dui nunc mattis enim. Sagittis eu volutpat odio facilisis mauris sit amet massa.",
             "public": false,
             "complete": false
         }
@@ -138,13 +138,13 @@
         "model": "roamapi.trip",
         "pk": 10,
         "fields": {
-            "traveler": 2, 
+            "traveler": 2,
             "title": "Chattanooga",
-            "image_url": "", 
-            "start_date": "2022-10-01", 
+            "image_url": "",
+            "start_date": "2022-10-01",
             "end_date": "2023-10-03",
-            "weather": "Nulla facilisi etiam dignissim diam quis enim. In egestas erat imperdiet sed euismod.", 
-            "notes": "Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Condimentum lacinia quis vel eros. Quis ipsum suspendisse ultrices gravida dictum fusce ut. Iaculis nunc sed augue lacus viverra. Tellus pellentesque eu tincidunt tortor aliquam. ", 
+            "weather": "Nulla facilisi etiam dignissim diam quis enim. In egestas erat imperdiet sed euismod.",
+            "notes": "Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Condimentum lacinia quis vel eros. Quis ipsum suspendisse ultrices gravida dictum fusce ut. Iaculis nunc sed augue lacus viverra. Tellus pellentesque eu tincidunt tortor aliquam. ",
             "public": false,
             "complete": true
         }
@@ -153,13 +153,28 @@
         "model": "roamapi.trip",
         "pk": 11,
         "fields": {
-            "traveler": 2, 
+            "traveler": 2,
             "title": "North Carolina",
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018941/Roam/northcarolina-3_gpzghb.jpg", 
-            "start_date": "2021-02-02", 
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018941/Roam/northcarolina-3_gpzghb.jpg",
+            "start_date": "2021-02-02",
             "end_date": "2021-02-04",
-            "weather": "Quis risus sed vulputate odio ut. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis.", 
-            "notes": "Commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit. Feugiat vivamus at augue eget. Purus ut faucibus pulvinar elementum integer enim neque volutpat. Sit amet est placerat in egestas erat imperdiet. Nibh tellus molestie nunc non blandit.", 
+            "weather": "Quis risus sed vulputate odio ut. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis.",
+            "notes": "Commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit. Feugiat vivamus at augue eget. Purus ut faucibus pulvinar elementum integer enim neque volutpat. Sit amet est placerat in egestas erat imperdiet. Nibh tellus molestie nunc non blandit.",
+            "public": false,
+            "complete": true
+        }
+    },
+    {
+        "model": "roamapi.trip",
+        "pk": 12,
+        "fields": {
+            "traveler": 2,
+            "title": "North Carolina",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018941/Roam/northcarolina-3_gpzghb.jpg",
+            "start_date": "2021-02-02",
+            "end_date": "2021-02-04",
+            "weather": "Quis risus sed vulputate odio ut. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis.",
+            "notes": "Commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit. Feugiat vivamus at augue eget. Purus ut faucibus pulvinar elementum integer enim neque volutpat. Sit amet est placerat in egestas erat imperdiet. Nibh tellus molestie nunc non blandit.",
             "public": false,
             "complete": true
         }
