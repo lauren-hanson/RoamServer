@@ -37,9 +37,9 @@ class TripView(ViewSet):
             upcoming_trips = Trip.objects.filter(
                 Q(end_date__gte=today) & Q(traveler_id=traveler))
             # merge the two lists
-            trips = list(trips) + list(upcoming_trips)
+            trips = list(upcoming_trips)
 
-        elif "complete" in request.query_params:
+        elif "past" in request.query_params:
             today = date.today()
             # filter trips that have already ended or are ongoing
             past_and_ongoing_trips = Trip.objects.filter(
