@@ -34,5 +34,68 @@
             "bio": "Hi! My name is Nigel! Traveling in the van is my favorite. It's got a comfy bed, a little kitchen, and plenty of toys for me to play with. We drive all over the place, from the mountains to the beaches, and everywhere in between. We hike, swim, and explore new places every day.",
             "profile_image_url": "file:///Users/lohanson/Desktop/ROAM%20-%20photos/nigel.jpg"
         }
+    },
+    {
+        "model": "roamapi.traveler",
+        "pk": 5,
+        "fields": {
+            "user": 5,
+            "bio": "Hi! My name is Emily! I am a passionate traveler who loves exploring new destinations and immersing herself in different cultures. I have been on the road for several years now, visiting countries all around the world and documenting my adventures through my blog and social media channels. I'm always on the lookout for new experiences and willing to step out of my comfort zone to try something new. From hiking through remote mountains to sampling exotic foods, I'm always up for an adventure.",
+            "profile_image_url": "https://ca.slack-edge.com/T03F2SDTJ-U043CU3TMA7-68a4d5d18376-512"
+        }
+    },
+    {
+        "model": "roamapi.traveler",
+        "pk": 6,
+        "fields": {
+            "user": 6,
+            "bio": "Hi there! My name is Jes and I'm a passionate traveler who's always eager to explore new destinations and cultures. I've been fortunate enough to have traveled extensively across the world, from backpacking through Southeast Asia to road tripping across the US. For me, travel is not just a hobby, but a way of life. I believe that it's through travel that we gain a deeper understanding and appreciation of the world we live in. I love immersing myself in different cultures and experiencing local traditions and customs. From trying new foods to learning about different religious practices, I'm always eager to broaden my horizons. Travel has also taught me the importance of sustainability and responsible tourism, and I try to make sure that I give back to the communities I visit in any way that I can. Whether I'm hiking through mountains or lounging on a beach, I always feel at home when I'm traveling. There's nothing quite like the feeling of being on the road, free to explore and discover all the wonders that the world has to offer.",
+            "profile_image_url": "https://ca.slack-edge.com/T03F2SDTJ-U03UPM9PHEZ-4df6f16c0550-512"
+        }
+    },
+    {
+        "model": "roamapi.traveler",
+        "pk": 7,
+        "fields": {
+            "user": 7,
+            "bio": "Hey there, I'm Nick, and I've always had a passion for traveling and experiencing new places and cultures. My wife and I have been fortunate enough to visit many amazing destinations, from the bustling streets of Tokyo to the tranquil beaches of Bali. Now that we've just had a baby, we're excited to start exploring the world with our little one in tow. As a traveler, I love to immerse myself in local culture, trying new foods, and learning about the history and customs of the places I visit. I also enjoy outdoor activities like hiking and camping, and we're looking forward to introducing our child to these adventures as well. While having a baby may make traveling a bit more challenging, we're excited to embrace the new experiences and opportunities that come with traveling as a family. We're already planning our next adventure and can't wait to see where our wanderlust takes us next.",
+            "profile_image_url": "https://ca.slack-edge.com/T03F2SDTJ-U0402BJNZ8Q-7dc4a1ade1c4-512"
+        }
+    },
+    {
+        "model": "roamapi.traveler",
+        "pk": 8,
+        "fields": {
+            "user": 8,
+            "bio": "My name is Maegan and I love to travel with my husband and our children. We've been exploring the world together since before we had kids and we've made it a priority to continue adventuring as a family. We've traveled to many places around the world, from the beaches of Bali to the mountains of Switzerland. As a family, we love to experience new cultures and try new foods. We also enjoy outdoor activities like hiking, swimming, and camping. Traveling with kids can be challenging at times, but it's always worth it to see the excitement and wonder in their eyes as they discover new places. We believe that travel is one of the best ways to learn about the world and ourselves. It teaches us about different cultures, opens our minds to new perspectives, and helps us appreciate the beauty and diversity of our planet. We're excited to continue exploring together as a family and sharing our adventures with others.",
+            "profile_image_url": "https://ca.slack-edge.com/T03F2SDTJ-U03UL2LP23G-2977701ddcdc-512"
+        }
+    },
+    {
+        "model": "roamapi.traveler",
+        "pk": 9,
+        "fields": {
+            "user": 9,
+            "bio": "Hey there, I'm Ryan! I'm a full-time traveler who converted my trusty Prius into a cozy little home on wheels. My partner Miriam and I love exploring new places, meeting new people, and experiencing all that this beautiful world has to offer. We're always on the lookout for hidden gems, whether it's a little-known hiking trail or a hole-in-the-wall restaurant with amazing food. We've traveled all over the United States, from the deserts of the Southwest to the mountains of the Pacific Northwest, and we're constantly dreaming up new adventures. Our Prius may not be the most spacious of homes, but it's perfect for us and our nomadic lifestyle. We love the freedom and flexibility that comes with traveling on the road, and we can't imagine ever going back to a 'normal' life. Thanks for following along on our journey!",
+            "profile_image_url": "https://ca.slack-edge.com/T03F2SDTJ-U03UL2LP23G-2977701ddcdc-512"
+        }
+    },
+    {
+        "model": "roamapi.traveler",
+        "pk": 10,
+        "fields": {
+            "user": 10,
+            "bio": "Hey there, I'm Jacob, and I'm a part-time RV traveler. My wife and I have been hitting the road in our RV for a few years now, and we absolutely love it. We still have a home base in the city, but we try to get away as often as we can to explore new places and see what this beautiful country has to offer. One of the best things about RV travel is the flexibility it gives us. We can go wherever we want, whenever we want, and we always have our home with us. We've been able to see so many amazing sights and meet incredible people on our travels, and we feel really fortunate to have these experiences. Of course, RV travel also comes with its challenges. There's always some maintenance or repairs to take care of, and living in a smaller space can be tough sometimes. But for us, the benefits far outweigh the downsides. We're always on the lookout for our next adventure, and we love sharing our experiences with others. Whether it's through our blog, social media, or just chatting with fellow travelers we meet on the road, we're excited to be part of this amazing community of RV enthusiasts.",
+            "profile_image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679275145/Roam/jacob_erun2a.jpg"
+        }
+    },
+    {
+        "model": "roamapi.traveler",
+        "pk": 11,
+        "fields": {
+            "user": 11,
+            "bio": "Hey, I'm Kevan! I love escaping the hustle and bustle of the city and going on camping trips. There's nothing like being surrounded by nature and breathing in fresh air. I love hiking and exploring new trails, and I've even started to get into trail running. There's something so invigorating about being out in the wilderness and pushing myself physically. I've camped in some amazing places, from national parks to remote forests, and I'm always on the lookout for new spots to explore. There's nothing quite like sitting around a campfire with good friends and sharing stories under the stars. Camping has taught me to slow down and appreciate the simple things in life, and I look forward to many more adventures in the great outdoors!",
+            "profile_image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679275145/Roam/kevan_jqtgzr.jpg"
+        }
     }
 ]
