@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from rest_framework import serializers, status
 from django.db.models import Q
 from rest_framework.decorators import action
+from django.db.models import Count
 from django.contrib.auth.models import User
 from roamapi.models import Traveler, Subscription
 
@@ -53,9 +54,9 @@ class TravelerView(ViewSet):
             Response -- JSON serialized list of travelers
         """
         travelers = Traveler.objects.all()
-        # travelers = Traveler.objects.annotate(
-        #     followers_count=Count('subscribers')
-        # )
+        travelers = Traveler.objects.annotate(
+            followers_count=Count('subscribers')
+        )
 
         for traveler in travelers:
             subscriptions = Subscription.objects.filter(Q(subscriber__user=request.auth.user) & Q(traveler_id=traveler))
@@ -108,8 +109,9 @@ class UserSerializer(serializers.ModelSerializer):
 class TravelerSerializer(serializers.ModelSerializer):
 
     user = UserSerializer(many=False)
+    followers_count = serializers.IntegerField(default=None)
     subscriber = SubscriberSerializer(many=True)
 
     class Meta:
         model = Traveler
-        fields = ('id', 'user', 'bio', 'profile_image_url', 'subscriber', 'subscribed',)
+        fields = ('id', 'user', 'bio', 'profile_image_url', 'subscriber', 'subscribed', 'followers_count', 'full_name', )
