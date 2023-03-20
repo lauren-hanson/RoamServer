@@ -11,7 +11,7 @@
             "weather": "Although it was a bit chilly, the weather in Arizona was beautiful and perfect for enjoying the stunning scenery.",
             "notes": "During our trip to Arizona, we stayed at two beautiful locations: Tonto and Sedona. Tonto is a stunning wilderness area located near Payson, Arizona, with rugged mountains, deep canyons, and sparkling lakes. We spent a few days exploring the area, hiking to scenic vistas, and enjoying the beautiful scenery. After our time in Tonto, we headed to Sedona, a picturesque town surrounded by red rock formations and stunning natural beauty. We spent several days exploring the area, hiking to beautiful trails, and visiting some of the local landmarks like Cathedral Rock and Bell Rock. We also enjoyed some delicious food at the local restaurants and shopped at some of the unique stores in town. Overall, our trip to Arizona was a wonderful experience, filled with natural beauty, outdoor adventures, and relaxation. Tonto and Sedona were two amazing locations that we will never forget!",
             "public": true,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -26,7 +26,7 @@
             "weather": "Despite the scorching hot weather, we had a blast staying on the beach enjoying the laid-back beach life.",
             "notes": "For our birthday trip, we traveled to South Carolina, a state known for its southern charm, rich history, and beautiful coastal scenery. We stayed just outside of Charleston on a small island, where we enjoyed the warm weather and the beautiful beach.During your stay, you explored the charming city of Charleston, known for its historic architecture, cobblestone streets, and world-class cuisine. We visited the famous Battery Park, which offers breathtaking views of Fort Sumter, the harbor, and the iconic Ravenel Bridge. In addition to exploring Charleston, we spent time on the beach of the small island where we stayed. We soaked up the sun, swam in the ocean, and enjoyed the beautiful scenery. We also indulged in some of the delicious seafood and southern cuisine that the region is known for, including fresh shrimp and grits, fried green tomatoes, and sweet tea. Overall, our birthday trip to South Carolina was a wonderful experience, filled with beautiful scenery, southern charm, and delicious food. It was a perfect way to celebrate our special day!",
             "public": true,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -41,7 +41,7 @@
             "weather": "The warmer weather in St. Pete is perfect for lounging on the beach, enjoying water sports, and exploring the city's many outdoor attractions.",
             "notes": "During our trip to St. Petersburg, Florida, we had an amazing time exploring all the city had to offer. We spent our days soaking up the sun on the beautiful beaches, strolling through art galleries and museums, and indulging in delicious local cuisine. In the evenings, we explored the vibrant nightlife scene in St. Petersburg. We went to live music venues, checked out bars and clubs, and enjoyed some of the city's best seafood restaurants. Overall, our trip to St. Petersburg was a wonderful adventure that we will always treasure. We had the perfect mix of relaxation, culture, and fun, and it was made even better by the company of our best childhood friends and our beloved aunt and grandma.",
             "public": true,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -56,7 +56,7 @@
             "weather": "When we arrived in Colorado for our fall trip, we were greeted with the first major cold front of the season, which added an extra layer of excitement to our outdoor adventures.",
             "notes": "During our trip to Colorado, we had an amazing time exploring Denver's many attractions and , from its vibrant nightlife to its diverse cuisine and art scene. I also enjoyed the nature surrounding the city, like hiking in the nearby Rocky Mountains and exploring the beautiful city parks. After a few days in Denver, we decided to make a last-minute detour to Moab to meet up with some friends for some climbing. Moab was everything I hoped it would be: breathtaking natural scenery and challenging outdoor activities that really got our adrenaline pumping. On the way back home, I stopped at Black Canyon of the Gunnison, a stunning national park that exceeded our expectations with its awe-inspiring canyon views and challenging hiking trails. This was a great way to wrap up our trip and experience some of the natural beauty that Colorado has to offer. Overall, our trip to Colorado was an unforgettable adventure that combined the excitement of outdoor activities with the cultural experiences of city life, all while spending quality time with our friends.",
             "public": true,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -71,7 +71,7 @@
             "weather": "Although the weather was warm and beautiful during the day, you needed to bundle up in the evenings to stay warm and cozy while enjoying the stunning lakeside views from the comfort of your lake house.",
             "notes": "My family took a trip to Michigan and stayed in a lake house for Labor Day weekend. The lake house provided a perfect opportunity for relaxation and outdoor activities like swimming, fishing, and boating. We enjoyed quality time with family while taking in the beauty of Michigan's natural scenery. It was a great way to make memories with loved ones and enjoy some rest and relaxation away from the hustle and bustle of daily life.",
             "public": true,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -86,7 +86,7 @@
             "weather": "Although the weather was pretty chilly during our trip, the stunning natural beauty of the coastal landscapes and the mountains more than made up for it, creating an absolutely beautiful and unforgettable experience.",
             "notes": "During our trip to Maine, we had an amazing time exploring the charming city of Portland, with its unique blend of history, culture, and seaside beauty. After soaking up the city vibes, we made our way up the coast and camped in Acadia National Park. The park's rugged cliffs and scenic trails provided the perfect backdrop for some hiking and climbing adventures. But the fun didn't stop there! We then made our way to Plymouth, New Hampshire, where we found even more opportunities for climbing at the legendary Rumney crag. The challenging routes and stunning views made for an unforgettable experience that was definitely worth the drive. Overall, our trip to Maine and New Hampshire was an incredible adventure that combined the best of coastal beauty, outdoor adventure, and cultural exploration. It was a great opportunity to bond with friends, push our limits, and create memories that will last a lifetime.",
             "public": true,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -101,7 +101,7 @@
             "weather": "The freezing weather didn't keep us from enjoying some outdoor activities. We bundled up and were able to take in the city's unique charm.",
             "notes": "During our weekend trip to Minneapolis, we had a unique work opportunity that allowed us to park at a climbing gym, which was a great way to make the most of our limited free time. Despite the short duration of our trip, we were able to experience some of the city's cultural and culinary highlights, making it a memorable and productive weekend.",
             "public": true,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -116,7 +116,7 @@
             "weather": "Perfect weather for climbing, with warm and sunny days that made for a comfortable and enjoyable experience. It was a perfect summer weekend spend in the great outdoors",
             "notes": "Our weekend trip to Foster Falls State Park was an epic climbing adventure that we'll never forget! With the company of some close friends, we were able to challenge ourselves on some of the park's most thrilling routes. The natural beauty of the park's rock formations and surrounding forests added to the overall experience, creating a serene and awe-inspiring atmosphere. Even with the physical demands of the climb, we still found time to unwind and enjoy the simple pleasures of camping and sharing meals with our friends. Overall, our trip to Foster Falls was a perfect blend of adventure, camaraderie, and natural beauty that we'll always cherish.",
             "public": false,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -146,7 +146,7 @@
             "weather": "Luckily, the weather during my work trip to Chattanooga was absolutely delightful, with crisp and cool temperatures that provided the perfect backdrop for exploring the city and its surroundings. The fall foliage was in full bloom, making for a stunning visual display that added to the overall charm and appeal of the area.",
             "notes": "My recent work trip to Chattanooga was a unique experience that allowed me to explore a city I've really frown to love while also attending to my professional obligations. Although my schedule was packed with work, I still managed to find time to explore the city's vibrant culture and stunning natural surroundings. I am always impressed by Chattanooga's thriving arts scene, with numerous galleries, museums, and performance venues that showcased the city's creative spirit. In between work obligations, I also had the chance to hike and explore some of the nearby natural attractions, including Lookout Mountain and the stunning waterfalls at Rock City Gardens. The scenic beauty of the area provided a much-needed break from the hustle and bustle of my busy schedule, allowing me to recharge and reconnect with nature. Overall, my trip to Chattanooga was a memorable experience that combined business and pleasure in a unique and rewarding way.",
             "public": false,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -161,7 +161,7 @@
             "weather": "The weather was perfect for exploring, with warm sunshine and blue skies that made it feel like summertime all over again.",
             "notes": "We went on an amazing trip to North Carolina and were able to visit my mom. We had a fantastic time exploring Asheville, with its vibrant culture and delicious food scene. One of the highlights of the trip was hiking up Mount Mitchell, which offered stunning views of the surrounding landscapes and a chance to breathe in the fresh mountain air. Driving along the Blue Ridge Parkway was an experience in and of itself, with winding roads that showcased the natural beauty of the region. We also had a great time bonding with Baxter's mother and catching up on each other's lives. Overall, our trip to North Carolina was a wonderful chance to relax and explore the natural and cultural attractions of the region. The beautiful scenery, warm company, and delicious food made it a trip to remember.",
             "public": false,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -176,7 +176,7 @@
             "weather": "Although the trip was filled with incredible sights and experiences, we did have to bundle up against the chilly weather that greeted us in North Carolina.",
             "notes": "Recently, I embarked on a thrilling adventure with my partner in our new van to North Carolina near Nantahala Forest. We were eager to test out our new home on wheels and explore the beauty of the region. Driving through the scenic roads surrounded by the lush forests and mountains was an experience in and of itself. We stopped at picturesque towns and local markets, indulging in delicious food. One of the highlights of our trip was spending time near Nantahala Forest, with its pristine waterfalls, glistening lakes, and vast hiking trails. Our maiden voyage in the van was an unforgettable experience, filled with new discoveries and thrilling adventures. It was an amazing way to connect with nature, each other, and our new home on wheels.",
             "public": false,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -191,7 +191,7 @@
             "weather": "Despite a few rainy days, the trip was filled with beautiful sunshine and warm temperatures, making for perfect hiking and exploring weather.",
             "notes": "Last summer, I took a road trip with some friends to explore the Southwest. We started in Las Vegas, Nevada, and drove through Arizona, Utah, and Colorado. Along the way, we visited some of the most iconic national parks in the region, including Zion, Bryce Canyon, Arches, and Mesa Verde. We also did some hiking and rock climbing in each park, which was challenging but incredibly rewarding. One of my favorite moments was watching the sunset over the Grand Canyon - it was absolutely breathtaking. Overall, it was an amazing adventure that I'll never forget!",
             "public": false,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -206,7 +206,7 @@
             "weather": "I experienced some unexpected rain and thunderstorms during her trip, but I made the most of it by exploring indoor activities and taking in the unique beauty of the wet landscapes.",
             "notes": "I recently took a trip to explore the natural beauty of the Pacific Northwest in the United States. From hiking in the Cascade Mountains to kayaking in the Puget Sound, every day was filled with new adventures and stunning scenery. One of the highlights of the trip was visiting Olympic National Park, where I was amazed by the diversity of landscapes - from lush rainforests to rugged beaches. I also had the chance to explore the quirky city of Portland, where I indulged in delicious food and enjoyed the vibrant street art scene. Throughout my journey, I was struck by the kindness and warmth of the locals, who welcomed me with open arms and shared their unique stories and traditions. The trip reminded me of the incredible diversity and beauty of our own country, and reinforced my love for exploring new places and cultures.",
             "public": false,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -221,7 +221,7 @@
             "weather": "The weather during our trip was warm and sunny, perfect for outdoor activities like hiking and swimming.",
             "notes": "We recently embarked on a cross-country road trip, starting in New York City and ending in San Francisco. It took three weeks to make the journey, stopping at national parks, roadside attractions, and big cities along the way. Some of the highlights of our trip included seeing the Grand Canyon, hiking in Yosemite National Park, and exploring the vibrant culture of New Orleans. Despite some challenges, such as a flat tire in the middle of the desert, we bonded over the shared experience of traveling together and creating lasting memories.",
             "public": false,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -236,7 +236,7 @@
             "weather": "The weather during our trip was warm and sunny, perfect for outdoor activities like hiking and swimming.",
             "notes": "We recently took a road trip through the Pacific Northwest with the family. We explored the natural beauty of the region, visiting national parks and hiking trails along the way. Some of the highlights of their trip included seeing the stunning waterfalls in Oregon, spotting wildlife in Yellowstone National Park, and camping under the stars in the remote wilderness of Montana. We also made sure to immerse ourselves in local culture, sampling the delicious seafood in Seattle and visiting a Native American reservation to learn about the area's history and traditions. Overall, it was an unforgettable adventure that brought the family closer together and left us with memories to last a lifetime.",
             "public": false,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -251,7 +251,7 @@
             "weather": "The weather during our trip was mostly great fall weather, but there were a few chilly nights that caught us off guard. We had to bundle up and cozy up in our sleeping bags to stay warm, but the stunning views and adventures we experienced during the day made it all worthwhile",
             "notes": "We recently embarked on a memorable road trip that took us from Wyoming to Utah and eventually to Mexico. As always, we packed up our trusty Prius and hit the road, eager to explore new terrain and soak in the beauty of nature. Our first stop was in Wyoming, where we were blown away by the stunning Grand Teton National Park. We spent several days hiking and camping in the area, taking in the majestic mountains and breathtaking views. From there, we headed to Utah, where we explored the otherworldly landscapes of Arches National Park and Canyonlands National Park. The rock formations and canyons were unlike anything we had ever seen before, and we felt truly humbled by the power and beauty of nature. As we continued south, we found ourselves drawn to the vibrant culture and cuisine of Mexico. We spent several weeks exploring the country, from the bustling streets of Mexico City to the tranquil beaches of Tulum. We sampled delicious street food, visited ancient ruins, and met many friendly locals along the way. Despite some unexpected challenges, like car trouble and language barriers, we felt grateful for the experience and the opportunity to explore new places and cultures. As always, our trusty Prius proved to be the perfect companion, taking us on many unforgettable adventures.",
             "public": false,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -266,7 +266,7 @@
             "weather": "",
             "notes": "I was buzzing with excitement as I packed my backpack for my upcoming adventure on the Appalachian Trail. My cousin and I had been planning this trip for months and the time had finally come. We had chosen a section of the trail near DC, where we planned to spend the next few days hiking and camping in the great outdoors. As I arrived at the trailhead, I felt a sense of anticipation and wonder. The leaves were beginning to change, and the crisp fall air was invigorating. My cousin and I started our hike, the familiar crunch of leaves beneath our feet providing a steady rhythm. The trail was challenging but breathtaking, winding through towering trees and across babbling streams. As we set up camp each night, I felt a sense of accomplishment and gratitude for the opportunity to experience such natural beauty. We cooked our meals over a campfire and spent hours chatting about our lives, sharing stories, and enjoying each other's company. On the last day of our hike, we reached the end of our section of the trail, and I felt a sense of sadness and longing. I didn't want our adventure to end, but I knew that I would always carry with me the memories and lessons learned from our time in nature. As I made my way back home, I felt a renewed appreciation for the simple pleasures of life and the importance of connecting with the natural world. I knew that this wouldn't be my last backpacking trip, and I couldn't wait to plan my next adventure on the trail.",
             "public": false,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -281,7 +281,7 @@
             "weather": "",
             "notes": "I'm beyond excited for my upcoming trip to San Francisco! In just a few weeks, I'll be flying out to the City by the Bay to embark on a classic American road trip up the California coast. I've always been enamored with the idea of driving along the Pacific Ocean, and I can't wait to finally experience it for myself. As soon as I touch down in San Francisco, I'll head straight to the car rental desk to pick up my trusty steed for the journey – a sleek, sporty convertible that's perfect for cruising along the winding coastal roads. I've already mapped out my route, which will take me north through some of the most breathtaking scenery in the country. My first stop will be the iconic Golden Gate Bridge, where I'll pause to take in the stunning views of the city skyline and the surrounding hills. From there, I'll head up Highway 1 towards the charming coastal town of Mendocino, where I plan to spend a night in a cozy bed and breakfast overlooking the ocean. The next day, I'll hit the road early to continue my journey north through towering redwood forests and rugged coastal cliffs. I'm looking forward to exploring some of the hidden coves and beaches along the way, as well as stopping at some of the quaint towns and fishing villages that dot the coastline. My final destination will be the picturesque seaside city of Eureka, where I'll spend a few days soaking up the laid-back California vibe and enjoying the local seafood. I'm planning on taking a scenic boat tour of the bay, as well as hiking in some of the nearby state parks. All in all, I'm counting down the days until my adventure begins. There's nothing quite like the thrill of hitting the open road and discovering new places, and I can't wait to see what this trip has in store for me.",
             "public": false,
-            "complete": true
+            "complete": false
         }
     },
     {
@@ -296,7 +296,7 @@
             "weather": "",
             "notes": "I'm getting excited about my upcoming trip to Michigan to meet up with my family. It's a tradition for us to visit a remote island that's only accessible by kayaking. This place is truly a gem - no cell phone service, no internet, and no distractions from the outside world. Just the peaceful sounds of nature and quality time spent with my loved ones. We'll start the journey by renting kayaks and paddling our way to the island. It's a challenging trip, but the scenery along the way makes it all worth it. The island is surrounded by crystal clear water and pristine beaches, and the only sounds are the gentle lapping of waves and the chirping of birds. Once we arrive on the island, we'll set up our tents and begin our daily routine of fishing, hiking, and exploring. We'll build a campfire each night and sit around it, sharing stories and roasting marshmallows.I can't wait to disconnect from the outside world and spend some quality time with my family. This trip is always a highlight of the year, and I'm looking forward to creating new memories and enjoying the simple pleasures of life on the island.",
             "public": false,
-            "complete": true
+            "complete": false
         }
     }
 ]

@@ -63,7 +63,9 @@ class TripView(ViewSet):
             end_date=request.data['endDate'],
             notes=request.data['notes'],
             title=request.data['title'],
-            public=request.data['public']
+            image_url=request.data['image_url'],
+            public=request.data['public'],
+            complete=request.data['complete']
         )
 
         tags_selected = request.data['tag']
