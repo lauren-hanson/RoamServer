@@ -28,6 +28,10 @@ class TripView(ViewSet):
         if "user" in request.query_params:
             trips = Trip.objects.filter(traveler_id=traveler)
 
+        elif "subscribed" in request.query_params:
+            trips = Trip.objects.filter(traveler__in=Traveler.objects.filter(subscribers__user=request.auth.user)).order_by("-publication_date")
+            print(trips.query)
+
         elif "upcoming" in request.query_params:
             today = date.today()
             # filter trips that have already ended
@@ -147,5 +151,5 @@ class TripSerializer(serializers.ModelSerializer):
     class Meta:
         model = Trip
         fields = ('id', 'start_date', 'end_date', 'notes',
-                  'weather', 'destination', 'tag', 'title', 'public', 'complete', 'image_url', 'traveler', )
+                  'weather', 'destination', 'tag', 'title', 'public', 'complete', 'image_url', 'traveler', 'publication_date', )
         depth = 1
