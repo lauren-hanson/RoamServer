@@ -1,5 +1,5 @@
 from .destination import Destination
-from .follower import Follower
+from .subscription import Subscription
 from .tag import Tag
 from .traveler import Traveler
 from .trip_destination import TripDestination 
