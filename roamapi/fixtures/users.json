@@ -152,5 +152,19 @@
             "date_joined": "2021-06-28T14:51:39.989Z",
             "is_active": true
         }
+    },
+    {
+        "model": "auth.user",
+        "pk": 12,
+        "fields": {
+            "first_name": "Machaela",
+            "last_name": "Scibilia",
+            "email": "mscibilia@email.com",
+            "username": "mscibilia",
+            "is_staff": false,
+            "password": "pbkdf2_sha256$216000$qMRH8szID7Z8$Vljya2V3XfruOHuvx1hGz9ZyKg4bxbw7rc2WO0gTR7I=",
+            "date_joined": "2021-06-28T14:51:39.989Z",
+            "is_active": true
+        }
     }
 ]

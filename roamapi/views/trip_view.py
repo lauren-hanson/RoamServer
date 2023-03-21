@@ -25,12 +25,13 @@ class TripView(ViewSet):
         trips = []
         traveler = Traveler.objects.get(user=request.auth.user)
 
-        if "user" in request.query_params:
-            trips = Trip.objects.filter(traveler_id=traveler)
-
-        elif "subscribed" in request.query_params:
+        if "subscribed" in request.query_params:
             trips = Trip.objects.filter(traveler__in=Traveler.objects.filter(subscribers__user=request.auth.user)).order_by("-publication_date")
             print(trips.query)
+        
+        elif "user" in request.query_params:
+            trips = Trip.objects.filter(traveler_id=traveler)
+
 
         elif "upcoming" in request.query_params:
             today = date.today()
@@ -124,7 +125,7 @@ class TripDestinationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Destination
-        fields = ('id', 'location', 'state', )
+        fields = ('id', 'location', 'state', 'latitude', 'longitude', )
 
 
 class TravelerSerializer(serializers.ModelSerializer):
