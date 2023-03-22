@@ -49,6 +49,11 @@ class ItemView(ViewSet):
 
         serializer = ItemSerializer(item)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
+    
+    def destroy(self, request, pk):
+        item = Item.objects.get(pk=pk)
+        item.delete()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
 
 
 class ItemCategorySerializer(serializers.ModelSerializer):
