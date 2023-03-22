@@ -83,7 +83,7 @@
         "model": "roamapi.trip",
         "pk": 6,
         "fields": {
-            "traveler": 1,
+            "traveler": 2,
             "title": "Maine",
             "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413410/Roam/camping-2_z6bs9m.jpg",
             "publication_date": "2022-03-07",
@@ -99,7 +99,7 @@
         "model": "roamapi.trip",
         "pk": 7,
         "fields": {
-            "traveler": 1,
+            "traveler": 2,
             "title": "Minnesota",
             "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679416368/Roam/minneapolis_tmcwwe.jpg",
             "publication_date": "2022-10-28",
@@ -181,7 +181,7 @@
         "fields": {
             "traveler": 2,
             "title": "North Carolina",
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018941/Roam/northcarolina-3_gpzghb.jpg",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679416005/Roam/van-9_iwrjj6.jpg",
             "publication_date": "2021-01-07",
             "start_date": "2021-02-02",
             "end_date": "2021-02-04",
@@ -276,7 +276,7 @@
         "pk": 18,
         "fields": {
             "traveler": 10,
-            "title": "Appalachian Trail",
+            "title": "Virginia",
             "image_url": "",
             "publication_date": "2022-05-29",
             "start_date": "2022-07-04",
@@ -292,7 +292,7 @@
         "pk": 20,
         "fields": {
             "traveler": 10,
-            "title": "Appalachian Trail",
+            "title": "San Francisco",
             "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413804/Roam/california_aycqi1.jpg",
             "publication_date": "2023-03-01",
             "start_date": "2023-05-04",
@@ -309,12 +309,44 @@
         "fields": {
             "traveler": 11,
             "title": "Michigan",
-            "image_url": "",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413411/Roam/campmichigan-4_fnkvd8.jpg",
             "publication_date": "2023-04-07",
             "start_date": "2023-09-09",
             "end_date": "2023-09-20",
             "weather": "",
             "notes": "I'm getting excited about my upcoming trip to Michigan to meet up with my family. It's a tradition for us to visit a remote island that's only accessible by kayaking. This place is truly a gem - no cell phone service, no internet, and no distractions from the outside world. Just the peaceful sounds of nature and quality time spent with my loved ones. We'll start the journey by renting kayaks and paddling our way to the island. It's a challenging trip, but the scenery along the way makes it all worth it. The island is surrounded by crystal clear water and pristine beaches, and the only sounds are the gentle lapping of waves and the chirping of birds. Once we arrive on the island, we'll set up our tents and begin our daily routine of fishing, hiking, and exploring. We'll build a campfire each night and sit around it, sharing stories and roasting marshmallows.I can't wait to disconnect from the outside world and spend some quality time with my family. This trip is always a highlight of the year, and I'm looking forward to creating new memories and enjoying the simple pleasures of life on the island.",
+            "public": false,
+            "complete": false
+        }
+    },
+    {
+        "model": "roamapi.trip",
+        "pk": 22,
+        "fields": {
+            "traveler": 12,
+            "title": "Golden",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413412/Roam/cabin_zbapmy.jpg",
+            "publication_date": "2022-06-07",
+            "start_date": "2022-09-17",
+            "end_date": "2022-09-28",
+            "weather": "",
+            "notes": "As soon as I arrived in Golden, Colorado, I knew that I had made the right decision to stay in a tiny cabin tucked away in the mountains. The cabin was cozy and charming, with just enough space for me to relax and unwind. Each day, I woke up to the sound of birds chirping and the gentle rustling of leaves outside my window. I spent my days exploring the breathtaking scenery, hiking through the rugged mountains and taking in the stunning views of the surrounding landscape. The tiny cabin was my perfect retreat at the end of each day. I would light a fire in the wood-burning stove, curl up with a good book and a cup of hot tea, and watch the stars twinkling in the sky through the cabin's window. I was grateful for the opportunity to disconnect from the hustle and bustle of city life and immerse myself in nature. It was just the break I needed to recharge my batteries and renew my spirit. I'll always treasure the memories of my trip to Golden Colorado and my stay in the little cabin tucked up in the mountains.",
+            "public": false,
+            "complete": false
+        }
+    },
+    {
+        "model": "roamapi.trip",
+        "pk": 23,
+        "fields": {
+            "traveler": 12,
+            "title": "Chamonix",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413804/Roam/montblanc_kf67bb.jpg",
+            "publication_date": "2019-09-07",
+            "start_date": "2019-09-09",
+            "end_date": "2019-09-17",
+            "weather": "",
+            "notes": "I had always dreamed of visiting Chamonix, and finally, my dream came true. From the moment I arrived, I was struck by the stunning natural beauty of the area, with the towering peaks of the French Alps rising up all around me. Each day, I would hit the slopes, taking on the challenging runs and reveling in the fresh mountain air. The scenery was simply breathtaking, with snow-capped mountains stretching out as far as the eye could see.In the evenings, I would retreat to my cozy chalet, where I could warm up by the fire and enjoy a hearty meal of French cuisine. The chalet was the perfect place to relax and unwind after a long day on the slopes.One of the highlights of my trip was taking the Aiguille du Midi cable car up to the summit of Mont Blanc. The views from the top were absolutely incredible, and I felt like I was on top of the world. All in all, my skiing trip to Chamonix was everything I had hoped it would be and more. It was a true adventure, filled with excitement, beauty, and unforgettable memories that I will cherish for a lifetime.",
             "public": false,
             "complete": false
         }
