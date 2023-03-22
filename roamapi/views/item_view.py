@@ -19,22 +19,46 @@ class ItemView(ViewSet):
 
         items_by_category = {}
 
-        for item in items: 
+        for item in items:
             category = item.category.type
-            if category not in items_by_category: 
+            if category not in items_by_category:
                 items_by_category[category] = []
-            items_by_category[category].append(ItemSerializer(item).data) 
+            items_by_category[category].append(ItemSerializer(item).data)
 
         return Response(items_by_category, status=status.HTTP_200_OK)
-    
 
-class ItemCategorySerializer(serializers.ModelSerializer): 
-    class Meta: 
+    # def create(self, request):
+
+    #     serializer = ItemSerializer(data=request.data)
+    #     if serializer.is_valid():
+    #         # item = serializer.save()
+    #         return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    #     # {'id': item.id}
+
+    #     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def create(self, request):
+
+        category_id = request.data.get('category')
+        category = Category.objects.get(pk=category_id)
+        item = Item.objects.create(
+            name=request.data['name'],
+            category=category,
+        )
+
+        serializer = ItemSerializer(item)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+
+class ItemCategorySerializer(serializers.ModelSerializer):
+    class Meta:
         model = Category
         fields = ('id', 'type', )
+
 
 class ItemSerializer(serializers.ModelSerializer):\
 
     class Meta:
         model = Item
-        fields = ('id', 'name', 'category',  )
+        fields = ('id', 'name', 'category',)

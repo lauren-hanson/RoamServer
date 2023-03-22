@@ -29,8 +29,13 @@ class TripView(ViewSet):
             trips = Trip.objects.filter(traveler_id=traveler)
 
         elif "subscribed" in request.query_params:
-            trips = Trip.objects.filter(traveler__in=Traveler.objects.filter(subscribers__user=request.auth.user)).order_by("-publication_date")
+            trips = Trip.objects.filter(traveler__in=Traveler.objects.filter(
+                subscribers__user=request.auth.user)).order_by("-publication_date")
             print(trips.query)
+
+        # elif "tag" in request.query_params:
+        #     tag_trips = request.query_params.getlist('tag')
+        #     trips = Trip.objects.filter(tag_id=tag_trips)
 
         elif "public" in request.query_params:
             trips = Trip.objects.filter(public=True).order_by('?')
