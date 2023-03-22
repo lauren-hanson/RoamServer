@@ -24,7 +24,9 @@ class DestinationView(ViewSet):
 
         destination = Destination.objects.create(
             location=request.data['location'],
-            state=request.data['state']
+            state=request.data['state'],
+            longitude=request.data['longitude'], 
+            latitude=request.data['latitude']
         )
 
         serializer = DestinationSerializer(destination)
@@ -57,4 +59,4 @@ class DestinationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Destination
-        fields = ('id', 'location', 'state', )
+        fields = ('id', 'location', 'state', 'latitude', 'longitude', )
