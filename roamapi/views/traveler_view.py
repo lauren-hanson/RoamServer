@@ -53,7 +53,7 @@ class TravelerView(ViewSet):
         Returns:
             Response -- JSON serialized list of travelers
         """
-        travelers = Traveler.objects.all()
+        travelers = Traveler.objects.all().order_by('?')
         travelers = Traveler.objects.annotate(
             followers_count=Count('subscribers')
         )
