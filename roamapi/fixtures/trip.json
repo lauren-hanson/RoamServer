@@ -85,7 +85,7 @@
         "fields": {
             "traveler": 1,
             "title": "Maine",
-            "image_url": "",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413410/Roam/camping-2_z6bs9m.jpg",
             "publication_date": "2022-03-07",
             "start_date": "2022-09-10",
             "end_date": "2022-09-25",
@@ -101,7 +101,7 @@
         "fields": {
             "traveler": 1,
             "title": "Minnesota",
-            "image_url": "",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679416368/Roam/minneapolis_tmcwwe.jpg",
             "publication_date": "2022-10-28",
             "start_date": "2022-11-09",
             "end_date": "2022-11-13",
@@ -117,7 +117,7 @@
         "fields": {
             "traveler": 1,
             "title": "Foster Falls",
-            "image_url": "",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413411/Roam/fosterfalls_dapgoa.jpg",
             "publication_date": "2022-06-02",
             "start_date": "2022-06-12",
             "end_date": "2022-06-16",
@@ -133,7 +133,7 @@
         "fields": {
             "traveler": 1,
             "title": "Washington",
-            "image_url": "",
+            "image_url": "https://globalgrasshopper.com/wp-content/uploads/2021/02/Mount-Rainier-National-Park-Washington.jpg",
             "publication_date": "2022-11-14",
             "start_date": "2023-04-29",
             "end_date": "2023-06-17",
@@ -149,7 +149,7 @@
         "fields": {
             "traveler": 2,
             "title": "Chattanooga",
-            "image_url": "",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413411/Roam/camping_lxiwz6.jpg",
             "publication_date": "2022-08-02",
             "start_date": "2022-10-01",
             "end_date": "2023-10-03",
@@ -165,7 +165,7 @@
         "fields": {
             "traveler": 1,
             "title": "Asheville",
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018941/Roam/northcarolina-3_gpzghb.jpg",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018929/Roam/mountmitchell_jfjja1.jpg",
             "publication_date": "2022-03-06",
             "start_date": "2022-06-12",
             "end_date": "2022-06-20",
@@ -197,7 +197,7 @@
         "fields": {
             "traveler": 5,
             "title": "Grand Canyon",
-            "image_url": "",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018940/Roam/tonto-1_p0u6sj.jpg",
             "publication_date": "2021-04-25",
             "start_date": "2021-07-02",
             "end_date": "2021-07-14",
@@ -213,7 +213,7 @@
         "fields": {
             "traveler": 6,
             "title": "Oregon",
-            "image_url": "",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018922/Roam/utah-5_lacva1.jpg",
             "publication_date": "2019-01-06",
             "start_date": "2019-03-07",
             "end_date": "2019-04-21",
@@ -229,7 +229,7 @@
         "fields": {
             "traveler": 7,
             "title": "San Francisco",
-            "image_url": "",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413804/Roam/beach_nz6pdj.jpg",
             "publication_date": "2022-03-02",
             "start_date": "2022-06-07",
             "end_date": "2022-07-07",
@@ -245,7 +245,7 @@
         "fields": {
             "traveler": 8,
             "title": "Pacific Northwest",
-            "image_url": "",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413409/Roam/falaise_slwtyt.jpg",
             "publication_date": "2022-04-22",
             "start_date": "2022-08-04",
             "end_date": "2022-08-22",
@@ -261,7 +261,7 @@
         "fields": {
             "traveler": 9,
             "title": "Wyoming",
-            "image_url": "",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018941/Roam/utah_rwgned.jpg",
             "publication_date": "2022-05-07",
             "start_date": "2022-09-04",
             "end_date": "2022-11-22",
@@ -293,7 +293,7 @@
         "fields": {
             "traveler": 10,
             "title": "Appalachian Trail",
-            "image_url": "",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413804/Roam/california_aycqi1.jpg",
             "publication_date": "2023-03-01",
             "start_date": "2023-05-04",
             "end_date": "2023-05-30",
