@@ -54,5 +54,33 @@
         "fields": {
             "type": "Van"
         }
+    }, 
+    {
+        "model": "roamapi.tag",
+        "pk": 9,
+        "fields": {
+            "type": "RV"
+        }
+    }, 
+    {
+        "model": "roamapi.tag",
+        "pk": 10,
+        "fields": {
+            "type": "Mountain Biking"
+        }
+    }, 
+    {
+        "model": "roamapi.tag",
+        "pk": 11,
+        "fields": {
+            "type": "Skiing"
+        }
+    }, 
+    {
+        "model": "roamapi.tag",
+        "pk": 12,
+        "fields": {
+            "type": "Snowboarding"
+        }
     }
 ]

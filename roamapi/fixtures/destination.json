@@ -6,8 +6,7 @@
             "location": "Nashville",
             "state": "Tennessee",
             "latitude": "36.1626638",
-            "longitude": "-86.7816016",
-            "status": 1
+            "longitude": "-86.7816016"
         }
     },
     {
@@ -17,8 +16,7 @@
             "location": "Guadalupe Mountains National Park",
             "state": "Texas",
             "latitude": "31.892008",
-            "longitude": "-104.820476",
-            "status": 4
+            "longitude": "-104.820476"
         }
     },
     {
@@ -28,8 +26,7 @@
             "location": "Tonto National Forest",
             "state": "Arizona",
             "latitude": "33.833378",
-            "longitude": "-111.417358",
-            "status": 2
+            "longitude": "-111.417358"
         }
     },
     {
@@ -39,8 +36,7 @@
             "location": "Phoenix",
             "state": "Arizona",
             "latitude": "33.448376",
-            "longitude": "-112.074036",
-            "status": 3
+            "longitude": "-112.074036"
         }
     },
     {
@@ -50,8 +46,7 @@
             "location": "Sedona",
             "state": "Arizona",
             "latitude": "34.871002",
-            "longitude": "-111.760826",
-            "status": 2
+            "longitude": "-111.760826"
         }
     },
     {
@@ -61,8 +56,7 @@
             "location": "Black Canyon",
             "state": "Colorado",
             "latitude": "38.5753936",
-            "longitude": "-107.74159609999998",
-            "status": 2
+            "longitude": "-107.74159609999998"
         }
     },
     {
@@ -72,8 +66,7 @@
             "location": "Bentonville",
             "state": "Arkansas",
             "latitude": "36.372852",
-            "longitude": "-94.208817",
-            "status": 2
+            "longitude": "-94.208817"
         }
     },
     {
@@ -83,8 +76,7 @@
             "location": "Isle of Palms",
             "state": "South Carolina",
             "latitude": "32.819412",
-            "longitude": "-79.734383",
-            "status": 2
+            "longitude": "-79.734383"
         }
     },
     {
@@ -94,8 +86,7 @@
             "location": "Ashville",
             "state": "North Carolina",
             "latitude": "35.596588",
-            "longitude": "-82.554901",
-            "status": 2
+            "longitude": "-82.554901"
         }
     },
     {
@@ -105,8 +96,7 @@
             "location": "Chattanooga",
             "state": "Tennessee",
             "latitude": "35.045631",
-            "longitude": "-85.309677",
-            "status": 2
+            "longitude": "-85.309677"
         }
     },
     {
@@ -116,8 +106,7 @@
             "location": "Foster Falls",
             "state": "Tennessee",
             "latitude": "35.181745",
-            "longitude": "-85.6758034",
-            "status": 4
+            "longitude": "-85.6758034"
         }
     },
     {
@@ -127,8 +116,7 @@
             "location": "Red River Gorge",
             "state": "Kentucky",
             "latitude": "37.819752",
-            "longitude": "-83.574794",
-            "status": 2
+            "longitude": "-83.574794"
         }
     },
     {
@@ -138,8 +126,7 @@
             "location": "Acadia National Park",
             "state": "Maine",
             "latitude": "44.338974",
-            "longitude": "-68.273430",
-            "status": 4
+            "longitude": "-68.273430"
         }
     },
     {
@@ -149,8 +136,7 @@
             "location": "Camden Hills State Park",
             "state": "Maine",
             "latitude": "44.282405",
-            "longitude": "-69.038932",
-            "status": 4
+            "longitude": "-69.038932"
         }
     },
     {
@@ -160,8 +146,7 @@
             "location": "Plymouth",
             "state": "New Hampshire",
             "latitude": "50.376289",
-            "longitude": "-71.688153",
-            "status": 2
+            "longitude": "-71.688153"
         }
     },
     {
@@ -171,8 +156,7 @@
             "location": "Rumney",
             "state": "New Hampshire",
             "latitude": "43.805792",
-            "longitude": "-71.8125811",
-            "status": 2
+            "longitude": "-71.8125811"
         }
     },
     {
@@ -182,8 +166,7 @@
             "location": "St. Louis",
             "state": "Missouri",
             "latitude": "38.627003",
-            "longitude": "-90.199402",
-            "status": 2
+            "longitude": "-90.199402"
         }
     },
     {
@@ -193,8 +176,7 @@
             "location": "Kansas City",
             "state": "Missouri",
             "latitude": "39.099724",
-            "longitude": "-94.578331",
-            "status": 2
+            "longitude": "-94.578331"
         }
     },
     {
@@ -204,8 +186,7 @@
             "location": "Denver",
             "state": "Colorado",
             "latitude": "39.742043",
-            "longitude": "-104.991531",
-            "status": 2
+            "longitude": "-104.991531"
         }
     },
     {
@@ -215,8 +196,7 @@
             "location": "Moab",
             "state": "Utah",
             "latitude": "38.573315",
-            "longitude": "-109.549843",
-            "status": 4
+            "longitude": "-109.549843"
         }
     },
     {
@@ -226,8 +206,7 @@
             "location": "Canyonlands National Park",
             "state": "Utah",
             "latitude": "38.3268693",
-            "longitude": "-109.8782592",
-            "status": 4
+            "longitude": "-109.8782592"
         }
     },
     {
@@ -237,8 +216,7 @@
             "location": "Bryson City",
             "state": "North Carolina",
             "latitude": "35.4309291",
-            "longitude": "-83.44738089999998",
-            "status": 2
+            "longitude": "-83.44738089999998"
         }
     },
     {
@@ -248,8 +226,7 @@
             "location": "St Petersburg",
             "state": "Florida",
             "latitude": "27.773056",
-            "longitude": "-82.639999",
-            "status": 2
+            "longitude": "-82.639999"
         }
     },
     {
@@ -259,8 +236,7 @@
             "location": "Minneapolis",
             "state": "Minnesota",
             "latitude": "44.986656",
-            "longitude": "-93.258133",
-            "status": 3
+            "longitude": "-93.258133"
         }
     },
     {
@@ -270,8 +246,7 @@
             "location": "Mount Olive",
             "state": "Michigan",
             "latitude": "43.063073",
-            "longitude": "-86.228386",
-            "status": 3
+            "longitude": "-86.228386"
         }
     },
     {
@@ -281,8 +256,7 @@
             "location": "Seattle",
             "state": "Washington",
             "latitude": "47.608013",
-            "longitude": "-122.335167",
-            "status": 5
+            "longitude": "-122.335167"
         }
     },
     {
@@ -292,8 +266,7 @@
             "location": "Palo Duro Canyon & State Park",
             "state": "Texas",
             "latitude": "34.937256",
-            "longitude": "-101.647552",
-            "status": 5
+            "longitude": "-101.647552"
         }
     },
     {
@@ -303,8 +276,7 @@
             "location": "Los Angeles",
             "state": "California",
             "latitude": "34.052235",
-            "longitude": "-118.243683",
-            "status": 2
+            "longitude": "-118.243683"
         }
     },
     {
@@ -314,8 +286,7 @@
             "location": "Kings Canyon National Park",
             "state": "California",
             "latitude": "36.887856",
-            "longitude": "-118.555145",
-            "status": 5
+            "longitude": "-118.555145"
         }
     },
     {
@@ -325,8 +296,7 @@
             "location": "Yosemite National Park",
             "state": "California",
             "latitude": "37.865101",
-            "longitude": "-119.538330",
-            "status": 5
+            "longitude": "-119.538330"
         }
     },
     {
@@ -336,8 +306,7 @@
             "location": "San Francisco",
             "state": "California",
             "latitude": "37.773972",
-            "longitude": "-122.431297",
-            "status": 5
+            "longitude": "-122.431297"
         }
     },
     {
@@ -347,8 +316,7 @@
             "location": "Redwood National Forest",
             "state": "California",
             "latitude": "41.213181",
-            "longitude": "-124.004631",
-            "status": 5
+            "longitude": "-124.004631"
         }
     },
     {
@@ -358,8 +326,7 @@
             "location": "Crater Lake National Park",
             "state": "Oregon",
             "latitude": "42.944611",
-            "longitude": "-122.109245",
-            "status": 5
+            "longitude": "-122.109245"
         }
     },
     {
@@ -369,8 +336,7 @@
             "location": "Bend",
             "state": "Oregon",
             "latitude": "44.058174",
-            "longitude": "-121.315308",
-            "status": 5
+            "longitude": "-121.315308"
         }
     },
     {
@@ -380,8 +346,7 @@
             "location": "Gifford Pinchot National Park",
             "state": "Washington",
             "latitude": "46.1661311",
-            "longitude": "-121.8140602",
-            "status": 5
+            "longitude": "-121.8140602"
         }
     },
     {
@@ -391,8 +356,7 @@
             "location": "Olympic National Park",
             "state": "Washington",
             "latitude": "47.802109",
-            "longitude": "-123.604355",
-            "status": 5
+            "longitude": "-123.604355"
         }
     },
     {
@@ -402,8 +366,7 @@
             "location": "Boise",
             "state": "Idaho",
             "latitude": "43.618881",
-            "longitude": "-116.215019",
-            "status": 5
+            "longitude": "-116.215019"
         }
     },
     {
@@ -413,8 +376,7 @@
             "location": "Sawtooh National Forest",
             "state": "Idaho",
             "latitude": "43.69826",
-            "longitude": "-114.29498",
-            "status": 5
+            "longitude": "-114.29498"
         }
     },
     {
@@ -424,8 +386,7 @@
             "location": "Bridger-Teton National Forest",
             "state": "Wyoming",
             "latitude": "44.04252",
-            "longitude": "-109.83077",
-            "status": 5
+            "longitude": "-109.83077"
         }
     },
     {
@@ -435,8 +396,7 @@
             "location": "Theodore Roosevelt National Park",
             "state": "North Dakota",
             "latitude": "46.90783",
-            "longitude": "-103.53035",
-            "status": 5
+            "longitude": "-103.53035"
         }
     },
     {
@@ -446,8 +406,7 @@
             "location": "Blue Ridge Parkway",
             "state": "North Carolina",
             "latitude": "37.555165",
-            "longitude": "-79.365897",
-            "status": 3
+            "longitude": "-79.365897"
         }
     },
     {
@@ -457,8 +416,7 @@
             "location": "Penny Hot Springs",
             "state": "Colorado",
             "latitude": "39.2260957",
-            "longitude": "-107.2256059",
-            "status": 4
+            "longitude": "-107.2256059"
         }
     },
     {
@@ -468,8 +426,7 @@
             "location": "Portland",
             "state": "Maine",
             "latitude": "43.680031",
-            "longitude": "-70.310425",
-            "status": 3
+            "longitude": "-70.310425"
         }
     },
     {
@@ -479,8 +436,7 @@
             "location": "Santa Ana",
             "state": "California",
             "latitude": "33.745571",
-            "longitude": "-117.867836",
-            "status": 3
+            "longitude": "-117.867836"
         }
     },
     {
@@ -490,8 +446,7 @@
             "location": "Nantahala National Forest",
             "state": "Tennessee",
             "latitude": "35.21845",
-            "longitude": "-83.60081",
-            "status": 4
+            "longitude": "-83.60081"
         }
     }
 ]

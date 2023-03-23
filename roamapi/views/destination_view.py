@@ -1,8 +1,9 @@
 from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
+from django.db.models import Q
 from rest_framework import serializers, status
-from roamapi.models import Destination, Status
+from roamapi.models import Destination, Status, Traveler
 
 
 class DestinationView(ViewSet):
@@ -16,17 +17,9 @@ class DestinationView(ViewSet):
 
     def list(self, request):
 
-        destinations = []
-
-        if "status" in request.query_params:
-            trip_status = request.query_params['status']
-            destinations = Destination.objects.filter(status__id=trip_status)
-
-        else:
-            destinations = Destination.objects.all()
-
-        serialized = DestinationSerializer(destinations, many=True)
-        return Response(serialized.data, status=status.HTTP_200_OK)
+        destinations = Destination.objects.all()
+        serializer = DestinationSerializer(destinations, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
 
     def create(self, request):
 
@@ -60,17 +53,9 @@ class DestinationView(ViewSet):
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
 
-class DestinationStatusSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Status
-        fields = ('type',)
-
-
 class DestinationSerializer(serializers.ModelSerializer):
-
-    status = DestinationStatusSerializer()
 
     class Meta:
         model = Destination
         fields = ('id', 'location', 'state',
-                  'latitude', 'longitude', 'status',)
+                  'latitude', 'longitude',)

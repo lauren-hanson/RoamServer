@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework import serializers, status
 from datetime import date
 from django.db.models import Q
-from roamapi.models import Trip, Traveler, Destination, Tag, TripTag, TripDestination
+from roamapi.models import Trip, Traveler, Destination, Tag, TripTag, TripDestination, Status
 
 
 class TripView(ViewSet):
@@ -32,6 +32,12 @@ class TripView(ViewSet):
             trips = Trip.objects.filter(traveler__in=Traveler.objects.filter(
                 subscribers__user=request.auth.user)).order_by("-publication_date")
             print(trips.query)
+
+        # if "destination" in request.query_params:
+        #     trip_status = request.query_params['destination']['status']['type']
+        #     trips = Trip.objects.filter(destination_status=trip_status) & (Q(user=request.auth.user))
+            # trip_status = request.query_params['status']['type']
+            # trips = Trip.objects.filter(status__type=trip_status)
 
         # elif "tag" in request.query_params:
         #     tag_trips = request.query_params.getlist('tag')
@@ -127,12 +133,18 @@ class TripView(ViewSet):
         trip.delete()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
+class TripStatusSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Status
+        fields = ('type', )
 
 class TripDestinationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Destination
-        fields = ('id', 'location', 'state', 'latitude', 'longitude', 'status', )
+        fields = ('id', 'location', 'state',
+                  'latitude', 'longitude', )
 
 
 class TravelerSerializer(serializers.ModelSerializer):
