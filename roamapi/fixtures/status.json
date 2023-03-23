@@ -19,5 +19,19 @@
         "fields": {
             "type": "Stop"
         }
+    },
+    {
+        "model": "roamapi.status",
+        "pk": 4,
+        "fields": {
+            "type": "Favorite"
+        }
+    }, 
+    {
+        "model": "roamapi.status",
+        "pk": 5,
+        "fields": {
+            "type": "To-Go"
+        }
     }
 ]
