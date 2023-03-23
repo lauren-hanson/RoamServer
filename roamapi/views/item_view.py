@@ -2,7 +2,7 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from roamapi.models import Item, Category
+from roamapi.models import Item, Category, Traveler
 
 
 class ItemView(ViewSet):
@@ -16,7 +16,7 @@ class ItemView(ViewSet):
     def list(self, request):
 
         items = Item.objects.all()
-
+ 
         items_by_category = {}
 
         for item in items:
@@ -49,7 +49,7 @@ class ItemView(ViewSet):
 
         serializer = ItemSerializer(item)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
-    
+
     def destroy(self, request, pk):
         item = Item.objects.get(pk=pk)
         item.delete()

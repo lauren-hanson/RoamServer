@@ -132,7 +132,7 @@ class TripDestinationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Destination
-        fields = ('id', 'location', 'state', 'latitude', 'longitude',)
+        fields = ('id', 'location', 'state', 'latitude', 'longitude', 'status', )
 
 
 class TravelerSerializer(serializers.ModelSerializer):
