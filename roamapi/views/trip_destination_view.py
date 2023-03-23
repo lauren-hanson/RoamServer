@@ -22,9 +22,10 @@ class TripDestinationView(ViewSet):
 
         tripdestinations = []
 
-        if "status__type" in request.query_params:
+        if "status" in request.query_params:
+            trip_status = request.query_params['status']
             tripdestinations = TripDestination.objects.filter(
-                status__type='Home')
+                status__id=trip_status)
 
         elif "trip" in request.query_params:
             destination_trip = request.query_params['trip']
@@ -69,7 +70,10 @@ class TripDestinationView(ViewSet):
         serializer = TripDestinationSerializer(tripdestination)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
-
+class StatusSerializer(serializers.ModelSerializer): 
+    class Meta: 
+        model = Status
+        fields = ('type', )
 
 class TripSerializer(serializers.ModelSerializer):
     class Meta:
@@ -80,9 +84,12 @@ class TripSerializer(serializers.ModelSerializer):
 
 
 class DestinationSerializer(serializers.ModelSerializer):
+
+    status = StatusSerializer()
+
     class Meta:
         model = Destination
-        fields = ('location', 'state', 'latitude', 'longitude', )
+        fields = ('location', 'state', 'latitude', 'longitude', 'status',  )
 
 class TripDestinationSerializer(serializers.ModelSerializer):
 
