@@ -73,13 +73,13 @@ class TripView(ViewSet):
 
     def create(self, request):
 
-        # try: 
+        # try:
         #     traveler = Traveler.objects.get(user=request.auth.user)
         # except Traveler.DoesNotExist:
         #     return Response({'message': 'You sent an invalid token'}, status=status.HTTP_404_NOT_FOUND)
 
         traveler = Traveler.objects.get(user=request.auth.user)
-        
+
         trip = Trip.objects.create(
             traveler=traveler,
             start_date=request.data['startDate'],
@@ -105,6 +105,8 @@ class TripView(ViewSet):
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
     def update(self, request, pk):
+
+        traveler = Traveler.objects.get(user=request.auth.user)
 
         trip_to_update = Trip.objects.get(pk=pk)
         trip_to_update.traveler = traveler
@@ -136,18 +138,20 @@ class TripView(ViewSet):
         trip.delete()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
+
 class TripStatusSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Status
         fields = ('type', )
 
+
 class TripDestinationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Destination
         fields = ('id', 'location', 'state',
-                  'latitude', 'longitude', )
+                  'latitude', 'longitude', 'tips',  )
 
 
 class TravelerSerializer(serializers.ModelSerializer):
@@ -174,5 +178,5 @@ class TripSerializer(serializers.ModelSerializer):
     class Meta:
         model = Trip
         fields = ('id', 'start_date', 'end_date', 'notes',
-                  'weather', 'destination', 'tag', 'title', 'public', 'complete', 'image_url', 'traveler', 'publication_date', 'writer',  )
+                  'weather', 'destination', 'tag', 'title', 'public', 'complete', 'image_url', 'traveler', 'publication_date', 'writer',)
         depth = 1
