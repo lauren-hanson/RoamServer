@@ -6,3 +6,4 @@ class Destination(models.Model):
     state = models.CharField(max_length=25)
     latitude = models.FloatField(max_length=25, null=True, blank=True)
     longitude = models.FloatField(max_length=25, null=True, blank=True)
+    tips = models.CharField(max_length=100, null=True, blank=True)

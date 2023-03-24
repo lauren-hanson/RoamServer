@@ -39,8 +39,8 @@ class DestinationView(ViewSet):
 
         destination_to_update.location = request.data['location']
         destination_to_update.state = request.data['state']
-        # destination_to_update.latitude = request.data['latitude']
-        # destination_to_update.longitude = request.data['longitude']
+        destination_to_update.latitude = request.data['latitude']
+        destination_to_update.longitude = request.data['longitude']
 
         destination_to_update.save()
 
@@ -58,4 +58,4 @@ class DestinationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Destination
         fields = ('id', 'location', 'state',
-                  'latitude', 'longitude',)
+                  'latitude', 'longitude', 'tips', )
