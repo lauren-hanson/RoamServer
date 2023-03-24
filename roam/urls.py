@@ -4,7 +4,6 @@ from django.urls import path
 from rest_framework import routers
 from roamapi.views import register_user, login_user, TripView, TravelerView, DestinationView, TagView, StateView, TripDestinationView, TripTagView, ItemView, CategoryView
 
-
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'trips', TripView, 'trip')
 router.register(r'travelers', TravelerView, 'traveler')

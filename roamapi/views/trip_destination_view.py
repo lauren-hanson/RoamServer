@@ -16,7 +16,7 @@ class TripDestinationView(ViewSet):
         return Response(serialized.data, status=status.HTTP_200_OK)
 
     def list(self, request):
-        
+
         tripdestinations = TripDestination.objects.all()
 
         traveler = Traveler.objects.get(user=request.auth.user)
@@ -34,36 +34,43 @@ class TripDestinationView(ViewSet):
         return Response(serialized.data, status=status.HTTP_200_OK)
 
     def create(self, request):
-
-        # try:
-        #     trip = Trip.objects.get(pk=request.data[0]['trip_id'])
-        # except Trip.DoesNotExist:
-        #     return Response({'message': 'You sent an invalid trip Id'}, status=status.HTTP_404_NOT_FOUND)
-
-        # try:
-        #     destination = Destination.objects.get(
-        #         pk=request.data[0]['destination'])
-        # except Trip.DoesNotExist:
-        #     return Response({'message': 'You sent an invalid destination Id'}, status=status.HTTP_404_NOT_FOUND)
-
         try:
-            trip = Trip.objects.get(pk=request.data['tripId'])
+            trip = Trip.objects.get(pk=request.data['trip'])
         except Trip.DoesNotExist:
             return Response({'message': 'You sent an invalid trip Id'}, status=status.HTTP_404_NOT_FOUND)
 
         try:
             destination = Destination.objects.get(
-                pk=request.data['destinationId'])
+                pk=request.data['destination'])
         except Trip.DoesNotExist:
             return Response({'message': 'You sent an invalid destination Id'}, status=status.HTTP_404_NOT_FOUND)
 
+        try:
+            destination_status = Status.objects.get(
+                pk=request.data['status'])
+        except Trip.DoesNotExist:
+            return Response({'message': 'You sent an invalid status Id'}, status=status.HTTP_404_NOT_FOUND)
+
         tripdestination = TripDestination.objects.create(
             trip=trip,
-            destination=destination
+            destination=destination,
+            status=destination_status
         )
 
         serializer = TripDestinationSerializer(tripdestination)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk):
+
+        tripdestination = TripDestination.objects.get(pk=pk) 
+        tripdestination.status_id = 4
+        tripdestination.save()
+
+        serialized = TripDestinationSerializer( 
+            tripdestination, context={'request' : request}
+        )
+        return Response(serialized.data, status=status.HTTP_200_OK)
+
 
 
 class TravelerSerializer(serializers.ModelSerializer):
@@ -94,7 +101,7 @@ class DestinationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Destination
-        fields = ('location', 'state', 'latitude', 'longitude', )
+        fields = ('location', 'state', 'latitude', 'longitude', 'tips',)
 
 
 class TripDestinationSerializer(serializers.ModelSerializer):
