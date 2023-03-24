@@ -26,8 +26,8 @@ class TripDestinationView(ViewSet):
             trip_status = request.query_params['status']
             tripdestinations = tripdestinations.filter(status_id=trip_status)
 
-        elif "trips" in request.query_params:
-            destByTrip = request.query_params['trips']
+        elif "trip" in request.query_params:
+            destByTrip = request.query_params['trip']
             tripdestinations = TripDestination.objects.filter(trip=destByTrip)
 
         serialized = TripDestinationSerializer(tripdestinations, many=True)
