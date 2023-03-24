@@ -27,7 +27,8 @@ class DestinationView(ViewSet):
             location=request.data['location'],
             state=request.data['state'],
             longitude=request.data['longitude'],
-            latitude=request.data['latitude']
+            latitude=request.data['latitude'], 
+            tips=request.data['tips']
         )
 
         serializer = DestinationSerializer(destination)
@@ -41,6 +42,7 @@ class DestinationView(ViewSet):
         destination_to_update.state = request.data['state']
         destination_to_update.latitude = request.data['latitude']
         destination_to_update.longitude = request.data['longitude']
+        destination_to_update.tips = request.data['tips']
 
         destination_to_update.save()
 

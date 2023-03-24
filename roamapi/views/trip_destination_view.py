@@ -26,35 +26,35 @@ class TripDestinationView(ViewSet):
             trip_status = request.query_params['status']
             tripdestinations = tripdestinations.filter(status_id=trip_status)
 
-        elif "trips" in request.query_params:
-            destByTrip = request.query_params['trips']
+        elif "trip" in request.query_params:
+            destByTrip = request.query_params['trip']
             tripdestinations = TripDestination.objects.filter(trip=destByTrip)
 
         serialized = TripDestinationSerializer(tripdestinations, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
 
     def create(self, request):
+
         try:
-            trip = Trip.objects.get(pk=request.data['trip'])
+            trip = Trip.objects.get(pk=request.data['tripId'])
         except Trip.DoesNotExist:
             return Response({'message': 'You sent an invalid trip Id'}, status=status.HTTP_404_NOT_FOUND)
 
         try:
             destination = Destination.objects.get(
-                pk=request.data['destination'])
+                pk=request.data['destinationId'])
         except Trip.DoesNotExist:
             return Response({'message': 'You sent an invalid destination Id'}, status=status.HTTP_404_NOT_FOUND)
 
-        try:
-            destination_status = Status.objects.get(
-                pk=request.data['status'])
-        except Trip.DoesNotExist:
-            return Response({'message': 'You sent an invalid status Id'}, status=status.HTTP_404_NOT_FOUND)
+        # try:
+        #     destination_status = Status.objects.get(
+        #         pk=request.data['statusId'])
+        # except Trip.DoesNotExist:
+        #     return Response({'message': 'You sent an invalid status Id'}, status=status.HTTP_404_NOT_FOUND)
 
         tripdestination = TripDestination.objects.create(
             trip=trip,
-            destination=destination,
-            status=destination_status
+            destination=destination
         )
 
         serializer = TripDestinationSerializer(tripdestination)
