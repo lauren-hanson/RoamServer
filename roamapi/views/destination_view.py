@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from django.db.models import Q
 from rest_framework import serializers, status
 from roamapi.models import Destination, Status, Traveler
+# TripDestination
 
 
 class DestinationView(ViewSet):
@@ -27,7 +28,7 @@ class DestinationView(ViewSet):
             location=request.data['location'],
             state=request.data['state'],
             longitude=request.data['longitude'],
-            latitude=request.data['latitude'], 
+            latitude=request.data['latitude'],
             tips=request.data['tips']
         )
 
@@ -55,9 +56,19 @@ class DestinationView(ViewSet):
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
 
+class StatusSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Status
+        fields = ('type', )
+
+
 class DestinationSerializer(serializers.ModelSerializer):
+
+    status = StatusSerializer()
 
     class Meta:
         model = Destination
         fields = ('id', 'location', 'state',
-                  'latitude', 'longitude', 'tips', )
+                  'latitude', 'longitude', 'tips', 'status',  )
+        depth = 1

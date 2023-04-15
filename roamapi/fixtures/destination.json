@@ -7,7 +7,8 @@
             "state": "Tennessee",
             "latitude": "36.1626638",
             "longitude": "-86.7816016", 
-            "tips": ""
+            "tips": "", 
+            "status": 1
         }
     },
     {
@@ -18,7 +19,8 @@
             "state": "Texas",
             "latitude": "31.892008",
             "longitude": "-104.820476", 
-            "tips": "Stunning location with a great hike. Try to reach the top for a beautiful sunset view!"
+            "tips": "Stunning location with a great hike. Try to reach the top for a beautiful sunset view!", 
+            "status": 4
         }
     },
     {
@@ -29,7 +31,8 @@
             "state": "Arizona",
             "latitude": "33.833378",
             "longitude": "-111.417358", 
-            "tips": "Great spot for camping. Mostly BLM."
+            "tips": "Great spot for camping. Mostly BLM.", 
+            "status": 4
         }
     },
     {
@@ -40,7 +43,8 @@
             "state": "Arizona",
             "latitude": "33.448376",
             "longitude": "-112.074036", 
-            "tips": ""
+            "tips": "", 
+            "status": 3
         }
     },
     {
@@ -51,7 +55,8 @@
             "state": "Arizona",
             "latitude": "34.871002",
             "longitude": "-111.760826", 
-            "tips": ""
+            "tips": "", 
+            "status": 3
         }
     },
     {
@@ -62,7 +67,8 @@
             "state": "Colorado",
             "latitude": "38.5753936",
             "longitude": "-107.74159609999998", 
-            "tips": ""
+            "tips": "", 
+            "status": 4
         }
     },
     {
@@ -73,7 +79,8 @@
             "state": "Arkansas",
             "latitude": "36.372852",
             "longitude": "-94.208817", 
-            "tips": ""
+            "tips": "", 
+            "status": 3
         }
     },
     {
@@ -84,7 +91,8 @@
             "state": "South Carolina",
             "latitude": "32.819412",
             "longitude": "-79.734383", 
-            "tips": ""
+            "tips": "",
+            "status": 2
         }
     },
     {
@@ -95,7 +103,8 @@
             "state": "North Carolina",
             "latitude": "35.596588",
             "longitude": "-82.554901", 
-            "tips": ""
+            "tips": "",
+            "status": 2
         }
     },
     {
@@ -106,7 +115,8 @@
             "state": "Tennessee",
             "latitude": "35.045631",
             "longitude": "-85.309677", 
-            "tips": ""
+            "tips": "",
+            "status": 2
         }
     },
     {
@@ -117,7 +127,8 @@
             "state": "Tennessee",
             "latitude": "35.181745",
             "longitude": "-85.6758034", 
-            "tips": "Our home away from home."
+            "tips": "Our home away from home.",
+            "status": 4
         }
     },
     {
@@ -128,7 +139,8 @@
             "state": "Kentucky",
             "latitude": "37.819752",
             "longitude": "-83.574794", 
-            "tips": "Don't sleep on Miguelsss!"
+            "tips": "Don't sleep on Miguelsss!",
+            "status": 2
         }
     },
     {
@@ -139,7 +151,8 @@
             "state": "Maine",
             "latitude": "44.338974",
             "longitude": "-68.273430", 
-            "tips": "Beautiful park and campsites. We climbed at Otter Cliffs. Such an adventure."
+            "tips": "Beautiful park and campsites. We climbed at Otter Cliffs. Such an adventure.",
+            "status": 4
         }
     },
     {
@@ -150,7 +163,8 @@
             "state": "Maine",
             "latitude": "44.282405",
             "longitude": "-69.038932", 
-            "tips": "Super charming campsite in a beautiful town. We didn't plan on stopping here but we couldn't pass it up!"
+            "tips": "Super charming campsite in a beautiful town. We didn't plan on stopping here but we couldn't pass it up!",
+            "status": 3
         }
     },
     {
@@ -161,7 +175,8 @@
             "state": "New Hampshire",
             "latitude": "50.376289",
             "longitude": "-71.688153", 
-            "tips": ""
+            "tips": "",
+            "status": 3
         }
     },
     {
@@ -172,7 +187,8 @@
             "state": "New Hampshire",
             "latitude": "43.805792",
             "longitude": "-71.8125811", 
-            "tips": ""
+            "tips": "",
+            "status": 3
         }
     },
     {
@@ -183,7 +199,8 @@
             "state": "Missouri",
             "latitude": "38.627003",
             "longitude": "-90.199402", 
-            "tips": ""
+            "tips": "",
+            "status": 3
         }
     },
     {
@@ -194,7 +211,8 @@
             "state": "Missouri",
             "latitude": "39.099724",
             "longitude": "-94.578331", 
-            "tips": ""
+            "tips": "",
+            "status": 3
         }
     },
     {
@@ -205,7 +223,8 @@
             "state": "Colorado",
             "latitude": "39.742043",
             "longitude": "-104.991531", 
-            "tips": ""
+            "tips": "",
+            "status": 3
         }
     },
     {
@@ -216,7 +235,8 @@
             "state": "Utah",
             "latitude": "38.573315",
             "longitude": "-109.549843", 
-            "tips": "Can't wait to go back. We found a perfect campsite right outside of town on the river. Climbing at Neopolitan was great!"
+            "tips": "Can't wait to go back. We found a perfect campsite right outside of town on the river. Climbing at Neopolitan was great!",
+            "status": 4
         }
     },
     {
@@ -227,7 +247,8 @@
             "state": "Utah",
             "latitude": "38.3268693",
             "longitude": "-109.8782592", 
-            "tips": ""
+            "tips": "",
+            "status": 4
         }
     },
     {
@@ -238,7 +259,8 @@
             "state": "North Carolina",
             "latitude": "35.4309291",
             "longitude": "-83.44738089999998", 
-            "tips": ""
+            "tips": "",
+            "status": 2
         }
     },
     {
@@ -249,7 +271,8 @@
             "state": "Florida",
             "latitude": "27.773056",
             "longitude": "-82.639999", 
-            "tips": ""
+            "tips": "",
+            "status": 2
         }
     },
     {
@@ -260,7 +283,8 @@
             "state": "Minnesota",
             "latitude": "44.986656",
             "longitude": "-93.258133", 
-            "tips": ""
+            "tips": "",
+            "status": 2
         }
     },
     {
@@ -271,7 +295,8 @@
             "state": "Michigan",
             "latitude": "43.063073",
             "longitude": "-86.228386", 
-            "tips": ""
+            "tips": "",
+            "status": 2
         }
     },
     {
@@ -282,7 +307,8 @@
             "state": "Washington",
             "latitude": "47.608013",
             "longitude": "-122.335167", 
-            "tips": ""
+            "tips": "",
+            "status": 2
         }
     },
     {
@@ -293,7 +319,8 @@
             "state": "Texas",
             "latitude": "34.937256",
             "longitude": "-101.647552", 
-            "tips": ""
+            "tips": "",
+            "status": 3
         }
     },
     {
@@ -304,7 +331,8 @@
             "state": "California",
             "latitude": "34.052235",
             "longitude": "-118.243683", 
-            "tips": ""
+            "tips": "",
+            "status": 5
         }
     },
     {
@@ -315,7 +343,8 @@
             "state": "California",
             "latitude": "36.887856",
             "longitude": "-118.555145", 
-            "tips": ""
+            "tips": "",
+            "status": 5
         }
     },
     {
@@ -326,7 +355,8 @@
             "state": "California",
             "latitude": "37.865101",
             "longitude": "-119.538330", 
-            "tips": ""
+            "tips": "",
+            "status": 5
         }
     },
     {
@@ -337,7 +367,8 @@
             "state": "California",
             "latitude": "37.773972",
             "longitude": "-122.431297", 
-            "tips": ""
+            "tips": "",
+            "status": 5
         }
     },
     {
@@ -348,7 +379,8 @@
             "state": "California",
             "latitude": "41.213181",
             "longitude": "-124.004631", 
-            "tips": ""
+            "tips": "",
+            "status": 5
         }
     },
     {
@@ -359,7 +391,8 @@
             "state": "Oregon",
             "latitude": "42.944611",
             "longitude": "-122.109245", 
-            "tips": ""
+            "tips": "",
+            "status": 5
         }
     },
     {
@@ -370,7 +403,8 @@
             "state": "Oregon",
             "latitude": "44.058174",
             "longitude": "-121.315308", 
-            "tips": ""
+            "tips": "",
+            "status": 5
         }
     },
     {
@@ -381,7 +415,8 @@
             "state": "Washington",
             "latitude": "46.1661311",
             "longitude": "-121.8140602", 
-            "tips": ""
+            "tips": "",
+            "status": 5
         }
     },
     {
@@ -392,7 +427,8 @@
             "state": "Washington",
             "latitude": "47.802109",
             "longitude": "-123.604355", 
-            "tips": ""
+            "tips": "",
+            "status": 5
         }
     },
     {
@@ -403,7 +439,8 @@
             "state": "Idaho",
             "latitude": "43.618881",
             "longitude": "-116.215019", 
-            "tips": ""
+            "tips": "",
+            "status": 5
         }
     },
     {
@@ -414,7 +451,8 @@
             "state": "Idaho",
             "latitude": "43.69826",
             "longitude": "-114.29498", 
-            "tips": ""
+            "tips": "",
+            "status": 5
         }
     },
     {
@@ -425,7 +463,8 @@
             "state": "Wyoming",
             "latitude": "44.04252",
             "longitude": "-109.83077", 
-            "tips": ""
+            "tips": "",
+            "status": 5
         }
     },
     {
@@ -436,7 +475,8 @@
             "state": "North Dakota",
             "latitude": "46.90783",
             "longitude": "-103.53035", 
-            "tips": ""
+            "tips": "",
+            "status": 5
         }
     },
     {
@@ -447,7 +487,8 @@
             "state": "North Carolina",
             "latitude": "37.555165",
             "longitude": "-79.365897", 
-            "tips": "Highly recommend a sunset drive down the parkway."
+            "tips": "Highly recommend a sunset drive down the parkway.",
+            "status": 3
         }
     },
     {
@@ -458,7 +499,8 @@
             "state": "Colorado",
             "latitude": "39.2260957",
             "longitude": "-107.2256059", 
-            "tips": "Exactly what we were looking for. There's a great campsite close by."
+            "tips": "Exactly what we were looking for. There's a great campsite close by.",
+            "status": 4
         }
     },
     {
@@ -469,7 +511,8 @@
             "state": "Maine",
             "latitude": "43.680031",
             "longitude": "-70.310425", 
-            "tips": "What a charming city! We met so many nice people along the way."
+            "tips": "What a charming city! We met so many nice people along the way.",
+            "status": 5
         }
     },
     {
@@ -480,7 +523,8 @@
             "state": "California",
             "latitude": "33.745571",
             "longitude": "-117.867836", 
-            "tips": ""
+            "tips": "",
+            "status": 3
         }
     },
     {
@@ -491,7 +535,8 @@
             "state": "Tennessee",
             "latitude": "35.21845",
             "longitude": "-83.60081", 
-            "tips": "Don't miss out on the NOC. Enjoy floating down the river!"
+            "tips": "Don't miss out on the NOC. Enjoy floating down the river!",
+            "status": 4
         }
     }
 ]

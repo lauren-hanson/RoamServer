@@ -70,11 +70,9 @@ class TripDestinationView(ViewSet):
 
         # trip_destination_update.status = request.data.get(
         #     'status', trip_destination_update.status)
+
         trip_destination_update.save()
 
-        # serialized = TripDestinationSerializer(
-        #     tripdestination, context={'request' : request}
-        # )
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
 

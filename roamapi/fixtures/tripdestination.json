@@ -4,9 +4,7 @@
         "pk": 1,
         "fields": {
             "trip": 1,
-            "destination": 1,
-            "status": 1
-
+            "destination": 1
         }
     },
     {
@@ -14,8 +12,7 @@
         "pk": 2,
         "fields": {
             "trip": 1,
-            "destination": 2,
-            "status": 4
+            "destination": 2
         }
     },
     {
@@ -23,8 +20,7 @@
         "pk": 3,
         "fields": {
             "trip": 1,
-            "destination": 3,
-            "status": 4
+            "destination": 3
         }
     },
     {
@@ -32,8 +28,7 @@
         "pk": 4,
         "fields": {
             "trip": 1,
-            "destination": 4,
-            "status": 3
+            "destination": 4
         }
     },
     {
@@ -41,8 +36,7 @@
         "pk": 5,
         "fields": {
             "trip": 1,
-            "destination": 5,
-            "status": 3
+            "destination": 5
         }
     },
     {
@@ -50,8 +44,7 @@
         "pk": 6,
         "fields": {
             "trip": 1,
-            "destination": 7,
-            "status": 4
+            "destination": 7
         }
     },
     {
@@ -59,8 +52,7 @@
         "pk": 7,
         "fields": {
             "trip": 1,
-            "destination": 1,
-            "status": 3
+            "destination": 1
         }
     },
     {
@@ -68,8 +60,7 @@
         "pk": 8,
         "fields": {
             "trip": 2,
-            "destination": 1,
-            "status": 2
+            "destination": 1
         }
     },
     {
@@ -77,8 +68,7 @@
         "pk": 9,
         "fields": {
             "trip": 2,
-            "destination": 8,
-            "status": 3
+            "destination": 8
         }
     },
     {
@@ -86,8 +76,7 @@
         "pk": 10,
         "fields": {
             "trip": 2,
-            "destination": 41,
-            "status": 4
+            "destination": 41
         }
     },
     {
@@ -95,8 +84,7 @@
         "pk": 11,
         "fields": {
             "trip": 2,
-            "destination": 9,
-            "status": 2
+            "destination": 9
         }
     },
     {
@@ -104,8 +92,7 @@
         "pk": 14,
         "fields": {
             "trip": 3,
-            "destination": 23,
-            "status": 2
+            "destination": 23
         }
     },
     {
@@ -113,8 +100,7 @@
         "pk": 17,
         "fields": {
             "trip": 4,
-            "destination": 17,
-            "status": 2
+            "destination": 17
         }
     },
     {
@@ -122,8 +108,7 @@
         "pk": 18,
         "fields": {
             "trip": 4,
-            "destination": 18,
-            "status": 2
+            "destination": 18
         }
     },
     {
@@ -131,8 +116,7 @@
         "pk": 19,
         "fields": {
             "trip": 4,
-            "destination": 19,
-            "status": 2
+            "destination": 19
         }
     },
     {
@@ -140,8 +124,7 @@
         "pk": 20,
         "fields": {
             "trip": 4,
-            "destination": 42,
-            "status": 4
+            "destination": 42
         }
     },
     {
@@ -149,8 +132,7 @@
         "pk": 21,
         "fields": {
             "trip": 4,
-            "destination": 20,
-            "status": 4
+            "destination": 20
         }
     },
     {
@@ -158,8 +140,7 @@
         "pk": 22,
         "fields": {
             "trip": 4,
-            "destination": 21,
-            "status": 4
+            "destination": 21
         }
     },
     {
@@ -167,8 +148,7 @@
         "pk": 23,
         "fields": {
             "trip": 4,
-            "destination": 6,
-            "status": 2
+            "destination": 6
         }
     },
     {
@@ -176,8 +156,7 @@
         "pk": 26,
         "fields": {
             "trip": 5,
-            "destination": 25,
-            "status": 3
+            "destination": 25
         }
     },
     {
@@ -185,8 +164,7 @@
         "pk": 29,
         "fields": {
             "trip": 6,
-            "destination": 43,
-            "status": 3
+            "destination": 43
         }
     },
     {
@@ -194,8 +172,7 @@
         "pk": 30,
         "fields": {
             "trip": 6,
-            "destination": 13,
-            "status": 4
+            "destination": 13
         }
     },
     {
@@ -203,8 +180,7 @@
         "pk": 31,
         "fields": {
             "trip": 6,
-            "destination": 14,
-            "status": 4
+            "destination": 14
         }
     },
     {
@@ -212,8 +188,7 @@
         "pk": 32,
         "fields": {
             "trip": 6,
-            "destination": 15,
-            "status": 2
+            "destination": 15
         }
     },
     {
@@ -221,8 +196,7 @@
         "pk": 33,
         "fields": {
             "trip": 6,
-            "destination": 16,
-            "status": 2
+            "destination": 16
         }
     },
     {
@@ -230,8 +204,7 @@
         "pk": 35,
         "fields": {
             "trip": 7,
-            "destination": 24,
-            "status": 3
+            "destination": 24
         }
     },
     {
@@ -239,8 +212,7 @@
         "pk": 38,
         "fields": {
             "trip": 8,
-            "destination": 11,
-            "status": 4
+            "destination": 11
         }
     },
     {
@@ -248,8 +220,7 @@
         "pk": 41,
         "fields": {
             "trip": 9,
-            "destination": 7,
-            "status": 2
+            "destination": 7
         }
     },
     {
@@ -257,8 +228,7 @@
         "pk": 42,
         "fields": {
             "trip": 9,
-            "destination": 27,
-            "status": 5
+            "destination": 27
         }
     },
     {
@@ -266,8 +236,7 @@
         "pk": 43,
         "fields": {
             "trip": 9,
-            "destination": 28,
-            "status": 2
+            "destination": 28
         }
     },
     {
@@ -275,8 +244,7 @@
         "pk": 44,
         "fields": {
             "trip": 9,
-            "destination": 44,
-            "status": 3
+            "destination": 44
         }
     },
     {
@@ -284,8 +252,7 @@
         "pk": 45,
         "fields": {
             "trip": 9,
-            "destination": 29,
-            "status": 5
+            "destination": 29
         }
     },
     {
@@ -293,8 +260,7 @@
         "pk": 46,
         "fields": {
             "trip": 9,
-            "destination": 30,
-            "status": 5
+            "destination": 30
         }
     },
     {
@@ -302,8 +268,7 @@
         "pk": 47,
         "fields": {
             "trip": 9,
-            "destination": 31,
-            "status": 5
+            "destination": 31
         }
     },
     {
@@ -311,8 +276,7 @@
         "pk": 48,
         "fields": {
             "trip": 9,
-            "destination": 32,
-            "status": 5
+            "destination": 32
         }
     },
     {
@@ -320,8 +284,7 @@
         "pk": 49,
         "fields": {
             "trip": 9,
-            "destination": 33,
-            "status": 5
+            "destination": 33
         }
     },
     {
@@ -329,8 +292,7 @@
         "pk": 50,
         "fields": {
             "trip": 9,
-            "destination": 34,
-            "status": 5
+            "destination": 34
         }
     },
     {
@@ -338,8 +300,7 @@
         "pk": 51,
         "fields": {
             "trip": 9,
-            "destination": 35,
-            "status": 5
+            "destination": 35
         }
     },
     {
@@ -347,8 +308,7 @@
         "pk": 52,
         "fields": {
             "trip": 9,
-            "destination": 36,
-            "status": 5
+            "destination": 36
         }
     },
     {
@@ -356,8 +316,7 @@
         "pk": 53,
         "fields": {
             "trip": 9,
-            "destination": 37,
-            "status": 5
+            "destination": 37
         }
     },
     {
@@ -365,8 +324,7 @@
         "pk": 54,
         "fields": {
             "trip": 9,
-            "destination": 38,
-            "status": 5
+            "destination": 38
         }
     },
     {
@@ -374,8 +332,7 @@
         "pk": 56,
         "fields": {
             "trip": 9,
-            "destination": 39,
-            "status": 5
+            "destination": 39
         }
     },
     {
@@ -383,8 +340,7 @@
         "pk": 57,
         "fields": {
             "trip": 9,
-            "destination": 40,
-            "status": 5
+            "destination": 40
         }
     },
     {
@@ -392,8 +348,7 @@
         "pk": 58,
         "fields": {
             "trip": 9,
-            "destination": 1,
-            "status": 3
+            "destination": 1
         }
     },
     {
@@ -401,8 +356,7 @@
         "pk": 59,
         "fields": {
             "trip": 2,
-            "destination": 46,
-            "status": 4
+            "destination": 46
         }
     },
     {
@@ -410,8 +364,7 @@
         "pk": 61,
         "fields": {
             "trip": 10,
-            "destination": 10,
-            "status": 2
+            "destination": 10
         }
     },
     {
@@ -419,8 +372,7 @@
         "pk": 65,
         "fields": {
             "trip": 11,
-            "destination": 12,
-            "status": 2
+            "destination": 12
         }
     },
     {
@@ -428,8 +380,7 @@
         "pk": 67,
         "fields": {
             "trip": 9,
-            "destination": 26,
-            "status": 5
+            "destination": 26
         }
     },
     {
@@ -437,8 +388,7 @@
         "pk": 68,
         "fields": {
             "trip": 2,
-            "destination": 22,
-            "status": 2
+            "destination": 22
         }
     }
 ]
