@@ -62,15 +62,20 @@ class TripDestinationView(ViewSet):
 
     def update(self, request, pk):
 
-        tripdestination = TripDestination.objects.get(pk=pk) 
-        tripdestination.status_id = 4
-        tripdestination.save()
+        trip_destination_update = TripDestination.objects.get(pk=pk)
 
-        serialized = TripDestinationSerializer( 
-            tripdestination, context={'request' : request}
-        )
-        return Response(serialized.data, status=status.HTTP_200_OK)
+        status_value = request.data['status']
+        status_obj = Status.objects.get(id=status_value)
+        trip_destination_update.status = status_obj
 
+        # trip_destination_update.status = request.data.get(
+        #     'status', trip_destination_update.status)
+        trip_destination_update.save()
+
+        # serialized = TripDestinationSerializer(
+        #     tripdestination, context={'request' : request}
+        # )
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
 
 
 class TravelerSerializer(serializers.ModelSerializer):
