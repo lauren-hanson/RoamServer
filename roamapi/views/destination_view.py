@@ -24,12 +24,18 @@ class DestinationView(ViewSet):
 
     def create(self, request):
 
+        try:
+            destinationStatus = Status.objects.get(pk=request.data['status'])
+        except Status.DoesNotExist:
+            return Response({'message': 'You sent an invalid status Id'}, status=status.HTTP_404_NOT_FOUND)
+
         destination = Destination.objects.create(
             location=request.data['location'],
             state=request.data['state'],
             longitude=request.data['longitude'],
             latitude=request.data['latitude'],
-            tips=request.data['tips']
+            tips=request.data['tips'],
+            status=destinationStatus
         )
 
         serializer = DestinationSerializer(destination)
@@ -70,5 +76,5 @@ class DestinationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Destination
         fields = ('id', 'location', 'state',
-                  'latitude', 'longitude', 'tips', 'status',  )
+                  'latitude', 'longitude', 'tips', 'status',)
         depth = 1
