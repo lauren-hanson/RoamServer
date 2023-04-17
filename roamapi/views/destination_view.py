@@ -3,8 +3,7 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from django.db.models import Q
 from rest_framework import serializers, status
-from roamapi.models import Destination, Status, Traveler
-# TripDestination
+from roamapi.models import Destination, DestinationStatus, Traveler
 
 
 class DestinationView(ViewSet):
@@ -25,17 +24,19 @@ class DestinationView(ViewSet):
     def create(self, request):
 
         try:
-            destinationStatus = Status.objects.get(pk=request.data['status'])
-        except Status.DoesNotExist:
-            return Response({'message': 'You sent an invalid status Id'}, status=status.HTTP_404_NOT_FOUND)
+            destination_status_type = DestinationStatus.objects.get(
+                pk=request.data['destination_status'])
+
+        except DestinationStatus.DoesNotExist:
+            return Response({'message': 'You sent an invalid destinationStatus Id'}, status=status.HTTP_404_NOT_FOUND)
 
         destination = Destination.objects.create(
+            destination_status=destination_status_type,
             location=request.data['location'],
             state=request.data['state'],
             longitude=request.data['longitude'],
             latitude=request.data['latitude'],
-            tips=request.data['tips'],
-            status=destinationStatus
+            tips=request.data['tips']
         )
 
         serializer = DestinationSerializer(destination)
@@ -62,19 +63,19 @@ class DestinationView(ViewSet):
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
 
-class StatusSerializer(serializers.ModelSerializer):
+class DestinationStatusSerializer(serializers.ModelSerializer):
 
     class Meta:
-        model = Status
+        model = DestinationStatus
         fields = ('type', )
 
 
 class DestinationSerializer(serializers.ModelSerializer):
 
-    status = StatusSerializer()
+    destination_status = DestinationStatusSerializer()
 
     class Meta:
         model = Destination
         fields = ('id', 'location', 'state',
-                  'latitude', 'longitude', 'tips', 'status',)
+                  'latitude', 'longitude', 'tips', 'destination_status',)
         depth = 1

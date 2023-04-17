@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework import serializers, status
 from datetime import date
 from django.db.models import Q
-from roamapi.models import Trip, Traveler, Destination, Tag, TripTag, TripDestination, Status
+from roamapi.models import Trip, Traveler, Destination, Tag, TripTag, TripDestination, DestinationStatus
 
 
 class TripView(ViewSet):
@@ -142,7 +142,7 @@ class TripView(ViewSet):
 class TripStatusSerializer(serializers.ModelSerializer):
 
     class Meta:
-        model = Status
+        model = DestinationStatus
         fields = ('type', )
 
 
@@ -151,7 +151,7 @@ class TripDestinationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Destination
         fields = ('id', 'location', 'state',
-                  'latitude', 'longitude', 'tips',  )
+                  'latitude', 'longitude', 'tips', 'destination_status',)
 
 
 class TravelerSerializer(serializers.ModelSerializer):

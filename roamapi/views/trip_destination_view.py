@@ -3,7 +3,7 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from django.db.models import Q
 from rest_framework import serializers, status
-from roamapi.models import TripDestination, Status, Destination, Trip, Traveler
+from roamapi.models import TripDestination, DestinationStatus, Destination, Trip, Traveler
 
 
 class TripDestinationView(ViewSet):
@@ -23,7 +23,7 @@ class TripDestinationView(ViewSet):
         tripdestinations = tripdestinations.filter(trip__traveler=traveler)
 
         if "status" in request.query_params:
-            trip_status = request.query_params['status']
+            trip_status = request.query_params['destination_status']
             tripdestinations = tripdestinations.filter(status_id=trip_status)
 
         elif "trip" in request.query_params:
@@ -64,8 +64,8 @@ class TripDestinationView(ViewSet):
 
         trip_destination_update = TripDestination.objects.get(pk=pk)
 
-        status_value = request.data['status']
-        status_obj = Status.objects.get(id=status_value)
+        status_value = request.data['destination_status']
+        status_obj = DestinationStatus.objects.get(id=status_value)
         trip_destination_update.status = status_obj
 
         # trip_destination_update.status = request.data.get(
@@ -84,12 +84,6 @@ class TravelerSerializer(serializers.ModelSerializer):
         fields = ('id', 'full_name')
 
 
-class StatusSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Status
-        fields = ('type', )
-
-
 class TripSerializer(serializers.ModelSerializer):
     class Meta:
 
@@ -104,15 +98,15 @@ class DestinationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Destination
-        fields = ('location', 'state', 'latitude', 'longitude', 'tips',)
+        fields = ('location', 'state', 'latitude', 'longitude', 'tips', 'destination_status',)
 
 
 class TripDestinationSerializer(serializers.ModelSerializer):
 
     destination = DestinationSerializer()
     trip = TripSerializer()
-    status = StatusSerializer()
+    # destination_status = StatusSerializer()
 
     class Meta:
         model = TripDestination
-        fields = ('trip', 'destination', 'status',)
+        fields = ('trip', 'destination', )
