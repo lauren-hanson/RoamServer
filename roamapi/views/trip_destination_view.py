@@ -22,11 +22,11 @@ class TripDestinationView(ViewSet):
         traveler = Traveler.objects.get(user=request.auth.user)
         tripdestinations = tripdestinations.filter(trip__traveler=traveler)
 
-        if "status" in request.query_params:
-            trip_status = request.query_params['destination_status']
-            tripdestinations = tripdestinations.filter(status_id=trip_status)
+        # if "status" in request.query_params:
+        #     trip_status = request.query_params['destination_status']
+        #     tripdestinations = tripdestinations.filter(status_id=trip_status)
 
-        elif "trip" in request.query_params:
+        if "trip" in request.query_params:
             destByTrip = request.query_params['trip']
             tripdestinations = TripDestination.objects.filter(trip=destByTrip)
 
