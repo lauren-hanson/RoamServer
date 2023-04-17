@@ -44,8 +44,12 @@ class DestinationView(ViewSet):
 
     def update(self, request, pk):
 
+        destination_status_type = DestinationStatus.objects.get(
+            pk=request.data['destination_status'])
+
         destination_to_update = Destination.objects.get(pk=pk)
 
+        destination_to_update.destination_status = destination_status_type
         destination_to_update.location = request.data['location']
         destination_to_update.state = request.data['state']
         destination_to_update.latitude = request.data['latitude']
