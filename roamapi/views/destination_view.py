@@ -22,21 +22,26 @@ class DestinationView(ViewSet):
         if "destination_status" in request.query_params:
             trip_status = request.query_params['destination_status']
             destinations = Destination.objects.filter(
-            destination_status=trip_status)
+                destination_status=trip_status)
 
-        serializer = DestinationSerializer(destinations, many=True)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+        elif "not_favorite" in request.query_params:
+            favorite = request.query_params['not_favorite']
+            destinations = Destination.objects.exclude(
+                destination_status=favorite)
+
+        serializer=DestinationSerializer(destinations, many = True)
+        return Response(serializer.data, status = status.HTTP_200_OK)
 
     def create(self, request):
 
         try:
-            destination_status_type = DestinationStatus.objects.get(
-                pk=request.data['destination_status'])
+            destination_status_type=DestinationStatus.objects.get(
+                pk = request.data['destination_status'])
 
         except DestinationStatus.DoesNotExist:
-            return Response({'message': 'You sent an invalid destinationStatus Id'}, status=status.HTTP_404_NOT_FOUND)
+            return Response({'message': 'You sent an invalid destinationStatus Id'}, status = status.HTTP_404_NOT_FOUND)
 
-        destination = Destination.objects.create(
+        destination=Destination.objects.create(
             destination_status=destination_status_type,
             location=request.data['location'],
             state=request.data['state'],
