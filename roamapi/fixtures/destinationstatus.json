@@ -1,34 +1,34 @@
 [
     {
-        "model": "roamapi.status",
+        "model": "roamapi.destinationstatus",
         "pk": 1,
         "fields": {
             "type": "Home"
         }
     },
     {
-        "model": "roamapi.status",
+        "model": "roamapi.destinationstatus",
         "pk": 2,
         "fields": {
             "type": "FinalDestination"
         }
     },
     {
-        "model": "roamapi.status",
+        "model": "roamapi.destinationstatus",
         "pk": 3,
         "fields": {
             "type": "Stop"
         }
     },
     {
-        "model": "roamapi.status",
+        "model": "roamapi.destinationstatus",
         "pk": 4,
         "fields": {
             "type": "Favorite"
         }
     }, 
     {
-        "model": "roamapi.status",
+        "model": "roamapi.destinationstatus",
         "pk": 5,
         "fields": {
             "type": "To-Go"
