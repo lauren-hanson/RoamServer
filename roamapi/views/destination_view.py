@@ -82,7 +82,7 @@ class DestinationStatusSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = DestinationStatus
-        fields = ('type', )
+        fields = ('id', 'type', )
 
 
 class DestinationSerializer(serializers.ModelSerializer):
