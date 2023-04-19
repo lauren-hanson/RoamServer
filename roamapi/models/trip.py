@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 
 class Trip(models.Model):
-    traveler = models.ForeignKey("Traveler", on_delete=models.CASCADE)
+    traveler = models.ForeignKey("Traveler", on_delete=models.CASCADE, related_name="trip_traveler")
     title = models.CharField(max_length=300, blank=True)
     image_url = models.CharField(max_length=250, blank=True)
     publication_date = models.DateField(auto_now_add=True)

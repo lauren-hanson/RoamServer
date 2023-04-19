@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework import serializers, status
 from datetime import date
 from django.db.models import Q
-from roamapi.models import Trip, Traveler, Destination, Tag, TripTag, TripDestination
+from roamapi.models import Trip, Traveler, Destination, Tag, TripTag, TripDestination, DestinationStatus
 
 
 class TripView(ViewSet):
@@ -25,13 +25,26 @@ class TripView(ViewSet):
         trips = []
         traveler = Traveler.objects.get(user=request.auth.user)
 
-        if "subscribed" in request.query_params:
-            trips = Trip.objects.filter(traveler__in=Traveler.objects.filter(subscribers__user=request.auth.user)).order_by("-publication_date")
-            print(trips.query)
-        
-        elif "user" in request.query_params:
+        if "user" in request.query_params:
             trips = Trip.objects.filter(traveler_id=traveler)
 
+        elif "subscribed" in request.query_params:
+            trips = Trip.objects.filter(traveler__in=Traveler.objects.filter(
+                subscribers__user=request.auth.user)).order_by("-publication_date")
+            print(trips.query)
+        
+        # elif "destination" in request.query_params:
+        #     trip_status = request.query_params['destination']['status']['type']
+        #     trips = Trip.objects.filter(destination_status=trip_status) & (Q(user=request.auth.user))
+        #     trip_status = request.query_params['status']['type']
+        #     trips = Trip.objects.filter(status__type=trip_status)
+
+        # elif "tag" in request.query_params:
+        #     tag_trips = request.query_params.getlist('tag')
+        #     trips = Trip.objects.filter(tag_id=tag_trips)
+
+        elif "public" in request.query_params:
+            trips = Trip.objects.filter(public=True).order_by('?')
 
         elif "upcoming" in request.query_params:
             today = date.today()
@@ -59,6 +72,11 @@ class TripView(ViewSet):
         return Response(serializer.data, status=status.HTTP_200_OK)
 
     def create(self, request):
+
+        # try:
+        #     traveler = Traveler.objects.get(user=request.auth.user)
+        # except Traveler.DoesNotExist:
+        #     return Response({'message': 'You sent an invalid token'}, status=status.HTTP_404_NOT_FOUND)
 
         traveler = Traveler.objects.get(user=request.auth.user)
 
@@ -121,11 +139,19 @@ class TripView(ViewSet):
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
 
+class TripStatusSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = DestinationStatus
+        fields = ('type', )
+
+
 class TripDestinationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Destination
-        fields = ('id', 'location', 'state', 'latitude', 'longitude', )
+        fields = ('id', 'location', 'state',
+                  'latitude', 'longitude', 'tips', 'destination_status',)
 
 
 class TravelerSerializer(serializers.ModelSerializer):
@@ -152,5 +178,5 @@ class TripSerializer(serializers.ModelSerializer):
     class Meta:
         model = Trip
         fields = ('id', 'start_date', 'end_date', 'notes',
-                  'weather', 'destination', 'tag', 'title', 'public', 'complete', 'image_url', 'traveler', 'publication_date', )
+                  'weather', 'destination', 'tag', 'title', 'public', 'complete', 'image_url', 'traveler', 'publication_date', 'writer',)
         depth = 1

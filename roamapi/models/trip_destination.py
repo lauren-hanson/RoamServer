@@ -6,3 +6,4 @@ class TripDestination(models.Model):
         "Trip", on_delete=models.CASCADE, related_name='trip_destination')
     destination = models.ForeignKey(
         "Destination", on_delete=models.CASCADE, related_name='destination_trip')
+   

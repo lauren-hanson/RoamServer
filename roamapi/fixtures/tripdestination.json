@@ -5,7 +5,6 @@
         "fields": {
             "trip": 1,
             "destination": 1
-
         }
     },
     {
@@ -90,43 +89,10 @@
     },
     {
         "model": "roamapi.tripdestination",
-        "pk": 12,
-        "fields": {
-            "trip": 2,
-            "destination": 1
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
-        "pk": 13,
-        "fields": {
-            "trip": 3,
-            "destination": 1
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
         "pk": 14,
         "fields": {
             "trip": 3,
             "destination": 23
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
-        "pk": 15,
-        "fields": {
-            "trip": 3,
-            "destination": 1
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
-        "pk": 16,
-        "fields": {
-            "trip": 4,
-            "destination": 1
-
         }
     },
     {
@@ -187,44 +153,10 @@
     },
     {
         "model": "roamapi.tripdestination",
-        "pk": 24,
-        "fields": {
-            "trip": 4,
-            "destination": 1
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
-        "pk": 25,
-        "fields": {
-            "trip": 5,
-            "destination": 1
-
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
         "pk": 26,
         "fields": {
             "trip": 5,
             "destination": 25
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
-        "pk": 27,
-        "fields": {
-            "trip": 5,
-            "destination": 1
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
-        "pk": 28,
-        "fields": {
-            "trip": 6,
-            "destination": 1
-
         }
     },
     {
@@ -269,14 +201,6 @@
     },
     {
         "model": "roamapi.tripdestination",
-        "pk": 34,
-        "fields": {
-            "trip": 6,
-            "destination": 1
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
         "pk": 35,
         "fields": {
             "trip": 7,
@@ -285,44 +209,10 @@
     },
     {
         "model": "roamapi.tripdestination",
-        "pk": 36,
-        "fields": {
-            "trip": 7,
-            "destination": 1
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
-        "pk": 37,
-        "fields": {
-            "trip": 8,
-            "destination": 1
-
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
         "pk": 38,
         "fields": {
             "trip": 8,
             "destination": 11
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
-        "pk": 39,
-        "fields": {
-            "trip": 8,
-            "destination": 1
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
-        "pk": 40,
-        "fields": {
-            "trip": 9,
-            "destination": 1
-
         }
     },
     {
@@ -471,15 +361,6 @@
     },
     {
         "model": "roamapi.tripdestination",
-        "pk": 60,
-        "fields": {
-            "trip": 10,
-            "destination": 1
-
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
         "pk": 61,
         "fields": {
             "trip": 10,
@@ -488,44 +369,10 @@
     },
     {
         "model": "roamapi.tripdestination",
-        "pk": 62,
-        "fields": {
-            "trip": 10,
-            "destination": 1
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
-        "pk": 63,
-        "fields": {
-            "trip": 7,
-            "destination": 1
-
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
-        "pk": 64,
-        "fields": {
-            "trip": 11,
-            "destination": 1
-
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
         "pk": 65,
         "fields": {
             "trip": 11,
             "destination": 12
-        }
-    },
-    {
-        "model": "roamapi.tripdestination",
-        "pk": 66,
-        "fields": {
-            "trip": 11,
-            "destination": 1
         }
     },
     {

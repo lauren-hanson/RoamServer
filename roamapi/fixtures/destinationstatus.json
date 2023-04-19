@@ -1,0 +1,37 @@
+[
+    {
+        "model": "roamapi.destinationstatus",
+        "pk": 1,
+        "fields": {
+            "type": "Home"
+        }
+    },
+    {
+        "model": "roamapi.destinationstatus",
+        "pk": 2,
+        "fields": {
+            "type": "FinalDestination"
+        }
+    },
+    {
+        "model": "roamapi.destinationstatus",
+        "pk": 3,
+        "fields": {
+            "type": "Stop"
+        }
+    },
+    {
+        "model": "roamapi.destinationstatus",
+        "pk": 4,
+        "fields": {
+            "type": "Favorite"
+        }
+    }, 
+    {
+        "model": "roamapi.destinationstatus",
+        "pk": 5,
+        "fields": {
+            "type": "To-Go"
+        }
+    }
+]

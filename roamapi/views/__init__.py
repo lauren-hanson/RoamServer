@@ -1,6 +1,7 @@
 from .auth import login_user, register_user
 from .trip_view import TripView
 from .destination_view import DestinationView
+from .destination_status_view import DestinationStatusView
 from .traveler_view import TravelerView
 from .tag_view import TagView
 from .state_view import StateView
