@@ -33,11 +33,11 @@ class TripView(ViewSet):
                 subscribers__user=request.auth.user)).order_by("-publication_date")
             print(trips.query)
 
-        if "destination" in request.query_params:
-            trip_status = request.query_params['destination']['status']['type']
-            trips = Trip.objects.filter(destination_status=trip_status) & (Q(user=request.auth.user))
-            trip_status = request.query_params['status']['type']
-            trips = Trip.objects.filter(status__type=trip_status)
+        # elif "destination" in request.query_params:
+        #     trip_status = request.query_params['destination']['status']['type']
+        #     trips = Trip.objects.filter(destination_status=trip_status) & (Q(user=request.auth.user))
+        #     trip_status = request.query_params['status']['type']
+        #     trips = Trip.objects.filter(status__type=trip_status)
 
         # elif "tag" in request.query_params:
         #     tag_trips = request.query_params.getlist('tag')
