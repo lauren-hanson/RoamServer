@@ -12,7 +12,7 @@ python3 manage.py loaddata trip
 python3 manage.py loaddata tag
 python3 manage.py loaddata category
 python3 manage.py loaddata item
-python3 manage.py loaddata state
+# python3 manage.py loaddata state
 python3 manage.py loaddata destinationstatus
 python3 manage.py loaddata destination
 python3 manage.py loaddata triptag

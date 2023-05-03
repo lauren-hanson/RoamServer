@@ -37,7 +37,7 @@
         "fields": {
             "traveler": 1,
             "title": "Florida",
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018925/Roam/florida_ceddxu.jpg",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413410/Roam/florida-2_duaeal.jpg",
             "publication_date": "2021-06-07",
             "start_date": "2021-08-19",
             "end_date": "2021-08-25",
@@ -115,7 +115,7 @@
         "model": "roamapi.trip",
         "pk": 8,
         "fields": {
-            "traveler": 1,
+            "traveler": 2,
             "title": "Foster Falls",
             "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413411/Roam/fosterfalls_dapgoa.jpg",
             "publication_date": "2022-06-02",
@@ -213,7 +213,7 @@
         "fields": {
             "traveler": 6,
             "title": "Oregon",
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018922/Roam/utah-5_lacva1.jpg",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413409/Roam/falaise_slwtyt.jpg",
             "publication_date": "2019-01-06",
             "start_date": "2019-03-07",
             "end_date": "2019-04-21",
@@ -261,7 +261,7 @@
         "fields": {
             "traveler": 9,
             "title": "Wyoming",
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018941/Roam/utah_rwgned.jpg",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018922/Roam/utah-5_lacva1.jpg",
             "publication_date": "2022-05-07",
             "start_date": "2022-09-04",
             "end_date": "2022-11-22",
@@ -276,8 +276,8 @@
         "pk": 18,
         "fields": {
             "traveler": 10,
-            "title": "Virginia",
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413409/Roam/northcarolina-3_y1g92e.jpg",
+            "title": "Appalachian Trail",
+            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018929/Roam/mountmitchell_jfjja1.jpg",
             "publication_date": "2022-05-29",
             "start_date": "2022-07-04",
             "end_date": "2022-07-11",
