@@ -1,16 +1,6 @@
 [
     {
         "model": "roamapi.traveler",
-        "pk": 12,
-        "fields": {
-            "user": 12,
-            "bio": "I've been living the RV lifestyle for a few years now, traveling around the country and playing music wherever I go. It's been an amazing experience, and I feel so lucky to be able to combine my love of music with my passion for travel. One of the best things about traveling in an RV is the flexibility it gives me. I can go wherever the wind takes me, and if I find a spot I really like, I can stay there as long as I want. I've seen some incredible sights on my travels, from the mountains of Colorado to the beaches of California, and I feel like I've really gotten to know this country in a way that I never could have otherwise. Of course, there are some challenges that come with living on the road. It can be tough to find reliable internet and cell service sometimes, which makes it hard to stay connected with friends and family. And while I love playing music in different places, it can also be tough to find gigs in new towns and cities. But overall, I wouldn't trade this lifestyle for anything. I love waking up every day not knowing where I'll be sleeping that night, and I love the sense of freedom that comes with being able to take my home with me wherever I go. And of course, getting to share my music with new audiences all over the country is an incredible feeling that I'm grateful for every day.",
-            "profile_image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413411/Roam/mac_ymcqle.jpg"
-        }
-    },
-   
-    {
-        "model": "roamapi.traveler",
         "pk": 2,
         "fields": {
             "user": 2,
@@ -107,8 +97,6 @@
             "bio": "My name is Maegan and I love to travel with my husband and our children. We've been exploring the world together since before we had kids and we've made it a priority to continue adventuring as a family. We've traveled to many places around the world, from the beaches of Bali to the mountains of Switzerland. As a family, we love to experience new cultures and try new foods. We also enjoy outdoor activities like hiking, swimming, and camping. Traveling with kids can be challenging at times, but it's always worth it to see the excitement and wonder in their eyes as they discover new places. We believe that travel is one of the best ways to learn about the world and ourselves. It teaches us about different cultures, opens our minds to new perspectives, and helps us appreciate the beauty and diversity of our planet. We're excited to continue exploring together as a family and sharing our adventures with others.",
             "profile_image_url": "https://ca.slack-edge.com/T03F2SDTJ-U03UL2LP23G-2977701ddcdc-512"
         }
-<<<<<<< HEAD
-=======
     },
     {
         "model": "roamapi.traveler",
@@ -145,6 +133,5 @@
             "bio": "Hey, I'm Kevan! I love escaping the hustle and bustle of the city and going on camping trips. There's nothing like being surrounded by nature and breathing in fresh air. I love hiking and exploring new trails, and I've even started to get into trail running. There's something so invigorating about being out in the wilderness and pushing myself physically. I've camped in some amazing places, from national parks to remote forests, and I'm always on the lookout for new spots to explore. There's nothing quite like sitting around a campfire with good friends and sharing stories under the stars. Camping has taught me to slow down and appreciate the simple things in life, and I look forward to many more adventures in the great outdoors!",
             "profile_image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679275145/Roam/kevan_jqtgzr.jpg"
         }
->>>>>>> main
     }
 ]

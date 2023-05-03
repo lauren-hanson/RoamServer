@@ -213,11 +213,7 @@
         "fields": {
             "traveler": 6,
             "title": "Oregon",
-<<<<<<< HEAD
             "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413409/Roam/falaise_slwtyt.jpg",
-=======
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018922/Roam/utah-5_lacva1.jpg",
->>>>>>> main
             "publication_date": "2019-01-06",
             "start_date": "2019-03-07",
             "end_date": "2019-04-21",
@@ -265,11 +261,7 @@
         "fields": {
             "traveler": 9,
             "title": "Wyoming",
-<<<<<<< HEAD
             "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018922/Roam/utah-5_lacva1.jpg",
-=======
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018941/Roam/utah_rwgned.jpg",
->>>>>>> main
             "publication_date": "2022-05-07",
             "start_date": "2022-09-04",
             "end_date": "2022-11-22",
@@ -284,13 +276,8 @@
         "pk": 18,
         "fields": {
             "traveler": 10,
-<<<<<<< HEAD
             "title": "Appalachian Trail",
             "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679018929/Roam/mountmitchell_jfjja1.jpg",
-=======
-            "title": "Virginia",
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413409/Roam/northcarolina-3_y1g92e.jpg",
->>>>>>> main
             "publication_date": "2022-05-29",
             "start_date": "2022-07-04",
             "end_date": "2022-07-11",
@@ -305,11 +292,7 @@
         "pk": 20,
         "fields": {
             "traveler": 10,
-<<<<<<< HEAD
-            "title": "California",
-=======
             "title": "San Francisco",
->>>>>>> main
             "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413804/Roam/california_aycqi1.jpg",
             "publication_date": "2023-03-01",
             "start_date": "2023-05-04",
@@ -343,39 +326,17 @@
             "traveler": 12,
             "title": "Golden",
             "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413412/Roam/cabin_zbapmy.jpg",
-<<<<<<< HEAD
-            "publication_date": "2019-04-07",
-            "start_date": "2019-09-20",
-            "end_date": "2010-09-24",
-            "weather": "",
-            "notes": "I had the opportunity to visit Golden, Colorado and stay in a magical cabin in the mountains. It was a truly unforgettable experience that I will always cherish. The cabin was tucked away in a secluded spot in the mountains, surrounded by tall trees and a babbling stream. It was the perfect place to escape from the hustle and bustle of everyday life and just enjoy the peace and quiet of nature. The cabin itself was cozy and charming, with a rustic feel that made me feel right at home. It had everything I needed to be comfortable, from a fully equipped kitchen to a comfortable bed.But what really made the experience magical was the surrounding landscape. The mountains were breathtakingly beautiful, with jagged peaks that seemed to go on forever. I spent my days hiking through the woods, taking in the stunning scenery and feeling grateful for the opportunity to experience such natural beauty. In the evenings, I would curl up by the fire and play my guitar, letting the music fill the cozy cabin and echo off the walls. It was a truly special experience that reminded me of the power of nature and the importance of taking time to slow down and appreciate the world around us.",
-            "public": false,
-=======
             "publication_date": "2022-06-07",
             "start_date": "2022-09-17",
             "end_date": "2022-09-28",
             "weather": "",
             "notes": "As soon as I arrived in Golden, Colorado, I knew that I had made the right decision to stay in a tiny cabin tucked away in the mountains. The cabin was cozy and charming, with just enough space for me to relax and unwind. Each day, I woke up to the sound of birds chirping and the gentle rustling of leaves outside my window. I spent my days exploring the breathtaking scenery, hiking through the rugged mountains and taking in the stunning views of the surrounding landscape. The tiny cabin was my perfect retreat at the end of each day. I would light a fire in the wood-burning stove, curl up with a good book and a cup of hot tea, and watch the stars twinkling in the sky through the cabin's window. I was grateful for the opportunity to disconnect from the hustle and bustle of city life and immerse myself in nature. It was just the break I needed to recharge my batteries and renew my spirit. I'll always treasure the memories of my trip to Golden Colorado and my stay in the little cabin tucked up in the mountains.",
             "public": true,
->>>>>>> main
             "complete": false
         }
     },
     {
         "model": "roamapi.trip",
-<<<<<<< HEAD
-        "pk": 22,
-        "fields": {
-            "traveler": 12,
-            "title": "France",
-            "image_url": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1679413804/Roam/montblanc_kf67bb.jpg",
-            "publication_date": "2022-11-07",
-            "start_date": "2022-12-02",
-            "end_date": "2022-12-24",
-            "weather": "",
-            "notes": "I was thrilled to have the opportunity to visit Chamonix, France, and hit the slopes. It was a dream come true to ski in such a beautiful and historic location. Chamonix is situated in the heart of the French Alps, and it's famous for its challenging ski runs and stunning mountain scenery. As soon as I arrived, I knew I was in for an adventure. The ski runs in Chamonix were unlike anything I had ever experienced before. They were steep, fast, and full of twists and turns that kept me on my toes. I spent hours each day exploring the different runs and challenging myself to push my limits. But it wasn't just the skiing that made the trip so special. Chamonix is also a charming town with a rich history and culture. I spent my evenings wandering the streets, enjoying delicious French cuisine, and soaking in the local ambiance.One of the highlights of the trip was taking the Aiguille du Midi cable car, which takes you up to one of the highest peaks in the Alps. The views from the top were absolutely breathtaking, and I felt a sense of awe and wonder as I gazed out at the majestic mountains and sweeping valleys below.Overall, my trip to Chamonix was an incredible experience that I will never forget. From the skiing to the culture to the stunning scenery, it was a true adventure that left me feeling inspired and grateful for the opportunity to travel and explore the world.",
-            "public": false,
-=======
         "pk": 23,
         "fields": {
             "traveler": 12,
@@ -387,7 +348,6 @@
             "weather": "",
             "notes": "I had always dreamed of visiting Chamonix, and finally, my dream came true. From the moment I arrived, I was struck by the stunning natural beauty of the area, with the towering peaks of the French Alps rising up all around me. Each day, I would hit the slopes, taking on the challenging runs and reveling in the fresh mountain air. The scenery was simply breathtaking, with snow-capped mountains stretching out as far as the eye could see.In the evenings, I would retreat to my cozy chalet, where I could warm up by the fire and enjoy a hearty meal of French cuisine. The chalet was the perfect place to relax and unwind after a long day on the slopes.One of the highlights of my trip was taking the Aiguille du Midi cable car up to the summit of Mont Blanc. The views from the top were absolutely incredible, and I felt like I was on top of the world. All in all, my skiing trip to Chamonix was everything I had hoped it would be and more. It was a true adventure, filled with excitement, beauty, and unforgettable memories that I will cherish for a lifetime.",
             "public": true,
->>>>>>> main
             "complete": false
         }
     }
