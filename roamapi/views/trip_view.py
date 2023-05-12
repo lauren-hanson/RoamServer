@@ -32,7 +32,14 @@ class TripView(ViewSet):
             trips = Trip.objects.filter(traveler__in=Traveler.objects.filter(
                 subscribers__user=request.auth.user)).order_by("-publication_date")
             print(trips.query)
-        
+
+        # need to work on this for filtering trips by destinations
+        elif "destination" in request.query_params:
+            trip_destination = request.query_params['destination']
+            trips = Trip.objects.filter(
+                trip_by_destination=trip_destination
+            )
+
         # elif "destination" in request.query_params:
         #     trip_status = request.query_params['destination']['status']['type']
         #     trips = Trip.objects.filter(destination_status=trip_status) & (Q(user=request.auth.user))
