@@ -33,25 +33,18 @@ class TripView(ViewSet):
                 subscribers__user=request.auth.user)).order_by("-publication_date")
             print(trips.query)
 
-        # need to work on this for filtering trips by destinations
-        elif "destination" in request.query_params:
-            trip_destination = request.query_params['destination']
+        elif "tag" in request.query_params:
+            trip_tag = request.query_params['tag']
             trips = Trip.objects.filter(
-                trip_by_destination=trip_destination
+                tag=trip_tag
             )
-
-        # elif "destination" in request.query_params:
-        #     trip_status = request.query_params['destination']['status']['type']
-        #     trips = Trip.objects.filter(destination_status=trip_status) & (Q(user=request.auth.user))
-        #     trip_status = request.query_params['status']['type']
-        #     trips = Trip.objects.filter(status__type=trip_status)
-
-        # elif "tag" in request.query_params:
-        #     tag_trips = request.query_params.getlist('tag')
-        #     trips = Trip.objects.filter(tag_id=tag_trips)
 
         elif "public" in request.query_params:
             trips = Trip.objects.filter(public=True).order_by('?')
+
+        elif "search" in request.query_params:
+            search_terms = request.query_params['search']
+            trips = Trip.objects.filter(trip__contains=search_terms)
 
         elif "upcoming" in request.query_params:
             today = date.today()
