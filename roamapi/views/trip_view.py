@@ -33,25 +33,18 @@ class TripView(ViewSet):
                 subscribers__user=request.auth.user)).order_by("-publication_date")
             print(trips.query)
 
-        # need to work on this for filtering trips by destinations
-        elif "destination" in request.query_params:
-            trip_destination = request.query_params['destination']
+        elif "tag" in request.query_params:
+            trip_tag = request.query_params['tag']
             trips = Trip.objects.filter(
-                trip_by_destination=trip_destination
+                tag=trip_tag
             )
-
-        # elif "destination" in request.query_params:
-        #     trip_status = request.query_params['destination']['status']['type']
-        #     trips = Trip.objects.filter(destination_status=trip_status) & (Q(user=request.auth.user))
-        #     trip_status = request.query_params['status']['type']
-        #     trips = Trip.objects.filter(status__type=trip_status)
-
-        # elif "tag" in request.query_params:
-        #     tag_trips = request.query_params.getlist('tag')
-        #     trips = Trip.objects.filter(tag_id=tag_trips)
 
         elif "public" in request.query_params:
             trips = Trip.objects.filter(public=True).order_by('?')
+
+        elif "search" in request.query_params:
+            search_terms = request.query_params['search']
+            trips = Trip.objects.filter(trip__contains=search_terms)
 
         elif "upcoming" in request.query_params:
             today = date.today()
@@ -80,11 +73,6 @@ class TripView(ViewSet):
 
     def create(self, request):
 
-        # try:
-        #     traveler = Traveler.objects.get(user=request.auth.user)
-        # except Traveler.DoesNotExist:
-        #     return Response({'message': 'You sent an invalid token'}, status=status.HTTP_404_NOT_FOUND)
-
         traveler = Traveler.objects.get(user=request.auth.user)
 
         trip = Trip.objects.create(
@@ -101,10 +89,6 @@ class TripView(ViewSet):
         tags_selected = request.data['tag']
 
         for tag in tags_selected:
-            # trip_tag = TripTag()
-            # trip_tag.trip = trip
-            # trip_tag.tag = Tag.objects.get(pk=tag)
-            # trip_tag.save()
             new_tag = Tag.objects.get(pk=tag)
             trip.tag.add(new_tag)
 
@@ -158,7 +142,7 @@ class TripDestinationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Destination
         fields = ('id', 'location', 'state',
-                  'latitude', 'longitude', 'tips', 'destination_status',)
+            'latitude', 'longitude', 'tips', 'destination_status',)
 
 
 class TravelerSerializer(serializers.ModelSerializer):
@@ -185,5 +169,5 @@ class TripSerializer(serializers.ModelSerializer):
     class Meta:
         model = Trip
         fields = ('id', 'start_date', 'end_date', 'notes',
-                  'weather', 'destination', 'tag', 'title', 'public', 'complete', 'image_url', 'traveler', 'publication_date', 'writer',)
+                'weather', 'destination', 'tag', 'title', 'public', 'complete', 'image_url', 'traveler', 'publication_date', 'writer',)
         depth = 1
