@@ -44,7 +44,7 @@ class TripView(ViewSet):
 
         elif "search" in request.query_params:
             search_terms = request.query_params['search']
-            trips = Trip.objects.filter(trip__contains=search_terms)
+            trips = Trip.objects.filter(notes__contains=search_terms)
 
         elif "upcoming" in request.query_params:
             today = date.today()
